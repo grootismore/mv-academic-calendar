@@ -73,6 +73,9 @@ def fold(line):                      # RFC 5545: <=75 octets per line, continuat
     parts.append(b.decode())
     return "\r\n ".join(parts)
 
+def event_id(year, e):                # stable across edits to other rows; same value feeds the ICS UID
+    return hashlib.sha1(f"{year}|{e['name'].lower()}|{e['start']}".encode()).hexdigest()[:20]
+
 def to_ics(d):
     stamp = d["retrieved"].replace("-", "") + "T000000Z"
     out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//mv-academic-calendar//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
@@ -81,7 +84,7 @@ def to_ics(d):
     for e in d["events"]:
         start = date.fromisoformat(e["start"])
         end = date.fromisoformat(e.get("end", e["start"])) + timedelta(days=1)       # DTEND is exclusive
-        uid = hashlib.sha1(f"{d['year']}|{e['name'].lower()}|{e['start']}".encode()).hexdigest()[:20]   # stable when other rows change
+        uid = event_id(d["year"], e)
         out += ["BEGIN:VEVENT", f"UID:{uid}@mv-academic-calendar", f"DTSTAMP:{stamp}",
                 f"DTSTART;VALUE=DATE:{start:%Y%m%d}", f"DTEND;VALUE=DATE:{end:%Y%m%d}",
                 f"SUMMARY:{esc(e['name'])}", f"CATEGORIES:{LABEL.get(e['category'], e['category'])}",
@@ -104,7 +107,7 @@ def build_index(docs):
     docs = sorted(docs, key=lambda d: d["year"])
     idx = {"files": [{"year": d["year"], "status": d["status"], "events": len(d["events"]), "retrieved": d["retrieved"],
                       "json": f"data/{d['year']}.json", "ics": f"data/{d['year']}.ics"} for d in docs]}
-    allj = {"events": [{**e, "calendar": d["year"], "status": d["status"]} for d in docs for e in d["events"]]}
+    allj = {"events": [{"id": event_id(d["year"], e), **e, "calendar": d["year"], "status": d["status"]} for d in docs for e in d["events"]]}
     for name, obj in (("index", idx), ("all", allj)):
         write(f"{DATA}/{name}.json", json.dumps(obj, indent=1, ensure_ascii=False) + "\n")
 

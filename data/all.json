@@ -1,6 +1,7 @@
 {
  "events": [
   {
+   "id": "f12132fc7f4d4765aa37",
    "start": "2015-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -8,6 +9,7 @@
    "status": "current"
   },
   {
+   "id": "f642c998d505eea5a415",
    "start": "2015-01-03",
    "name": "Prophet Muhammad's Birthday (1436)",
    "category": "public_holiday",
@@ -15,6 +17,7 @@
    "status": "current"
   },
   {
+   "id": "26addad8416be77658e2",
    "start": "2015-01-06",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -22,6 +25,7 @@
    "status": "current"
   },
   {
+   "id": "640aa9e7f31e762aedfd",
    "start": "2015-01-11",
    "name": "Beginning of Term 1",
    "category": "other",
@@ -29,6 +33,7 @@
    "status": "current"
   },
   {
+   "id": "582c830ac52126949e92",
    "start": "2015-01-23",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -36,6 +41,7 @@
    "status": "current"
   },
   {
+   "id": "ab50925a11e1d86f2b52",
    "start": "2015-02-12",
    "name": "Professional Development Day",
    "category": "other",
@@ -43,6 +49,7 @@
    "status": "current"
   },
   {
+   "id": "5766e3c988632c35a1d4",
    "start": "2015-02-15",
    "end": "2015-02-19",
    "name": "Health Screening Week",
@@ -51,6 +58,7 @@
    "status": "current"
   },
   {
+   "id": "fd98c74869af81af4f9f",
    "start": "2015-03-08",
    "end": "2015-03-12",
    "name": "Disaster Preparedness Week",
@@ -59,6 +67,7 @@
    "status": "current"
   },
   {
+   "id": "fbd75b4d322b8dfa8200",
    "start": "2015-03-22",
    "end": "2015-03-26",
    "name": "First Term Mid-Term Holidays",
@@ -67,6 +76,7 @@
    "status": "current"
   },
   {
+   "id": "26c3f7c210ee1c18b4b5",
    "start": "2015-04-23",
    "name": "Professional Development Day 2",
    "category": "other",
@@ -74,6 +84,7 @@
    "status": "current"
   },
   {
+   "id": "3eee61a2f2ba95912d48",
    "start": "2015-05-01",
    "name": "Labour Day",
    "category": "exam_days",
@@ -81,6 +92,7 @@
    "status": "current"
   },
   {
+   "id": "ccd430044f8c53d31966",
    "start": "2015-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -88,6 +100,7 @@
    "status": "current"
   },
   {
+   "id": "777eb6cae7edb6d0a815",
    "start": "2015-05-17",
    "end": "2015-05-28",
    "name": "First Term Test",
@@ -96,6 +109,7 @@
    "status": "current"
   },
   {
+   "id": "eec082cc2271f5be1769",
    "start": "2015-06-04",
    "name": "End of Term 1",
    "category": "other",
@@ -103,6 +117,7 @@
    "status": "current"
   },
   {
+   "id": "67cf156b6322f399c516",
    "start": "2015-06-07",
    "end": "2015-06-11",
    "name": "First Term Holidays",
@@ -111,6 +126,7 @@
    "status": "current"
   },
   {
+   "id": "e289c7652243c52393e5",
    "start": "2015-06-14",
    "name": "Beginning of H. Sec. Academic Year",
    "category": "other",
@@ -118,6 +134,7 @@
    "status": "current"
   },
   {
+   "id": "953d5b0df036c69e7f75",
    "start": "2015-06-14",
    "name": "Beginning of Term 2",
    "category": "other",
@@ -125,6 +142,7 @@
    "status": "current"
   },
   {
+   "id": "b19f1300817d426a2008",
    "start": "2015-06-18",
    "name": "First of Ramazan 14",
    "category": "other",
@@ -132,6 +150,7 @@
    "status": "current"
   },
   {
+   "id": "a9c59bbaada71dacddf1",
    "start": "2015-07-17",
    "name": "Eid-ul Fithr",
    "category": "public_holiday",
@@ -139,6 +158,7 @@
    "status": "current"
   },
   {
+   "id": "b3f1201f4f68822693b5",
    "start": "2015-07-18",
    "end": "2015-07-19",
    "name": "on the Occasion of Eid-ul Fithr",
@@ -147,6 +167,7 @@
    "status": "current"
   },
   {
+   "id": "092661c5564a9760ea41",
    "start": "2015-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -154,6 +175,7 @@
    "status": "current"
   },
   {
+   "id": "1aaafba68f6801388a91",
    "start": "2015-07-27",
    "name": "on the Occasion of Independence Day",
    "category": "public_holiday",
@@ -161,6 +183,7 @@
    "status": "current"
   },
   {
+   "id": "5b5e3ad6556cfa6708dc",
    "start": "2015-08-06",
    "name": "Professional Development Day 3",
    "category": "other",
@@ -168,6 +191,7 @@
    "status": "current"
   },
   {
+   "id": "c1f2b9300f65e445e100",
    "start": "2015-08-16",
    "end": "2015-08-20",
    "name": "Disaster Preparedness Week 2",
@@ -176,6 +200,7 @@
    "status": "current"
   },
   {
+   "id": "4f1f639cb0f1d7df7e9f",
    "start": "2015-08-16",
    "end": "2015-08-27",
    "name": "2nd Term Test for Gr. 10",
@@ -184,6 +209,7 @@
    "status": "current"
   },
   {
+   "id": "66ce9a78d96d998112e0",
    "start": "2015-09-03",
    "name": "Second Term Mid-Term Holidays",
    "category": "term_holidays",
@@ -191,6 +217,7 @@
    "status": "current"
   },
   {
+   "id": "79fa04bcf916556103cd",
    "start": "2015-09-22",
    "name": "Hajju Day",
    "category": "public_holiday",
@@ -198,6 +225,7 @@
    "status": "current"
   },
   {
+   "id": "e2cb8b8877cb5f331ce3",
    "start": "2015-09-23",
    "name": "Eid-ul Al'haa",
    "category": "public_holiday",
@@ -205,6 +233,7 @@
    "status": "current"
   },
   {
+   "id": "68b6240d576efc0d8681",
    "start": "2015-09-24",
    "end": "2015-09-26",
    "name": "on the Occasion of Eid-ul Al'haa",
@@ -213,6 +242,7 @@
    "status": "current"
   },
   {
+   "id": "93dd6c6a20794e192a3d",
    "start": "2015-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -220,6 +250,7 @@
    "status": "current"
   },
   {
+   "id": "9b44745f3aadfecec22a",
    "start": "2015-10-14",
    "name": "Islamic New Year (1 Mu'harram 1437)",
    "category": "public_holiday",
@@ -227,6 +258,7 @@
    "status": "current"
   },
   {
+   "id": "2eb1df8560fa040e7c8f",
    "start": "2015-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -234,6 +266,7 @@
    "status": "current"
   },
   {
+   "id": "803fdf935c691c48aa53",
    "start": "2015-11-04",
    "end": "2015-11-18",
    "name": "2nd Term Test",
@@ -242,6 +275,7 @@
    "status": "current"
   },
   {
+   "id": "3f7d5d0b811f3bcc8adf",
    "start": "2015-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -249,6 +283,7 @@
    "status": "current"
   },
   {
+   "id": "4cc5780f4e1693d3df2b",
    "start": "2015-11-24",
    "name": "End of Term 2",
    "category": "other",
@@ -256,6 +291,7 @@
    "status": "current"
   },
   {
+   "id": "7b31b6f06616869d955a",
    "start": "2015-11-25",
    "name": "Expatriate teachers' departure",
    "category": "other",
@@ -263,6 +299,7 @@
    "status": "current"
   },
   {
+   "id": "ca927f89c193694832b8",
    "start": "2015-12-12",
    "name": "National Day (1 Rabee'ul Awwal 1437)",
    "category": "public_holiday",
@@ -270,6 +307,7 @@
    "status": "current"
   },
   {
+   "id": "1d61ba002ad6ab289e78",
    "start": "2015-12-23",
    "name": "Prophet Muhammad's Birthday (1437)",
    "category": "public_holiday",
@@ -277,6 +315,7 @@
    "status": "current"
   },
   {
+   "id": "f922ed62671d0e4b3f7d",
    "start": "2016-01-07",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -284,6 +323,7 @@
    "status": "current"
   },
   {
+   "id": "f6aac3263974f4399cdf",
    "start": "2017-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -291,6 +331,7 @@
    "status": "current"
   },
   {
+   "id": "7b3d202289ce32ed7244",
    "start": "2017-01-04",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -298,6 +339,7 @@
    "status": "current"
   },
   {
+   "id": "1de4df8b548d86ef833a",
    "start": "2017-01-08",
    "name": "Beginning of Term",
    "category": "other",
@@ -305,6 +347,7 @@
    "status": "current"
   },
   {
+   "id": "ff4b332a118b0370126b",
    "start": "2017-02-02",
    "name": "Professional Development Day 1",
    "category": "other",
@@ -312,6 +355,7 @@
    "status": "current"
   },
   {
+   "id": "d29c100f54780b7b303d",
    "start": "2017-02-05",
    "end": "2017-05-11",
    "name": "Health Screening",
@@ -320,6 +364,7 @@
    "status": "current"
   },
   {
+   "id": "d5eab5942677585891d7",
    "start": "2017-03-05",
    "name": "Beginning of Higher Sec. Academic Year",
    "category": "other",
@@ -327,6 +372,7 @@
    "status": "current"
   },
   {
+   "id": "9e71a47b80ebe678de69",
    "start": "2017-03-12",
    "end": "2017-03-16",
    "name": "Disaster Preparedness Week 1",
@@ -335,6 +381,7 @@
    "status": "current"
   },
   {
+   "id": "a7231c32ca088cc24524",
    "start": "2017-03-19",
    "end": "2017-03-23",
    "name": "First Term Mid-Term Holidays",
@@ -343,6 +390,7 @@
    "status": "current"
   },
   {
+   "id": "a9efb8782dfc3dfd097b",
    "start": "2017-04-27",
    "name": "Professional Development Day 2",
    "category": "exam_days",
@@ -350,6 +398,7 @@
    "status": "current"
   },
   {
+   "id": "7d9dc841e26c5faa1cd9",
    "start": "2017-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -357,6 +406,7 @@
    "status": "current"
   },
   {
+   "id": "a899be2844b0ce992704",
    "start": "2017-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -364,6 +414,7 @@
    "status": "current"
   },
   {
+   "id": "6634893611957700a2f9",
    "start": "2017-05-14",
    "end": "2017-05-31",
    "name": "First Term Test",
@@ -372,6 +423,7 @@
    "status": "current"
   },
   {
+   "id": "4a2f766ff94aff04589f",
    "start": "2017-05-27",
    "name": "First of Ramazan",
    "category": "other",
@@ -379,6 +431,7 @@
    "status": "current"
   },
   {
+   "id": "bcbeb023b28eacb1d272",
    "start": "2017-06-08",
    "name": "End of Term 1",
    "category": "other",
@@ -386,6 +439,7 @@
    "status": "current"
   },
   {
+   "id": "49fefa811792a2e99851",
    "start": "2017-06-11",
    "end": "2017-06-15",
    "name": "First Term Holidays",
@@ -394,6 +448,7 @@
    "status": "current"
   },
   {
+   "id": "147bd92fb8a28d769346",
    "start": "2017-06-18",
    "name": "Beginning of Term 2",
    "category": "other",
@@ -401,6 +456,7 @@
    "status": "current"
   },
   {
+   "id": "6c7869a4d63ccf6261fc",
    "start": "2017-06-25",
    "name": "Eid-ul Fithr",
    "category": "public_holiday",
@@ -408,6 +464,7 @@
    "status": "current"
   },
   {
+   "id": "038d5f6b0b5a75213e55",
    "start": "2017-06-26",
    "end": "2017-06-27",
    "name": "on the Occasion of Eid-ul Fithr",
@@ -416,6 +473,7 @@
    "status": "current"
   },
   {
+   "id": "74e807e5b55ed0a60987",
    "start": "2017-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -423,6 +481,7 @@
    "status": "current"
   },
   {
+   "id": "48b92d8c86b0e2f6ba90",
    "start": "2017-07-27",
    "name": "on the Occasion of Independence Day",
    "category": "public_holiday",
@@ -430,6 +489,7 @@
    "status": "current"
   },
   {
+   "id": "1507ddfbf9a86f10a9a5",
    "start": "2017-08-10",
    "name": "Professional Development Day",
    "category": "other",
@@ -437,6 +497,7 @@
    "status": "current"
   },
   {
+   "id": "7551d738e129854393d1",
    "start": "2017-08-15",
    "end": "2017-08-30",
    "name": "2nd Term Test for Gr. 10 and Gr. 12",
@@ -445,6 +506,7 @@
    "status": "current"
   },
   {
+   "id": "41b99cac4cfc593c4a2c",
    "start": "2017-08-20",
    "end": "2017-08-24",
    "name": "Disaster Preparedness Week 2",
@@ -453,6 +515,7 @@
    "status": "current"
   },
   {
+   "id": "f82892fcc481acb3e526",
    "start": "2017-08-31",
    "name": "Hajju Day",
    "category": "public_holiday",
@@ -460,6 +523,7 @@
    "status": "current"
   },
   {
+   "id": "4c88ef105e25a270ed1d",
    "start": "2017-09-01",
    "name": "Eid-ul Al'haa",
    "category": "public_holiday",
@@ -467,6 +531,7 @@
    "status": "current"
   },
   {
+   "id": "c689505c5e88e8d05103",
    "start": "2017-09-02",
    "end": "2017-09-04",
    "name": "on the Occasion of Eid-ul Al'haa",
@@ -475,6 +540,7 @@
    "status": "current"
   },
   {
+   "id": "22a88f908c9e7ea95d02",
    "start": "2017-09-03",
    "end": "2017-09-07",
    "name": "Second Term Mid-Term Holidays",
@@ -483,6 +549,7 @@
    "status": "current"
   },
   {
+   "id": "fab6f80de5a753acc429",
    "start": "2017-09-21",
    "name": "Islamic New Year (1 Mu'harram 1439)",
    "category": "public_holiday",
@@ -490,6 +557,7 @@
    "status": "current"
   },
   {
+   "id": "770f432eb6349d0d221e",
    "start": "2017-10-05",
    "name": "Teachers' Day",
    "category": "exam_days",
@@ -497,6 +565,7 @@
    "status": "current"
   },
   {
+   "id": "a2f0db9890a9a71fa6e4",
    "start": "2017-10-25",
    "end": "2017-11-13",
    "name": "2nd Term Test",
@@ -505,6 +574,7 @@
    "status": "current"
   },
   {
+   "id": "20e1d0329ac2cf62fd00",
    "start": "2017-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -512,6 +582,7 @@
    "status": "current"
   },
   {
+   "id": "67e84ea77befa1b75ea7",
    "start": "2017-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -519,6 +590,7 @@
    "status": "current"
   },
   {
+   "id": "666fe00d07d9a66127dd",
    "start": "2017-11-19",
    "name": "National Day (1 Rabee'ul Awwal 1439)",
    "category": "public_holiday",
@@ -526,6 +598,7 @@
    "status": "current"
   },
   {
+   "id": "9af3310ca97c0df7ecba",
    "start": "2017-11-23",
    "name": "End of Term 2",
    "category": "other",
@@ -533,6 +606,7 @@
    "status": "current"
   },
   {
+   "id": "7c4d4f14704acfd8662f",
    "start": "2017-11-30",
    "name": "Prophet Muhammad's (SAW) Birthday",
    "category": "public_holiday",
@@ -540,6 +614,7 @@
    "status": "current"
   },
   {
+   "id": "7e687d56bdd26c632400",
    "start": "2017-12-20",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -547,6 +622,7 @@
    "status": "current"
   },
   {
+   "id": "dce861b5795df42e4d3b",
    "start": "2018-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -554,6 +630,7 @@
    "status": "current"
   },
   {
+   "id": "648b4613a042d390fa5c",
    "start": "2018-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -561,6 +638,7 @@
    "status": "current"
   },
   {
+   "id": "285ddc4eb745bb2f6022",
    "start": "2018-01-09",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -568,6 +646,7 @@
    "status": "current"
   },
   {
+   "id": "fee0e57d8fbe3a86e5ac",
    "start": "2018-01-14",
    "name": "Beginning of Term 1",
    "category": "other",
@@ -575,6 +654,7 @@
    "status": "current"
   },
   {
+   "id": "127e758f3bc90ab6f437",
    "start": "2018-02-04",
    "name": "Beginning of Higher Sec. Academic Year",
    "category": "other",
@@ -582,6 +662,7 @@
    "status": "current"
   },
   {
+   "id": "21110a218d3c28135a02",
    "start": "2018-02-15",
    "name": "Professional Development Day",
    "category": "other",
@@ -589,6 +670,7 @@
    "status": "current"
   },
   {
+   "id": "da130ce1fbae3c72e5a9",
    "start": "2018-03-25",
    "end": "2018-03-29",
    "name": "First Term Mid-Term Holidays",
@@ -597,6 +679,7 @@
    "status": "current"
   },
   {
+   "id": "f8de806770ae7e7c1000",
    "start": "2018-04-26",
    "name": "Professional Development Day 2",
    "category": "other",
@@ -604,6 +687,7 @@
    "status": "current"
   },
   {
+   "id": "40667c48c56ad966d3b6",
    "start": "2018-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -611,6 +695,7 @@
    "status": "current"
   },
   {
+   "id": "c9a012411f012f8533a1",
    "start": "2018-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -618,6 +703,7 @@
    "status": "current"
   },
   {
+   "id": "a3f39049228b6e294a08",
    "start": "2018-05-13",
    "end": "2018-05-31",
    "name": "First Term Test",
@@ -626,6 +712,7 @@
    "status": "current"
   },
   {
+   "id": "6f806c7fc887951235db",
    "start": "2018-05-16",
    "name": "First of Ramazan",
    "category": "other",
@@ -633,6 +720,7 @@
    "status": "current"
   },
   {
+   "id": "1f0dcb9cc17448353580",
    "start": "2018-06-07",
    "name": "End of Term 1",
    "category": "other",
@@ -640,6 +728,7 @@
    "status": "current"
   },
   {
+   "id": "a8b47bb283e75bd0ec24",
    "start": "2018-06-10",
    "end": "2018-06-14",
    "name": "First Term Holidays",
@@ -648,6 +737,7 @@
    "status": "current"
   },
   {
+   "id": "b5fda78065c93cf680ac",
    "start": "2018-06-15",
    "name": "Eid-ul Fithr",
    "category": "public_holiday",
@@ -655,6 +745,7 @@
    "status": "current"
   },
   {
+   "id": "fdb10700feeca0dfbdad",
    "start": "2018-06-16",
    "end": "2018-06-17",
    "name": "on the Occasion of Eid-ul Fithr",
@@ -663,6 +754,7 @@
    "status": "current"
   },
   {
+   "id": "31959c0496e20e134f43",
    "start": "2018-06-18",
    "name": "Beginning of Term 2",
    "category": "other",
@@ -670,6 +762,7 @@
    "status": "current"
   },
   {
+   "id": "29f933130a745dd68aea",
    "start": "2018-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -677,6 +770,7 @@
    "status": "current"
   },
   {
+   "id": "4d61208a51505579146e",
    "start": "2018-07-27",
    "name": "on the Occasion of Independence Day",
    "category": "public_holiday",
@@ -684,6 +778,7 @@
    "status": "current"
   },
   {
+   "id": "092b283b217b9be5830e",
    "start": "2018-08-09",
    "name": "Professional Development Day",
    "category": "other",
@@ -691,6 +786,7 @@
    "status": "current"
   },
   {
+   "id": "8a5128966f83da1e145f",
    "start": "2018-08-19",
    "end": "2018-08-23",
    "name": "Second Term Mid-Term Holidays",
@@ -699,6 +795,7 @@
    "status": "current"
   },
   {
+   "id": "805a1b8aee9a349dac8b",
    "start": "2018-08-20",
    "name": "Hajju Day",
    "category": "public_holiday",
@@ -706,6 +803,7 @@
    "status": "current"
   },
   {
+   "id": "cfc632dfcf6758660392",
    "start": "2018-08-21",
    "name": "Eid-ul Al'haa",
    "category": "public_holiday",
@@ -713,6 +811,7 @@
    "status": "current"
   },
   {
+   "id": "0d22613b0e53301a9ae6",
    "start": "2018-08-22",
    "end": "2018-08-24",
    "name": "on the Occasion of Eid-ul Al'haa",
@@ -721,6 +820,7 @@
    "status": "current"
   },
   {
+   "id": "7fd136948c691165fbf3",
    "start": "2018-09-10",
    "name": "Mock Exam (Gr. 10 and Gr. 12)",
    "category": "exam_days",
@@ -728,6 +828,7 @@
    "status": "current"
   },
   {
+   "id": "57e065a5fc7a3867eef9",
    "start": "2018-09-11",
    "name": "Islamic New Year (1 Mu'harram 1440)",
    "category": "public_holiday",
@@ -735,6 +836,7 @@
    "status": "current"
   },
   {
+   "id": "17d55f4a048fa6cacf86",
    "start": "2018-10-05",
    "name": "Teachers' Day",
    "category": "exam_days",
@@ -742,6 +844,7 @@
    "status": "current"
   },
   {
+   "id": "6a1500567ab5748c549b",
    "start": "2018-10-28",
    "end": "2018-11-15",
    "name": "2nd Term Test",
@@ -750,6 +853,7 @@
    "status": "current"
   },
   {
+   "id": "412b9b6ed73ede091666",
    "start": "2018-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -757,6 +861,7 @@
    "status": "current"
   },
   {
+   "id": "4ad81769d88617892f93",
    "start": "2018-11-09",
    "name": "National Day (1 Rabee'ul Awwal 1440)",
    "category": "public_holiday",
@@ -764,6 +869,7 @@
    "status": "current"
   },
   {
+   "id": "b337e70f57ce8227e500",
    "start": "2018-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -771,6 +877,7 @@
    "status": "current"
   },
   {
+   "id": "bcc3ecd39a1d419349be",
    "start": "2018-11-20",
    "name": "Prophet Muhammad's (SAW) Birthday",
    "category": "public_holiday",
@@ -778,6 +885,7 @@
    "status": "current"
   },
   {
+   "id": "8347d6add09c749a2cf4",
    "start": "2018-11-22",
    "name": "End of Term 2",
    "category": "other",
@@ -785,6 +893,7 @@
    "status": "current"
   },
   {
+   "id": "ccf8c9c319afa5beb950",
    "start": "2018-12-09",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -792,6 +901,7 @@
    "status": "current"
   },
   {
+   "id": "81aaa38afb5194a1b5e6",
    "start": "2019-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -799,6 +909,7 @@
    "status": "current"
   },
   {
+   "id": "0f05ffbf9f0e20aa307a",
    "start": "2019-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -806,6 +917,7 @@
    "status": "current"
   },
   {
+   "id": "e0c5986a37dc3983c33a",
    "start": "2019-01-08",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -813,6 +925,7 @@
    "status": "current"
   },
   {
+   "id": "319a5083e9b72a340f38",
    "start": "2019-01-13",
    "name": "Beginning of Term 1",
    "category": "other",
@@ -820,6 +933,7 @@
    "status": "current"
   },
   {
+   "id": "055c2183c988ff7df0f2",
    "start": "2019-02-03",
    "name": "Beginning of Higher Sec. Academic Year",
    "category": "other",
@@ -827,6 +941,7 @@
    "status": "current"
   },
   {
+   "id": "b23ada4c64ab1d202804",
    "start": "2019-02-14",
    "name": "Professional Development Day",
    "category": "other",
@@ -834,6 +949,7 @@
    "status": "current"
   },
   {
+   "id": "cb15048426075d326df9",
    "start": "2019-03-10",
    "end": "2019-03-14",
    "name": "First Term Mid-Term Holidays",
@@ -842,6 +958,7 @@
    "status": "current"
   },
   {
+   "id": "5b0464d6d13fabda9890",
    "start": "2019-04-18",
    "name": "Professional Development Day 2",
    "category": "other",
@@ -849,6 +966,7 @@
    "status": "current"
   },
   {
+   "id": "991d9861046f9f3a806d",
    "start": "2019-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -856,6 +974,7 @@
    "status": "current"
   },
   {
+   "id": "c4efc3d74ec4fdccfa37",
    "start": "2019-05-06",
    "name": "First of Ramazan",
    "category": "other",
@@ -863,6 +982,7 @@
    "status": "current"
   },
   {
+   "id": "508387e92b01b65799a0",
    "start": "2019-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -870,6 +990,7 @@
    "status": "current"
   },
   {
+   "id": "030aea3e9bf70a6d0c6f",
    "start": "2019-05-12",
    "end": "2019-05-23",
    "name": "First Term Test",
@@ -878,6 +999,7 @@
    "status": "current"
   },
   {
+   "id": "72c4ba3b7e8af72f115a",
    "start": "2019-05-30",
    "name": "End of Term",
    "category": "other",
@@ -885,6 +1007,7 @@
    "status": "current"
   },
   {
+   "id": "02757b2c2fa33d9ca4fa",
    "start": "2019-06-02",
    "end": "2019-06-06",
    "name": "First Term Holidays",
@@ -893,6 +1016,7 @@
    "status": "current"
   },
   {
+   "id": "28002f96aa7a2874ca20",
    "start": "2019-06-04",
    "name": "Eid-ul Fithr",
    "category": "public_holiday",
@@ -900,6 +1024,7 @@
    "status": "current"
   },
   {
+   "id": "d0300e227a2b70a3c624",
    "start": "2019-06-05",
    "end": "2019-06-06",
    "name": "on the Occasion of Eid-ul Fithr",
@@ -908,6 +1033,7 @@
    "status": "current"
   },
   {
+   "id": "5e0d826d46afd9db8acc",
    "start": "2019-06-09",
    "name": "Beginning of Term",
    "category": "other",
@@ -915,6 +1041,7 @@
    "status": "current"
   },
   {
+   "id": "4df216e71eaa063607ff",
    "start": "2019-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -922,6 +1049,7 @@
    "status": "current"
   },
   {
+   "id": "f055ba734e150c8c7b90",
    "start": "2019-07-27",
    "name": "on the Occasion of Independence Day",
    "category": "public_holiday",
@@ -929,6 +1057,7 @@
    "status": "current"
   },
   {
+   "id": "22cda1be758869b7b388",
    "start": "2019-08-01",
    "name": "Professional Development Day 3",
    "category": "other",
@@ -936,6 +1065,7 @@
    "status": "current"
   },
   {
+   "id": "2ed49ddf7662bf3bdf54",
    "start": "2019-08-10",
    "name": "Hajju Day",
    "category": "public_holiday",
@@ -943,6 +1073,7 @@
    "status": "current"
   },
   {
+   "id": "b8e3477fde035655f69e",
    "start": "2019-08-11",
    "name": "Eid-ul Al'haa",
    "category": "public_holiday",
@@ -950,6 +1081,7 @@
    "status": "current"
   },
   {
+   "id": "f1abe478256ed1fdacc4",
    "start": "2019-08-12",
    "end": "2019-08-14",
    "name": "on the Occasion of Eid-ul Al'haa",
@@ -958,6 +1090,7 @@
    "status": "current"
   },
   {
+   "id": "295e186b065acf566f76",
    "start": "2019-08-18",
    "end": "2019-08-29",
    "name": "Mock Exam (Gr. 10 - 12)",
@@ -966,6 +1099,7 @@
    "status": "current"
   },
   {
+   "id": "444b358427430b675d11",
    "start": "2019-08-31",
    "name": "Islamic New Year (1 Mu'harram 1441)",
    "category": "public_holiday",
@@ -973,6 +1107,7 @@
    "status": "current"
   },
   {
+   "id": "afc56e61595cc3ae738e",
    "start": "2019-09-01",
    "end": "2019-09-05",
    "name": "Second Term Mid-Term Holidays",
@@ -981,6 +1116,7 @@
    "status": "current"
   },
   {
+   "id": "9ad0bcec6dc1a238cfa3",
    "start": "2019-10-05",
    "name": "Teachers' Day GCE O'Level, IGCSE & SSC Examinations",
    "category": "exam_days",
@@ -988,6 +1124,7 @@
    "status": "current"
   },
   {
+   "id": "3a7edc20cca13fc810a5",
    "start": "2019-10-29",
    "name": "National Day (1 Rabee'ul Awwal 1441)",
    "category": "public_holiday",
@@ -995,6 +1132,7 @@
    "status": "current"
   },
   {
+   "id": "917b9da5aa9d4c4ef374",
    "start": "2019-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -1002,6 +1140,7 @@
    "status": "current"
   },
   {
+   "id": "dfa66e0b48f60bac6ba6",
    "start": "2019-11-09",
    "name": "Prophet Muhammad's (SAW) Birthday",
    "category": "public_holiday",
@@ -1009,6 +1148,7 @@
    "status": "current"
   },
   {
+   "id": "05a02e95c68128f685be",
    "start": "2019-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -1016,6 +1156,7 @@
    "status": "current"
   },
   {
+   "id": "3c94e0111fcb3968ad47",
    "start": "2019-11-14",
    "name": "Second Term Test",
    "category": "school_days",
@@ -1023,6 +1164,7 @@
    "status": "current"
   },
   {
+   "id": "f861a01c8515b9dc12a4",
    "start": "2019-11-21",
    "name": "End of Term 2",
    "category": "other",
@@ -1030,6 +1172,7 @@
    "status": "current"
   },
   {
+   "id": "df5d7463f5e1303c7995",
    "start": "2019-11-29",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -1037,6 +1180,7 @@
    "status": "current"
   },
   {
+   "id": "166ef8a188c8d3b7b6d1",
    "start": "2020-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -1044,6 +1188,7 @@
    "status": "current"
   },
   {
+   "id": "7bb7940f07de6921798b",
    "start": "2020-01-07",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -1051,6 +1196,7 @@
    "status": "current"
   },
   {
+   "id": "b7ce708c1eac02e1ce07",
    "start": "2020-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -1058,6 +1204,7 @@
    "status": "current"
   },
   {
+   "id": "d6027313d1c1bfa6e7a2",
    "start": "2020-01-07",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -1065,6 +1212,7 @@
    "status": "current"
   },
   {
+   "id": "472629d8261514cf785a",
    "start": "2020-01-12",
    "name": "Beginning of Term 1",
    "category": "other",
@@ -1072,6 +1220,7 @@
    "status": "current"
   },
   {
+   "id": "e690fa983e62f657a153",
    "start": "2020-01-12",
    "end": "2020-05-21",
    "name": "90 Term 2",
@@ -1080,6 +1229,7 @@
    "status": "current"
   },
   {
+   "id": "f46262b2589916ac82f7",
    "start": "2020-02-13",
    "name": "Professional Development Day",
    "category": "other",
@@ -1087,6 +1237,7 @@
    "status": "current"
   },
   {
+   "id": "b2a3f8ed094e6616b7e2",
    "start": "2020-03-08",
    "end": "2020-03-12",
    "name": "First Term Mid-Term Holidays",
@@ -1095,6 +1246,7 @@
    "status": "current"
   },
   {
+   "id": "cad7a76612465fee4a1c",
    "start": "2020-03-15",
    "name": "Beginning of High. Sec. Academic Year",
    "category": "other",
@@ -1102,6 +1254,7 @@
    "status": "current"
   },
   {
+   "id": "f7a986e0c0f9b262d50b",
    "start": "2020-04-16",
    "name": "Professional Development Day 2",
    "category": "other",
@@ -1109,6 +1262,7 @@
    "status": "current"
   },
   {
+   "id": "12d40c6ba3a06ba3293d",
    "start": "2020-04-24",
    "name": "First of Ramazan",
    "category": "other",
@@ -1116,6 +1270,7 @@
    "status": "current"
   },
   {
+   "id": "d57113e12734c7e1210a",
    "start": "2020-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -1123,6 +1278,7 @@
    "status": "current"
   },
   {
+   "id": "506f16447b41a78a977a",
    "start": "2020-05-04",
    "name": "IAL, AL (Edexcel) & HSC Examinations",
    "category": "exam_days",
@@ -1130,6 +1286,7 @@
    "status": "current"
   },
   {
+   "id": "e1dba47ddfe62a8b9c91",
    "start": "2020-05-06",
    "end": "2020-05-21",
    "name": "First Term Test and Reporting",
@@ -1138,6 +1295,7 @@
    "status": "current"
   },
   {
+   "id": "b50bac459c8df634bae8",
    "start": "2020-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -1145,6 +1303,7 @@
    "status": "current"
   },
   {
+   "id": "62925b62e23dd017829a",
    "start": "2020-05-21",
    "name": "End of Term 1",
    "category": "other",
@@ -1152,6 +1311,7 @@
    "status": "current"
   },
   {
+   "id": "fb6a04ed4700cf08fb08",
    "start": "2020-05-24",
    "name": "Eid-ul Fithr",
    "category": "public_holiday",
@@ -1159,6 +1319,7 @@
    "status": "current"
   },
   {
+   "id": "cbc65c3b32b7319febc9",
    "start": "2020-05-25",
    "end": "2020-05-26",
    "name": "on the Occasion of Eid-ul Fithr",
@@ -1167,6 +1328,7 @@
    "status": "current"
   },
   {
+   "id": "31a054199db8d6a35b4b",
    "start": "2020-05-31",
    "end": "2020-06-11",
    "name": "First Term Holidays",
@@ -1175,6 +1337,7 @@
    "status": "current"
   },
   {
+   "id": "2193f06c735091800fe0",
    "start": "2020-06-14",
    "name": "Beginning of Term 2",
    "category": "other",
@@ -1182,6 +1345,7 @@
    "status": "current"
   },
   {
+   "id": "6b7a2c77debcbca94935",
    "start": "2020-07-16",
    "name": "Professional Development Day 3",
    "category": "other",
@@ -1189,6 +1353,7 @@
    "status": "current"
   },
   {
+   "id": "7aaee0dc6fff83d595e1",
    "start": "2020-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -1196,6 +1361,7 @@
    "status": "current"
   },
   {
+   "id": "2913e3ceeb03a64d9692",
    "start": "2020-07-27",
    "name": "on the Occasion of Independence Day",
    "category": "public_holiday",
@@ -1203,6 +1369,7 @@
    "status": "current"
   },
   {
+   "id": "39cf1593e15340194bf1",
    "start": "2020-07-30",
    "name": "Hajju Day",
    "category": "public_holiday",
@@ -1210,6 +1377,7 @@
    "status": "current"
   },
   {
+   "id": "32695b353faacca304c4",
    "start": "2020-07-31",
    "name": "Eid-ul Al'haa",
    "category": "public_holiday",
@@ -1217,6 +1385,7 @@
    "status": "current"
   },
   {
+   "id": "40b3cb58fe818eafaf25",
    "start": "2020-08-02",
    "end": "2020-08-03",
    "name": "on the Occasion of Eid-ul Al'haa",
@@ -1225,6 +1394,7 @@
    "status": "current"
   },
   {
+   "id": "dce63070d131b0544a82",
    "start": "2020-08-02",
    "end": "2020-08-06",
    "name": "Second Term Mid-Term Holidays",
@@ -1233,6 +1403,7 @@
    "status": "current"
   },
   {
+   "id": "012b0373ad8808190021",
    "start": "2020-08-16",
    "end": "2020-08-27",
    "name": "Mock Exam (Gr. 10 )",
@@ -1241,6 +1412,7 @@
    "status": "current"
   },
   {
+   "id": "467376eb1656773e2b5f",
    "start": "2020-08-20",
    "name": "Islamic New Year (1 Mu'harram 1442)",
    "category": "public_holiday",
@@ -1248,6 +1420,7 @@
    "status": "current"
   },
   {
+   "id": "bf9947397347dbe5a3b2",
    "start": "2020-10-01",
    "name": "GCE O'Level, IGCSE & SSC Examinations",
    "category": "exam_days",
@@ -1255,6 +1428,7 @@
    "status": "current"
   },
   {
+   "id": "4d75b5c008f2476188d4",
    "start": "2020-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -1262,6 +1436,7 @@
    "status": "current"
   },
   {
+   "id": "bfb7b959fbab839fab9e",
    "start": "2020-10-18",
    "name": "National Day (1 Rabee'ul Awwal 1442)",
    "category": "public_holiday",
@@ -1269,6 +1444,7 @@
    "status": "current"
   },
   {
+   "id": "659b054b4604737e6eab",
    "start": "2020-10-29",
    "name": "Prophet Muhammad's (SAW) Birthday",
    "category": "public_holiday",
@@ -1276,6 +1452,7 @@
    "status": "current"
   },
   {
+   "id": "d6ad606ec41a2ffaac07",
    "start": "2020-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -1283,6 +1460,7 @@
    "status": "current"
   },
   {
+   "id": "f5ba263d9fe80c6717cf",
    "start": "2020-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -1290,6 +1468,7 @@
    "status": "current"
   },
   {
+   "id": "9ccea76c8e118ae745b6",
    "start": "2020-11-17",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -1297,6 +1476,7 @@
    "status": "current"
   },
   {
+   "id": "8d8c20c0b6b03d3b3a3e",
    "start": "2020-11-24",
    "name": "Second Term Test",
    "category": "school_days",
@@ -1304,6 +1484,7 @@
    "status": "current"
   },
   {
+   "id": "1ad5b6d0b61c95427fa4",
    "start": "2020-12-03",
    "name": "End of Term 2",
    "category": "other",
@@ -1311,6 +1492,7 @@
    "status": "current"
   },
   {
+   "id": "13698fccd8625cfae981",
    "start": "2021-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -1318,6 +1500,7 @@
    "status": "current"
   },
   {
+   "id": "47a95063c858c6ae621a",
    "start": "2021-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -1325,6 +1508,7 @@
    "status": "current"
   },
   {
+   "id": "d3bb2ef3af74f32e999c",
    "start": "2021-01-16",
    "name": "Beginning of Second Term",
    "category": "other",
@@ -1332,6 +1516,7 @@
    "status": "current"
   },
   {
+   "id": "c3a8ff23eef6f2f4316c",
    "start": "2021-02-03",
    "name": "2nd PD Day",
    "category": "other",
@@ -1339,6 +1524,7 @@
    "status": "current"
   },
   {
+   "id": "d605668804c1c5c184cf",
    "start": "2021-03-20",
    "end": "2021-03-24",
    "name": "School Self Evaluation (SSE)",
@@ -1347,6 +1533,7 @@
    "status": "current"
   },
   {
+   "id": "e0e25a96d03f3565761a",
    "start": "2021-03-20",
    "end": "2021-03-31",
    "name": "Second Term Exam & Mock",
@@ -1355,6 +1542,7 @@
    "status": "current"
   },
   {
+   "id": "6acdb96f56e11525ce4e",
    "start": "2021-04-02",
    "name": "First of Ramadan",
    "category": "public_holiday",
@@ -1362,6 +1550,7 @@
    "status": "current"
   },
   {
+   "id": "baf1ad7fd04427cbd481",
    "start": "2021-04-03",
    "end": "2021-04-07",
    "name": "Second Term Mid Break",
@@ -1370,6 +1559,7 @@
    "status": "current"
   },
   {
+   "id": "7271ec374e496732966c",
    "start": "2021-04-21",
    "name": "3rd PD Day",
    "category": "other",
@@ -1377,6 +1567,7 @@
    "status": "current"
   },
   {
+   "id": "c7d09a209f708d8f380c",
    "start": "2021-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -1384,6 +1575,7 @@
    "status": "current"
   },
   {
+   "id": "bb44cd8db22bac57ac7a",
    "start": "2021-05-02",
    "name": "Eid - al - Fitr",
    "category": "public_holiday",
@@ -1391,6 +1583,7 @@
    "status": "current"
   },
   {
+   "id": "103efc6a29e6520a2ff0",
    "start": "2021-05-03",
    "end": "2021-05-04",
    "name": "On the occasion of Eid - al - Fitr",
@@ -1399,6 +1592,7 @@
    "status": "current"
   },
   {
+   "id": "654feafa702dd6442940",
    "start": "2021-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -1406,6 +1600,7 @@
    "status": "current"
   },
   {
+   "id": "3afa9da49b91b65a789e",
    "start": "2021-06-12",
    "end": "2021-06-23",
    "name": "Second Term Exam",
@@ -1414,6 +1609,7 @@
    "status": "current"
   },
   {
+   "id": "72f60339fe3b50ba8865",
    "start": "2021-06-30",
    "name": "End of Second Term",
    "category": "other",
@@ -1421,6 +1617,7 @@
    "status": "current"
   },
   {
+   "id": "a233eafc3c0daaf4d3d6",
    "start": "2021-07-03",
    "end": "2021-08-01",
    "name": "Annual Holidays",
@@ -1429,6 +1626,7 @@
    "status": "current"
   },
   {
+   "id": "0c60dc476bde7d216593",
    "start": "2021-07-08",
    "name": "Hajj Day",
    "category": "public_holiday",
@@ -1436,6 +1634,7 @@
    "status": "current"
   },
   {
+   "id": "8dfac2f828da3bc0c6c7",
    "start": "2021-07-09",
    "name": "Eid - al - Adha",
    "category": "public_holiday",
@@ -1443,6 +1642,7 @@
    "status": "current"
   },
   {
+   "id": "566df0297bba5eac0157",
    "start": "2021-07-10",
    "end": "2021-07-12",
    "name": "On the occasion of Eid - al - Adha",
@@ -1451,6 +1651,7 @@
    "status": "current"
   },
   {
+   "id": "c385ea7886760c9978f5",
    "start": "2021-07-26",
    "end": "2021-07-27",
    "name": "Independence Day Holidays",
@@ -1459,6 +1660,7 @@
    "status": "current"
   },
   {
+   "id": "47facdb9bab74124be96",
    "start": "2021-08-03",
    "name": "Teachers Reporting Day",
    "category": "other",
@@ -1466,6 +1668,7 @@
    "status": "current"
   },
   {
+   "id": "042f0ed8e98e598ceecf",
    "start": "2021-08-09",
    "name": "Islamic New Year",
    "category": "public_holiday",
@@ -1473,6 +1676,7 @@
    "status": "current"
   },
   {
+   "id": "8d41c8d971587c517c58",
    "start": "2021-08-10",
    "name": "Education Act comes into effect",
    "category": "other",
@@ -1480,6 +1684,7 @@
    "status": "current"
   },
   {
+   "id": "c4b1829fe81bc9ad4868",
    "start": "2021-09-08",
    "name": "International Literacy Day",
    "category": "other",
@@ -1487,6 +1692,7 @@
    "status": "current"
   },
   {
+   "id": "5fa159b54a987c28da2b",
    "start": "2021-09-16",
    "name": "1st PD Day",
    "category": "other",
@@ -1494,6 +1700,7 @@
    "status": "current"
   },
   {
+   "id": "fc9d51a88facc7eca2be",
    "start": "2021-09-26",
    "name": "Academic Year for Grade 11 starts",
    "category": "other",
@@ -1501,6 +1708,7 @@
    "status": "current"
   },
   {
+   "id": "215a42d89093f63890c8",
    "start": "2021-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -1508,6 +1716,7 @@
    "status": "current"
   },
   {
+   "id": "bb1de08ffd0e36b5b748",
    "start": "2021-10-07",
    "name": "National Day",
    "category": "public_holiday",
@@ -1515,6 +1724,7 @@
    "status": "current"
   },
   {
+   "id": "bf9a6dcec56c7bb03205",
    "start": "2021-10-17",
    "end": "2021-10-21",
    "name": "First Term Mid Break",
@@ -1523,6 +1733,7 @@
    "status": "current"
   },
   {
+   "id": "0e85b99d4278798bde86",
    "start": "2021-10-18",
    "name": "Prophet Mohammad (SAW) Birth Day",
    "category": "public_holiday",
@@ -1530,6 +1741,7 @@
    "status": "current"
   },
   {
+   "id": "e72e1ba6595838552fe3",
    "start": "2021-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -1537,6 +1749,7 @@
    "status": "current"
   },
   {
+   "id": "0d6b872f878b664cab49",
    "start": "2021-11-07",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -1544,6 +1757,7 @@
    "status": "current"
   },
   {
+   "id": "7ef5faacc796ed2d9dda",
    "start": "2021-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -1551,6 +1765,7 @@
    "status": "current"
   },
   {
+   "id": "9a38f21f88971761eca6",
    "start": "2021-12-05",
    "end": "2021-12-16",
    "name": "First Term Exam",
@@ -1559,6 +1774,7 @@
    "status": "current"
   },
   {
+   "id": "3ce19f46fda7ddc99555",
    "start": "2021-12-23",
    "name": "End of First Term",
    "category": "other",
@@ -1566,6 +1782,7 @@
    "status": "current"
   },
   {
+   "id": "9cf0629a8ac88c90ecc4",
    "start": "2021-12-26",
    "end": "2022-01-13",
    "name": "First Term Holidays",
@@ -1574,6 +1791,7 @@
    "status": "current"
   },
   {
+   "id": "2dff9dd61efe9c8e4abc",
    "start": "2022-08-02",
    "name": "Teachers Reporting Day",
    "category": "other",
@@ -1581,6 +1799,7 @@
    "status": "current"
   },
   {
+   "id": "f46f4ba00d565d925df6",
    "start": "2022-01-08",
    "name": "Beginning of Second Term",
    "category": "other",
@@ -1588,6 +1807,7 @@
    "status": "current"
   },
   {
+   "id": "fcaa888dc856195fd584",
    "start": "2022-01-22",
    "end": "2022-02-09",
    "name": "1st Term Exam - Grade 11",
@@ -1596,6 +1816,7 @@
    "status": "current"
   },
   {
+   "id": "c6f974f0df21f286409f",
    "start": "2022-02-02",
    "name": "PD Day - 2",
    "category": "other",
@@ -1603,6 +1824,7 @@
    "status": "current"
   },
   {
+   "id": "531dab2bc400405aa23c",
    "start": "2022-03-16",
    "name": "PD Day",
    "category": "other",
@@ -1610,6 +1832,7 @@
    "status": "current"
   },
   {
+   "id": "683808f001a7f27abe9d",
    "start": "2022-03-23",
    "name": "First of Ramadan",
    "category": "public_holiday",
@@ -1617,6 +1840,7 @@
    "status": "current"
   },
   {
+   "id": "b76f01e48bc420b857cb",
    "start": "2022-04-16",
    "end": "2022-04-20",
    "name": "Second Term Mid Break",
@@ -1625,6 +1849,7 @@
    "status": "current"
   },
   {
+   "id": "52deec1aac61bbdb2c8d",
    "start": "2022-04-21",
    "name": "Eid-al-Fitr",
    "category": "public_holiday",
@@ -1632,6 +1857,7 @@
    "status": "current"
   },
   {
+   "id": "e2ef1e11db4fd33b6ca5",
    "start": "2022-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -1639,6 +1865,7 @@
    "status": "current"
   },
   {
+   "id": "6a8eaf650d14b515b987",
    "start": "2022-05-10",
    "name": "Childrens' Day",
    "category": "other",
@@ -1646,6 +1873,7 @@
    "status": "current"
   },
   {
+   "id": "a5cf36c10c274f759533",
    "start": "2022-05-14",
    "end": "2022-05-18",
    "name": "School Self Evaluation Week",
@@ -1654,6 +1882,7 @@
    "status": "current"
   },
   {
+   "id": "1b0415ced50f125c5bcf",
    "start": "2022-05-28",
    "end": "2022-06-15",
    "name": "Term Exam Grade 7 - 12",
@@ -1662,6 +1891,7 @@
    "status": "current"
   },
   {
+   "id": "e488b68347526c9460d6",
    "start": "2022-06-22",
    "name": "End of Second Term",
    "category": "other",
@@ -1669,6 +1899,7 @@
    "status": "current"
   },
   {
+   "id": "2288bca684213da13409",
    "start": "2022-06-25",
    "end": "2022-08-03",
    "name": "Annual Holidays",
@@ -1677,6 +1908,7 @@
    "status": "current"
   },
   {
+   "id": "dd1d1fd868dc6f6d0fe5",
    "start": "2022-06-27",
    "name": "Hajj Day",
    "category": "public_holiday",
@@ -1684,6 +1916,7 @@
    "status": "current"
   },
   {
+   "id": "526fa93a37d1347bc233",
    "start": "2022-06-28",
    "name": "Eid-al-Adha",
    "category": "public_holiday",
@@ -1691,6 +1924,7 @@
    "status": "current"
   },
   {
+   "id": "1702dbc32584e4d10bba",
    "start": "2022-06-30",
    "end": "2022-07-01",
    "name": "On the occasion of Eid-al-Adha",
@@ -1699,6 +1933,7 @@
    "status": "current"
   },
   {
+   "id": "c7309f1b7f4bcdc46d8d",
    "start": "2022-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -1706,6 +1941,7 @@
    "status": "current"
   },
   {
+   "id": "10739f03057bc71f0114",
    "start": "2022-07-27",
    "name": "On the occassion of Independence Day",
    "category": "public_holiday",
@@ -1713,6 +1949,7 @@
    "status": "current"
   },
   {
+   "id": "5efa475e82713f6ff593",
    "start": "2022-08-02",
    "name": "Reporting Day for Teachers",
    "category": "other",
@@ -1720,6 +1957,7 @@
    "status": "current"
   },
   {
+   "id": "5e4bd59f55d37d075ff7",
    "start": "2022-08-07",
    "name": "Beginning of Academic Year",
    "category": "other",
@@ -1727,6 +1965,7 @@
    "status": "current"
   },
   {
+   "id": "d049ebafc59de54a153f",
    "start": "2022-08-21",
    "end": "2022-09-07",
    "name": "Mock & Term Exam - Grade 12",
@@ -1735,6 +1974,7 @@
    "status": "current"
   },
   {
+   "id": "7a3abe0ff40b35a508ba",
    "start": "2022-09-15",
    "name": "PD Day - 1",
    "category": "other",
@@ -1742,6 +1982,7 @@
    "status": "current"
   },
   {
+   "id": "80392ee4ee3517e50e87",
    "start": "2022-09-18",
    "name": "Classes begin for Grade 11",
    "category": "other",
@@ -1749,6 +1990,7 @@
    "status": "current"
   },
   {
+   "id": "0011cf557ec42667be9b",
    "start": "2022-09-27",
    "name": "National Day",
    "category": "public_holiday",
@@ -1756,6 +1998,7 @@
    "status": "current"
   },
   {
+   "id": "4ca8f2d1d45b80f93c2c",
    "start": "2022-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -1763,6 +2006,7 @@
    "status": "current"
   },
   {
+   "id": "fa4b65e768967a0f890a",
    "start": "2022-10-08",
    "name": "Prophet Mohammad's (SAW) Birthday",
    "category": "public_holiday",
@@ -1770,6 +2014,7 @@
    "status": "current"
   },
   {
+   "id": "5dd312f5f37371cb8b5e",
    "start": "2022-10-09",
    "end": "2022-10-13",
    "name": "First Term Mid Break",
@@ -1778,6 +2023,7 @@
    "status": "current"
   },
   {
+   "id": "1fc58bce1cbf0a5f25ef",
    "start": "2022-10-27",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -1785,6 +2031,7 @@
    "status": "current"
   },
   {
+   "id": "8fc10f0dfdf61eab0e97",
    "start": "2022-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -1792,6 +2039,7 @@
    "status": "current"
   },
   {
+   "id": "dbee8bc6fe9047247bb2",
    "start": "2022-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -1799,6 +2047,7 @@
    "status": "current"
   },
   {
+   "id": "a3f0f43d8c65ebc3da6b",
    "start": "2022-11-13",
    "end": "2022-12-01",
    "name": "First Term Exam - Grade 10",
@@ -1807,6 +2056,7 @@
    "status": "current"
   },
   {
+   "id": "8b2947671303305b3c43",
    "start": "2022-11-27",
    "end": "2022-12-15",
    "name": "First Term Exam - Grade 7 - 9",
@@ -1815,6 +2065,7 @@
    "status": "current"
   },
   {
+   "id": "9d5962aa2374ac441b39",
    "start": "2022-12-22",
    "name": "End of First Term",
    "category": "other",
@@ -1822,6 +2073,7 @@
    "status": "current"
   },
   {
+   "id": "e92a234f036b94bf0812",
    "start": "2022-12-25",
    "end": "2023-01-05",
    "name": "First Term Holidays",
@@ -1830,6 +2082,7 @@
    "status": "current"
   },
   {
+   "id": "77c1129d2843c5de2edf",
    "start": "2023-08-01",
    "name": "Reporting Day for Teachers",
    "category": "other",
@@ -1837,6 +2090,7 @@
    "status": "current"
   },
   {
+   "id": "ed8e865d5e7b4452179b",
    "start": "2023-01-07",
    "name": "Beginning of Second Term",
    "category": "other",
@@ -1844,6 +2098,7 @@
    "status": "current"
   },
   {
+   "id": "330dee6011b66740dd28",
    "start": "2023-01-21",
    "end": "2023-02-08",
    "name": "First Term Exam - Grade 11",
@@ -1852,6 +2107,7 @@
    "status": "current"
   },
   {
+   "id": "e2264560f3db0ab05350",
    "start": "2023-01-24",
    "name": "World Education Day",
    "category": "other",
@@ -1859,6 +2115,7 @@
    "status": "current"
   },
   {
+   "id": "41cb0bc38b485945e9b8",
    "start": "2023-01-25",
    "name": "PD Day - 2",
    "category": "other",
@@ -1866,6 +2123,7 @@
    "status": "current"
   },
   {
+   "id": "07b2a00d938024e389d6",
    "start": "2023-03-07",
    "name": "PD Day - 3",
    "category": "other",
@@ -1873,6 +2131,7 @@
    "status": "current"
   },
   {
+   "id": "bf75ecc3adbbf3ca42dd",
    "start": "2023-03-11",
    "name": "First of Ramadan",
    "category": "public_holiday",
@@ -1880,6 +2139,7 @@
    "status": "current"
   },
   {
+   "id": "8247a150e972974bceb8",
    "start": "2023-03-17",
    "end": "2023-03-28",
    "name": "Second Term Exam - Grade 10 (Mock)",
@@ -1888,6 +2148,7 @@
    "status": "current"
   },
   {
+   "id": "369ff039475525f5a194",
    "start": "2023-04-07",
    "end": "2023-04-11",
    "name": "Second Term Mid Break",
@@ -1896,6 +2157,7 @@
    "status": "current"
   },
   {
+   "id": "df305bb324dc174773de",
    "start": "2023-04-10",
    "name": "Eid-al-Fitr",
    "category": "public_holiday",
@@ -1903,6 +2165,7 @@
    "status": "current"
   },
   {
+   "id": "7071126641ebf0b0b036",
    "start": "2023-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -1910,6 +2173,7 @@
    "status": "current"
   },
   {
+   "id": "fd41803646344884d6af",
    "start": "2023-05-05",
    "end": "2023-05-09",
    "name": "SSE and SIP",
@@ -1918,6 +2182,7 @@
    "status": "current"
   },
   {
+   "id": "5afc0142801bc2fa7689",
    "start": "2023-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -1925,6 +2190,7 @@
    "status": "current"
   },
   {
+   "id": "4545b2d6f441da16b496",
    "start": "2023-05-26",
    "end": "2023-06-06",
    "name": "Second Term Exam - Grade",
@@ -1933,6 +2199,7 @@
    "status": "current"
   },
   {
+   "id": "634c68b3a531bcac6441",
    "start": "2023-06-13",
    "name": "End of Second Term",
    "category": "other",
@@ -1940,6 +2207,7 @@
    "status": "current"
   },
   {
+   "id": "7808fa074d7cb10f592e",
    "start": "2023-06-15",
    "name": "Hajj Day",
    "category": "public_holiday",
@@ -1947,6 +2215,7 @@
    "status": "current"
   },
   {
+   "id": "eef0573d4c9f0711c8c8",
    "start": "2023-06-16",
    "name": "Eid-al-Adha",
    "category": "public_holiday",
@@ -1954,6 +2223,7 @@
    "status": "current"
   },
   {
+   "id": "fa0345264a21de8ffd74",
    "start": "2023-06-16",
    "end": "2023-07-30",
    "name": "Annual Holidays",
@@ -1962,6 +2232,7 @@
    "status": "current"
   },
   {
+   "id": "2a793234e296657d77f5",
    "start": "2023-06-17",
    "end": "2023-06-19",
    "name": "On the occasion of Eid-al-Adha",
@@ -1970,6 +2241,7 @@
    "status": "current"
   },
   {
+   "id": "3a9641ef4f75b371ee5a",
    "start": "2023-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -1977,6 +2249,7 @@
    "status": "current"
   },
   {
+   "id": "654bbbe599cd5f55dcc9",
    "start": "2023-07-27",
    "name": "On the occassion of Independence Day",
    "category": "public_holiday",
@@ -1984,6 +2257,7 @@
    "status": "current"
   },
   {
+   "id": "0d23be3527794b9f9770",
    "start": "2023-08-01",
    "name": "Reporting Day for Teachers",
    "category": "other",
@@ -1991,6 +2265,7 @@
    "status": "current"
   },
   {
+   "id": "afb989dad808cc1f8391",
    "start": "2023-08-06",
    "name": "Beginning of Academic Year",
    "category": "other",
@@ -1998,6 +2273,7 @@
    "status": "current"
   },
   {
+   "id": "2f113445b76354500dae",
    "start": "2023-08-20",
    "end": "2023-09-07",
    "name": "First Term Exam - Grade 12",
@@ -2006,6 +2282,7 @@
    "status": "current"
   },
   {
+   "id": "8a16cb7750edfb3551d0",
    "start": "2023-09-03",
    "name": "Classes begin for Grade",
    "category": "other",
@@ -2013,6 +2290,7 @@
    "status": "current"
   },
   {
+   "id": "fa74f7418dc3acb9488b",
    "start": "2023-09-14",
    "name": "PD Day - 1",
    "category": "other",
@@ -2020,6 +2298,7 @@
    "status": "current"
   },
   {
+   "id": "10164612279e67f0a81c",
    "start": "2023-09-16",
    "name": "National Day",
    "category": "public_holiday",
@@ -2027,6 +2306,7 @@
    "status": "current"
   },
   {
+   "id": "23ac7795aa62123fadeb",
    "start": "2023-09-27",
    "name": "Prophet Mohammad's (SAW) Birthday",
    "category": "public_holiday",
@@ -2034,6 +2314,7 @@
    "status": "current"
   },
   {
+   "id": "d0d57afe7ca5febe2d9e",
    "start": "2023-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -2041,6 +2322,7 @@
    "status": "current"
   },
   {
+   "id": "e3e74fea79e67fb2fa63",
    "start": "2023-10-15",
    "end": "2023-10-19",
    "name": "First Term Mid Break",
@@ -2049,6 +2331,7 @@
    "status": "current"
   },
   {
+   "id": "68ae765f55759ead9330",
    "start": "2023-10-17",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -2056,6 +2339,7 @@
    "status": "current"
   },
   {
+   "id": "ca6763c3a207f90bf741",
    "start": "2023-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -2063,6 +2347,7 @@
    "status": "current"
   },
   {
+   "id": "d9f3964ec7b12bc688ac",
    "start": "2023-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -2070,6 +2355,7 @@
    "status": "current"
   },
   {
+   "id": "a593c753c621106cb796",
    "start": "2023-11-12",
    "end": "2023-11-23",
    "name": "First Term Exam - Grade 10",
@@ -2078,6 +2364,7 @@
    "status": "current"
   },
   {
+   "id": "16e71806a7fcb01d32d6",
    "start": "2023-12-03",
    "end": "2023-12-14",
    "name": "First Term Exam - Grade 7,8,9,11 &",
@@ -2086,6 +2373,7 @@
    "status": "current"
   },
   {
+   "id": "e342d942b065ad3e772e",
    "start": "2023-12-21",
    "name": "End of First Term",
    "category": "other",
@@ -2093,6 +2381,7 @@
    "status": "current"
   },
   {
+   "id": "ad6120aedca4f15a0282",
    "start": "2023-12-24",
    "end": "2024-01-04",
    "name": "First Term Holidays",
@@ -2101,6 +2390,7 @@
    "status": "current"
   },
   {
+   "id": "ceea1159d9d073577183",
    "start": "2024-07-28",
    "name": "Reporting Day for Teachers",
    "category": "other",
@@ -2108,6 +2398,7 @@
    "status": "current"
   },
   {
+   "id": "5a3e83b2d3247e79f75d",
    "start": "2024-07-31",
    "name": "Beginning of Academic Year",
    "category": "other",
@@ -2115,6 +2406,7 @@
    "status": "current"
   },
   {
+   "id": "65e44cf5ea7b51c3e387",
    "start": "2024-08-01",
    "name": "Dhulhaheyo Hashiheyo Dhuvas",
    "category": "exam_days",
@@ -2122,6 +2414,7 @@
    "status": "current"
   },
   {
+   "id": "07e941611e3211b30927",
    "start": "2024-01-11",
    "name": "PD Day - 3",
    "category": "other",
@@ -2129,6 +2422,7 @@
    "status": "tentative"
   },
   {
+   "id": "4cab7fe299834b0b05a6",
    "start": "2024-01-19",
    "end": "2024-01-23",
    "name": "SSE and SIP",
@@ -2137,6 +2431,7 @@
    "status": "tentative"
   },
   {
+   "id": "28164d8bd382f82a7166",
    "start": "2024-01-24",
    "name": "World Education Day",
    "category": "other",
@@ -2144,6 +2439,7 @@
    "status": "tentative"
   },
   {
+   "id": "6dd937b69a09d76dfd6e",
    "start": "2024-01-30",
    "end": "2024-02-08",
    "name": "Second Term Exam - Grade 7,8 & 9",
@@ -2152,6 +2448,7 @@
    "status": "tentative"
   },
   {
+   "id": "cf70e34d666d84515b15",
    "start": "2024-01-30",
    "end": "2024-02-13",
    "name": "Term Exam - Grade 11 & 12",
@@ -2160,6 +2457,7 @@
    "status": "tentative"
   },
   {
+   "id": "d5a7e5dc7a7e7c3c90f0",
    "start": "2024-02-09",
    "end": "2024-02-20",
    "name": "Mock Exam - Grade 10 8 &",
@@ -2168,6 +2466,7 @@
    "status": "tentative"
   },
   {
+   "id": "b2962d1e8518979c7c0f",
    "start": "2024-02-20",
    "name": "End of Second Term",
    "category": "other",
@@ -2175,6 +2474,7 @@
    "status": "tentative"
   },
   {
+   "id": "56ef8cd3542bb9fcf401",
    "start": "2024-02-23",
    "end": "2024-03-06",
    "name": "Second Term Holidays",
@@ -2183,6 +2483,7 @@
    "status": "tentative"
   },
   {
+   "id": "ae1d74b53ca9bb5cbfe8",
    "start": "2024-03-01",
    "name": "First of Ramadan",
    "category": "public_holiday",
@@ -2190,6 +2491,7 @@
    "status": "tentative"
   },
   {
+   "id": "4f1334aa1fbba49c12a7",
    "start": "2024-03-05",
    "name": "Reporting Day for Teachers",
    "category": "other",
@@ -2197,6 +2499,7 @@
    "status": "tentative"
   },
   {
+   "id": "62bc03a7765f19897424",
    "start": "2024-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -2204,6 +2507,7 @@
    "status": "tentative"
   },
   {
+   "id": "1e0acd920faabb80502c",
    "start": "2024-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -2211,6 +2515,7 @@
    "status": "tentative"
   },
   {
+   "id": "ee3d6667d63ef8c06a19",
    "start": "2024-05-22",
    "name": "Reporting Day for Teachers",
    "category": "other",
@@ -2218,6 +2523,7 @@
    "status": "tentative"
   },
   {
+   "id": "60c6533ffc519980d106",
    "start": "2024-05-26",
    "name": "Beginning of Academic Year",
    "category": "other",
@@ -2225,6 +2531,7 @@
    "status": "tentative"
   },
   {
+   "id": "9b36e156a24132129260",
    "start": "2024-06-16",
    "name": "Hajj Day",
    "category": "public_holiday",
@@ -2232,6 +2539,7 @@
    "status": "tentative"
   },
   {
+   "id": "5cd817bd1b26378c3d23",
    "start": "2024-06-17",
    "name": "Eid-al-Adha",
    "category": "public_holiday",
@@ -2239,6 +2547,7 @@
    "status": "tentative"
   },
   {
+   "id": "9332c49880a58955cfee",
    "start": "2024-06-18",
    "end": "2024-06-20",
    "name": "On the occasion of Eid-al-Adha",
@@ -2247,6 +2556,7 @@
    "status": "tentative"
   },
   {
+   "id": "dd6a170575926690a3e4",
    "start": "2024-06-29",
    "name": "PD Day - 1",
    "category": "other",
@@ -2254,6 +2564,7 @@
    "status": "tentative"
   },
   {
+   "id": "2a1852d6c8e124428900",
    "start": "2024-07-07",
    "name": "Islamic New Year (1 Mu'harram 1446)",
    "category": "public_holiday",
@@ -2261,6 +2572,7 @@
    "status": "tentative"
   },
   {
+   "id": "e3e9e32346592ec4e35e",
    "start": "2024-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -2268,6 +2580,7 @@
    "status": "tentative"
   },
   {
+   "id": "2d7236c928aa1b4035c1",
    "start": "2024-07-27",
    "name": "On the occassion of Independence Day",
    "category": "public_holiday",
@@ -2275,6 +2588,7 @@
    "status": "tentative"
   },
   {
+   "id": "37ffa6b6d3fa4f48baa0",
    "start": "2024-08-11",
    "end": "2024-08-29",
    "name": "Final Exam - Grade 11 &",
@@ -2283,6 +2597,7 @@
    "status": "tentative"
   },
   {
+   "id": "0211997ccb70afea3619",
    "start": "2024-09-04",
    "name": "National Day (1 Rabee'ul Awwal 1446)",
    "category": "public_holiday",
@@ -2290,6 +2605,7 @@
    "status": "tentative"
   },
   {
+   "id": "a8f4849700f2ed945e1a",
    "start": "2024-09-10",
    "end": "2024-09-22",
    "name": "First Term Exam - Grade 7,8,9 &",
@@ -2298,6 +2614,7 @@
    "status": "tentative"
   },
   {
+   "id": "837f3c7d533b72f3094d",
    "start": "2024-09-15",
    "name": "Prophet Mohammad's (SAW) Birthday",
    "category": "public_holiday",
@@ -2305,6 +2622,7 @@
    "status": "tentative"
   },
   {
+   "id": "46087e35d793a2c32bb8",
    "start": "2024-09-21",
    "name": "PTS Meeting",
    "category": "other",
@@ -2312,6 +2630,7 @@
    "status": "tentative"
   },
   {
+   "id": "7de2efd2d59eb751ec39",
    "start": "2024-09-26",
    "name": "End of First Term",
    "category": "other",
@@ -2319,6 +2638,7 @@
    "status": "tentative"
   },
   {
+   "id": "33b3995d92697c7fe3ee",
    "start": "2024-09-29",
    "end": "2024-10-03",
    "name": "First Term Holidays",
@@ -2327,6 +2647,7 @@
    "status": "tentative"
   },
   {
+   "id": "ae50d590dcc150100ece",
    "start": "2024-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -2334,6 +2655,7 @@
    "status": "tentative"
   },
   {
+   "id": "a2db798d74dd22848211",
    "start": "2024-10-05",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -2341,6 +2663,7 @@
    "status": "tentative"
   },
   {
+   "id": "ea77c4aa2a92d2764095",
    "start": "2024-10-06",
    "name": "Beginning of Second Term",
    "category": "other",
@@ -2348,6 +2671,7 @@
    "status": "tentative"
   },
   {
+   "id": "d73bc4507a0cf04fbb75",
    "start": "2024-10-26",
    "name": "PD Day - 2",
    "category": "other",
@@ -2355,6 +2679,7 @@
    "status": "tentative"
   },
   {
+   "id": "052e1490372a4c1f314a",
    "start": "2024-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -2362,6 +2687,7 @@
    "status": "tentative"
   },
   {
+   "id": "af71e7a9e0278cb4c25c",
    "start": "2024-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -2369,6 +2695,7 @@
    "status": "tentative"
   },
   {
+   "id": "beb98198d71b1684a95b",
    "start": "2024-12-14",
    "name": "PTS Meeting",
    "category": "other",
@@ -2376,6 +2703,7 @@
    "status": "tentative"
   },
   {
+   "id": "73e3f2595f63d3f64650",
    "start": "2024-12-22",
    "end": "2025-01-02",
    "name": "Second Term Mid Break",
@@ -2384,6 +2712,7 @@
    "status": "tentative"
   },
   {
+   "id": "866bfc0f8d5cbd304a42",
    "start": "2025-03-31",
    "name": "Eid-ul-Fitr",
    "category": "public_holiday",
@@ -2391,6 +2720,7 @@
    "status": "tentative"
   },
   {
+   "id": "ba30ed24228adc227429",
    "start": "2025-04-01",
    "end": "2025-04-02",
    "name": "On the occasion of Eid-ul-Fitr",
@@ -2399,6 +2729,7 @@
    "status": "tentative"
   },
   {
+   "id": "9b4d43098de4261a57e7",
    "start": "2025-04-03",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -2406,6 +2737,7 @@
    "status": "tentative"
   },
   {
+   "id": "6b353c431584be2c167e",
    "start": "2025-04-06",
    "name": "Beginning of Academic Year",
    "category": "other",
@@ -2413,6 +2745,7 @@
    "status": "tentative"
   },
   {
+   "id": "6b3082b31fd1dd710bba",
    "start": "2025-04-26",
    "name": "Professional Development Day 1",
    "category": "other",
@@ -2420,6 +2753,7 @@
    "status": "tentative"
   },
   {
+   "id": "1215c3b040c42d478ece",
    "start": "2025-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -2427,6 +2761,7 @@
    "status": "tentative"
   },
   {
+   "id": "00848e516d0cb9f1d6d3",
    "start": "2025-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -2434,6 +2769,7 @@
    "status": "tentative"
   },
   {
+   "id": "c32784c841d6ddbeefeb",
    "start": "2025-05-24",
    "name": "PTS Meeting 1",
    "category": "other",
@@ -2441,6 +2777,7 @@
    "status": "tentative"
   },
   {
+   "id": "588c70b6b8ceadac301e",
    "start": "2025-05-31",
    "name": "Professional Development Day 2",
    "category": "other",
@@ -2448,6 +2785,7 @@
    "status": "tentative"
   },
   {
+   "id": "e25e3a8d92026d10ef2b",
    "start": "2025-06-05",
    "name": "Hajj Day",
    "category": "public_holiday",
@@ -2455,6 +2793,7 @@
    "status": "tentative"
   },
   {
+   "id": "2b953d7fdf712075ebd1",
    "start": "2025-06-06",
    "name": "Eid-ul Al'haa",
    "category": "public_holiday",
@@ -2462,6 +2801,7 @@
    "status": "tentative"
   },
   {
+   "id": "7b50b97aea0d223876fd",
    "start": "2025-06-07",
    "end": "2025-06-09",
    "name": "on the Occasion of Eid-ul Al'haa",
@@ -2470,6 +2810,7 @@
    "status": "tentative"
   },
   {
+   "id": "4aa8d886746c9a34c6c5",
    "start": "2025-06-26",
    "name": "Islamic New Year (1 Mu'harram 1447)",
    "category": "public_holiday",
@@ -2477,6 +2818,7 @@
    "status": "tentative"
   },
   {
+   "id": "6a60a603a3f77dd496d3",
    "start": "2025-07-05",
    "end": "2025-07-19",
    "name": "Final Exam (Gr 11 & 12)",
@@ -2485,6 +2827,7 @@
    "status": "tentative"
   },
   {
+   "id": "dbb74f0f823f22dbb33c",
    "start": "2025-07-05",
    "end": "2025-07-19",
    "name": "Term 1 Exam (Gr 7, 8, 9 & 10)",
@@ -2493,6 +2836,7 @@
    "status": "tentative"
   },
   {
+   "id": "2cada3a82efe5e7a025d",
    "start": "2025-07-21",
    "name": "PTS Meeting 2",
    "category": "other",
@@ -2500,6 +2844,7 @@
    "status": "tentative"
   },
   {
+   "id": "dae392e8a6c16c55b355",
    "start": "2025-07-24",
    "name": "End of Term 1",
    "category": "other",
@@ -2507,6 +2852,7 @@
    "status": "tentative"
   },
   {
+   "id": "324227fbf74873e46e52",
    "start": "2025-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -2514,6 +2860,7 @@
    "status": "tentative"
   },
   {
+   "id": "57eb010d77bc6114f34c",
    "start": "2025-07-27",
    "name": "on the Occasion of Independence Day",
    "category": "public_holiday",
@@ -2521,6 +2868,7 @@
    "status": "tentative"
   },
   {
+   "id": "09328eefed454e8a457d",
    "start": "2025-07-28",
    "end": "2025-08-07",
    "name": "First Term Holidays",
@@ -2529,6 +2877,7 @@
    "status": "tentative"
   },
   {
+   "id": "c62bc79abfa80a3b2c72",
    "start": "2025-08-10",
    "name": "Beginning of Term",
    "category": "other",
@@ -2536,6 +2885,7 @@
    "status": "tentative"
   },
   {
+   "id": "44b14df40e244b8638e6",
    "start": "2025-08-24",
    "name": "National Day (1 Rabee'ul Awwal 1447)",
    "category": "public_holiday",
@@ -2543,6 +2893,7 @@
    "status": "tentative"
   },
   {
+   "id": "4e53efc3bf4e86698897",
    "start": "2025-09-04",
    "name": "Prophet Muhammad's (SAW) Birthday",
    "category": "public_holiday",
@@ -2550,6 +2901,7 @@
    "status": "tentative"
   },
   {
+   "id": "a9f93bcf65dfe7b3c165",
    "start": "2025-09-14",
    "name": "Classes begin for Gr 11",
    "category": "other",
@@ -2557,6 +2909,7 @@
    "status": "tentative"
   },
   {
+   "id": "ab6fc6ce23137860d017",
    "start": "2025-09-21",
    "end": "2025-09-25",
    "name": "Second Term Mid-Break",
@@ -2565,6 +2918,7 @@
    "status": "tentative"
   },
   {
+   "id": "d03ca19865979620ef5f",
    "start": "2025-09-24",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -2572,6 +2926,7 @@
    "status": "tentative"
   },
   {
+   "id": "5da201a6b91f391ddfe0",
    "start": "2025-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -2579,6 +2934,7 @@
    "status": "tentative"
   },
   {
+   "id": "bf0172af0e29678c813b",
    "start": "2025-10-18",
    "name": "Professional Development Day",
    "category": "other",
@@ -2586,6 +2942,7 @@
    "status": "tentative"
   },
   {
+   "id": "8aaac3830a8f003c092f",
    "start": "2025-11-02",
    "end": "2025-11-06",
    "name": "SSE & SIP",
@@ -2594,6 +2951,7 @@
    "status": "tentative"
   },
   {
+   "id": "89eaab9464fd886f8750",
    "start": "2025-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -2601,6 +2959,7 @@
    "status": "tentative"
   },
   {
+   "id": "46059da92283a79c0e57",
    "start": "2025-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -2608,6 +2967,7 @@
    "status": "tentative"
   },
   {
+   "id": "0daca9d9c1d70eca811f",
    "start": "2025-11-29",
    "name": "PTS Meeting",
    "category": "other",
@@ -2615,6 +2975,7 @@
    "status": "tentative"
   },
   {
+   "id": "a344cfc4a24eb1ef1b46",
    "start": "2025-12-06",
    "end": "2025-12-20",
    "name": "Gr 10 Mock Exam",
@@ -2623,6 +2984,7 @@
    "status": "tentative"
   },
   {
+   "id": "17de79e460ad9dbb6a57",
    "start": "2025-12-06",
    "end": "2025-12-20",
    "name": "Term 2 Exam (Gr 7, 8, 9)",
@@ -2631,6 +2993,7 @@
    "status": "tentative"
   },
   {
+   "id": "313c0230ba9168765cf3",
    "start": "2025-12-06",
    "end": "2025-12-20",
    "name": "Term Exam (Gr 11 & 12)",
@@ -2639,6 +3002,7 @@
    "status": "tentative"
   },
   {
+   "id": "6d201cb1edf5e034b33e",
    "start": "2025-12-25",
    "name": "End of Term 2",
    "category": "other",
@@ -2646,6 +3010,7 @@
    "status": "tentative"
   },
   {
+   "id": "8719c2f754af9d1e1dad",
    "start": "2026-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -2653,6 +3018,7 @@
    "status": "tentative"
   },
   {
+   "id": "d7f6afef63dc4d9cfb74",
    "start": "2026-01-22",
    "name": "Annual Holidays",
    "category": "public_holiday",
@@ -2660,6 +3026,7 @@
    "status": "tentative"
   },
   {
+   "id": "eeb247f295ba172df779",
    "start": "2026-01-25",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -2667,6 +3034,7 @@
    "status": "tentative"
   },
   {
+   "id": "2fcce51c7e9d75656913",
    "start": "2026-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -2674,6 +3042,7 @@
    "status": "tentative"
   },
   {
+   "id": "ca27e3e5bf5ba8fbd394",
    "start": "2026-01-25",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -2681,6 +3050,7 @@
    "status": "tentative"
   },
   {
+   "id": "0c40eebb5de28380e8ef",
    "start": "2026-01-27",
    "name": "Beginning of Academic Year",
    "category": "other",
@@ -2688,6 +3058,7 @@
    "status": "tentative"
   },
   {
+   "id": "4d20933d948743ea7b29",
    "start": "2026-02-18",
    "name": "First of Ramadan",
    "category": "public_holiday",
@@ -2695,6 +3066,7 @@
    "status": "tentative"
   },
   {
+   "id": "7262290a10bc99130a9d",
    "start": "2026-03-01",
    "end": "2026-03-08",
    "name": "Professional Development Days",
@@ -2703,6 +3075,7 @@
    "status": "tentative"
   },
   {
+   "id": "d1c257567b51ebf1fd38",
    "start": "2026-03-09",
    "end": "2026-03-19",
    "name": "Last 10 days of Ramadan",
@@ -2711,6 +3084,7 @@
    "status": "tentative"
   },
   {
+   "id": "eb8dc26751dcaa9b84f5",
    "start": "2026-03-20",
    "name": "Eid-al-Fitr",
    "category": "public_holiday",
@@ -2718,6 +3092,7 @@
    "status": "tentative"
   },
   {
+   "id": "9a20a7fc90c94065851a",
    "start": "2026-03-21",
    "end": "2026-03-22",
    "name": "On the occasion of Eid-al-Fitr",
@@ -2726,6 +3101,7 @@
    "status": "tentative"
   },
   {
+   "id": "9e25229e564209226ff5",
    "start": "2026-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -2733,6 +3109,7 @@
    "status": "tentative"
   },
   {
+   "id": "b892746e7750bff8f0c1",
    "start": "2026-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -2740,6 +3117,7 @@
    "status": "tentative"
   },
   {
+   "id": "38b380b7b62470681f7b",
    "start": "2026-05-17",
    "end": "2026-06-15",
    "name": "School Transfer Period 1",
@@ -2748,6 +3126,7 @@
    "status": "tentative"
   },
   {
+   "id": "d8865ea6e6f06ce6a65f",
    "start": "2026-05-24",
    "end": "2026-05-30",
    "name": "First Term Mid-Break",
@@ -2756,6 +3135,7 @@
    "status": "tentative"
   },
   {
+   "id": "c3bd65bf20bc602226ed",
    "start": "2026-05-26",
    "name": "Hajj Day",
    "category": "public_holiday",
@@ -2763,6 +3143,7 @@
    "status": "tentative"
   },
   {
+   "id": "894c270b33568a351dc4",
    "start": "2026-05-27",
    "name": "Eid-al-Adha",
    "category": "public_holiday",
@@ -2770,6 +3151,7 @@
    "status": "tentative"
   },
   {
+   "id": "d534796cc81a08e8da2f",
    "start": "2026-05-28",
    "end": "2026-05-30",
    "name": "On the occasion of Eid-al-Adha",
@@ -2778,6 +3160,7 @@
    "status": "tentative"
   },
   {
+   "id": "98d7d3651e03f70dfdd0",
    "start": "2026-06-07",
    "name": "Beginning of AL Batch",
    "category": "other",
@@ -2785,6 +3168,7 @@
    "status": "tentative"
   },
   {
+   "id": "ce58bd8cc0ba77c2865d",
    "start": "2026-06-16",
    "name": "Islamic New Year 1448",
    "category": "public_holiday",
@@ -2792,6 +3176,7 @@
    "status": "tentative"
   },
   {
+   "id": "868eb3f5f4ed8a81ee2a",
    "start": "2026-06-30",
    "end": "2026-07-09",
    "name": "First Term Exam",
@@ -2800,6 +3185,7 @@
    "status": "tentative"
   },
   {
+   "id": "619db2ed7d538794c569",
    "start": "2026-07-12",
    "end": "2026-08-31",
    "name": "New Admission - LKG & Gr. 1",
@@ -2808,6 +3194,7 @@
    "status": "tentative"
   },
   {
+   "id": "5b14e1afaec2a3d96ba4",
    "start": "2026-07-16",
    "name": "End of First Term",
    "category": "other",
@@ -2815,6 +3202,7 @@
    "status": "tentative"
   },
   {
+   "id": "efd1c3dc4bf85fb316ac",
    "start": "2026-07-17",
    "end": "2026-08-01",
    "name": "First Term Holidays",
@@ -2823,6 +3211,7 @@
    "status": "tentative"
   },
   {
+   "id": "8caff3e9e1dd0b9bffc9",
    "start": "2026-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -2830,6 +3219,7 @@
    "status": "tentative"
   },
   {
+   "id": "c04496c3e9bf6d959f36",
    "start": "2026-07-27",
    "name": "On the occasion of Independence Day",
    "category": "public_holiday",
@@ -2837,6 +3227,7 @@
    "status": "tentative"
   },
   {
+   "id": "735aff26621386af9589",
    "start": "2026-08-02",
    "name": "Beginning of Second Term",
    "category": "other",
@@ -2844,6 +3235,7 @@
    "status": "tentative"
   },
   {
+   "id": "4a5c00a4cbcfe184b2ce",
    "start": "2026-08-14",
    "name": "National Day",
    "category": "public_holiday",
@@ -2851,6 +3243,7 @@
    "status": "tentative"
   },
   {
+   "id": "dd3ab5a0d70dca1af95a",
    "start": "2026-08-22",
    "end": "2026-08-25",
    "name": "Camps and Activities (KS1-KS4)",
@@ -2859,6 +3252,7 @@
    "status": "tentative"
   },
   {
+   "id": "7e8f25211bf7dcdc5cdc",
    "start": "2026-08-25",
    "name": "Prophet Muhammad's Birthday",
    "category": "public_holiday",
@@ -2866,6 +3260,7 @@
    "status": "tentative"
   },
   {
+   "id": "57a27023eecc0a2fa639",
    "start": "2026-09-13",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -2873,6 +3268,7 @@
    "status": "tentative"
   },
   {
+   "id": "68372950d5a64362f072",
    "start": "2026-09-13",
    "end": "2026-09-19",
    "name": "Second Term Mid-Break",
@@ -2881,6 +3277,7 @@
    "status": "tentative"
   },
   {
+   "id": "2bdf93796ff709095e7f",
    "start": "2026-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -2888,6 +3285,7 @@
    "status": "tentative"
   },
   {
+   "id": "5979f148bd39934d394f",
    "start": "2026-10-18",
    "end": "2026-11-17",
    "name": "School Transfer Period 2",
@@ -2896,6 +3294,7 @@
    "status": "tentative"
   },
   {
+   "id": "0383f90f69c9f1040f18",
    "start": "2026-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -2903,6 +3302,7 @@
    "status": "tentative"
   },
   {
+   "id": "49d2e5026710b326f517",
    "start": "2026-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -2910,6 +3310,7 @@
    "status": "tentative"
   },
   {
+   "id": "9a7e7d626d3506c01ab8",
    "start": "2026-11-12",
    "name": "Professional Development Day",
    "category": "other",
@@ -2917,6 +3318,7 @@
    "status": "tentative"
   },
   {
+   "id": "b1ba2804948c4ca1bb46",
    "start": "2026-12-01",
    "end": "2026-12-10",
    "name": "Second Term Exam",
@@ -2925,6 +3327,7 @@
    "status": "tentative"
   },
   {
+   "id": "9024b1afb48e3725a050",
    "start": "2026-12-17",
    "name": "End of Second Term",
    "category": "other",
@@ -2932,6 +3335,7 @@
    "status": "tentative"
   },
   {
+   "id": "e7783401d4f7146d8a24",
    "start": "2026-12-18",
    "end": "2027-01-12",
    "name": "Second Term Holidays",
@@ -2940,6 +3344,7 @@
    "status": "tentative"
   },
   {
+   "id": "ad976d8febd865cc5415",
    "start": "2027-01-01",
    "name": "New Year",
    "category": "public_holiday",
@@ -2947,6 +3352,7 @@
    "status": "tentative"
   },
   {
+   "id": "f92b043fcae0ccb2ea38",
    "start": "2027-01-13",
    "name": "Teachers' Reporting Day",
    "category": "other",
@@ -2954,6 +3360,7 @@
    "status": "tentative"
   },
   {
+   "id": "43defb176d7d95adcadc",
    "start": "2027-01-17",
    "name": "Beginning of Academic Year",
    "category": "other",
@@ -2961,6 +3368,7 @@
    "status": "tentative"
   },
   {
+   "id": "3da6e8cb88d0dd181c2c",
    "start": "2027-01-31",
    "name": "Beginning of AL Batch (B-27) Opening of the People’s Majlis",
    "category": "other",
@@ -2968,6 +3376,7 @@
    "status": "tentative"
   },
   {
+   "id": "8e6055ece906cd6bed4f",
    "start": "2027-02-08",
    "name": "First of Ramadan",
    "category": "public_holiday",
@@ -2975,6 +3384,7 @@
    "status": "tentative"
   },
   {
+   "id": "fe5f52679344e0b576ec",
    "start": "2027-02-26",
    "end": "2027-03-07",
    "name": "Last 10 days of Ramadan",
@@ -2983,6 +3393,7 @@
    "status": "tentative"
   },
   {
+   "id": "eb918346b6675ea7e994",
    "start": "2027-03-09",
    "name": "Eid-al-Fitr",
    "category": "public_holiday",
@@ -2990,6 +3401,7 @@
    "status": "tentative"
   },
   {
+   "id": "cba854a9d343c10b45a1",
    "start": "2027-03-10",
    "end": "2027-03-11",
    "name": "On the occasion of Eid-al-Fitr",
@@ -2998,6 +3410,7 @@
    "status": "tentative"
   },
   {
+   "id": "0b9a7af93374a7f9ef9d",
    "start": "2027-03-21",
    "end": "2027-03-25",
    "name": "Professional Development",
@@ -3006,6 +3419,7 @@
    "status": "tentative"
   },
   {
+   "id": "1d71f47a69f11b7da10a",
    "start": "2027-04-01",
    "end": "2027-04-15",
    "name": "Gr. 11 (B-26) Mock & Gr. 12 Term Exam",
@@ -3014,6 +3428,7 @@
    "status": "tentative"
   },
   {
+   "id": "8c9da3ba2b16f2012a66",
    "start": "2027-04-22",
    "name": "Professional Development",
    "category": "other",
@@ -3021,6 +3436,7 @@
    "status": "tentative"
   },
   {
+   "id": "dbadef92c2c392e896b2",
    "start": "2027-05-01",
    "name": "Labour Day",
    "category": "public_holiday",
@@ -3028,6 +3444,7 @@
    "status": "tentative"
   },
   {
+   "id": "1ef2b2575f85a68bb789",
    "start": "2027-05-09",
    "end": "2027-06-10",
    "name": "School Transfer Period 1",
@@ -3036,6 +3453,7 @@
    "status": "tentative"
   },
   {
+   "id": "c3f82aeffcb6bcfc3952",
    "start": "2027-05-10",
    "name": "Children's Day",
    "category": "other",
@@ -3043,6 +3461,7 @@
    "status": "tentative"
   },
   {
+   "id": "a784198152bfbeacca2a",
    "start": "2027-05-16",
    "name": "Hajj Day",
    "category": "public_holiday",
@@ -3050,6 +3469,7 @@
    "status": "tentative"
   },
   {
+   "id": "4e5452ba78bd96c9a949",
    "start": "2027-05-16",
    "end": "2027-05-22",
    "name": "First Term Mid-Break",
@@ -3058,6 +3478,7 @@
    "status": "tentative"
   },
   {
+   "id": "c02a9cdd82ab00ecc439",
    "start": "2027-05-17",
    "name": "Eid-al-Adha",
    "category": "public_holiday",
@@ -3065,6 +3486,7 @@
    "status": "tentative"
   },
   {
+   "id": "9676bccd68a3a0d9ae6d",
    "start": "2027-05-18",
    "end": "2027-05-20",
    "name": "On the occasion of Eid-al-Adha",
@@ -3073,6 +3495,7 @@
    "status": "tentative"
   },
   {
+   "id": "e35059d4cfdd69b9e87c",
    "start": "2027-06-06",
    "name": "Islamic New Year 1449",
    "category": "public_holiday",
@@ -3080,6 +3503,7 @@
    "status": "tentative"
   },
   {
+   "id": "6d112f0cb4b71201e200",
    "start": "2027-06-12",
    "end": "2027-06-14",
    "name": "Camps and Activities (KS1-KS4)",
@@ -3088,6 +3512,7 @@
    "status": "tentative"
   },
   {
+   "id": "283883b2f54c046e3faa",
    "start": "2027-06-29",
    "end": "2027-07-10",
    "name": "First Term Exam",
@@ -3096,6 +3521,7 @@
    "status": "tentative"
   },
   {
+   "id": "385b3f741ad15f2e9c9e",
    "start": "2027-07-04",
    "end": "2027-08-31",
    "name": "New Admission - LKG & Gr.",
@@ -3104,6 +3530,7 @@
    "status": "tentative"
   },
   {
+   "id": "53593f3a4d707443ef33",
    "start": "2027-07-15",
    "name": "End of First Term",
    "category": "other",
@@ -3111,6 +3538,7 @@
    "status": "tentative"
   },
   {
+   "id": "15936d57f5bde1d6daa0",
    "start": "2027-07-16",
    "end": "2027-07-31",
    "name": "First Term Holidays",
@@ -3119,6 +3547,7 @@
    "status": "tentative"
   },
   {
+   "id": "4442ce3945c94c645c0c",
    "start": "2027-07-26",
    "name": "Independence Day",
    "category": "public_holiday",
@@ -3126,6 +3555,7 @@
    "status": "tentative"
   },
   {
+   "id": "547b7bbef3033c48bd97",
    "start": "2027-07-27",
    "name": "On the occasion of Independence Day",
    "category": "public_holiday",
@@ -3133,6 +3563,7 @@
    "status": "tentative"
   },
   {
+   "id": "c4b01e25e7c2f9025439",
    "start": "2027-08-01",
    "name": "Beginning of Second Term",
    "category": "other",
@@ -3140,6 +3571,7 @@
    "status": "tentative"
   },
   {
+   "id": "ad6342df7ca003b6f4a1",
    "start": "2027-08-03",
    "name": "National Day",
    "category": "public_holiday",
@@ -3147,6 +3579,7 @@
    "status": "tentative"
   },
   {
+   "id": "fd027c3b3349435f369c",
    "start": "2027-08-14",
    "name": "Prophet Muhammad's Birthday",
    "category": "public_holiday",
@@ -3154,6 +3587,7 @@
    "status": "tentative"
   },
   {
+   "id": "a4c0785163aec388ac71",
    "start": "2027-08-26",
    "end": "2027-09-09",
    "name": "Gr. 10 Mock Exam",
@@ -3162,6 +3596,7 @@
    "status": "tentative"
   },
   {
+   "id": "39bc09313d5b485071d8",
    "start": "2027-08-26",
    "end": "2027-09-09",
    "name": "Gr. 11 (B-27) & Gr. 12 Mock Exam",
@@ -3170,6 +3605,7 @@
    "status": "tentative"
   },
   {
+   "id": "04db35b0df759f150d73",
    "start": "2027-09-03",
    "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
@@ -3177,6 +3613,7 @@
    "status": "tentative"
   },
   {
+   "id": "8806d19386a2b275138b",
    "start": "2027-09-19",
    "end": "2027-09-25",
    "name": "Second Term Mid-Break",
@@ -3185,6 +3622,7 @@
    "status": "tentative"
   },
   {
+   "id": "1e86dbd3931f90b8e21c",
    "start": "2027-10-05",
    "name": "Teachers' Day",
    "category": "other",
@@ -3192,6 +3630,7 @@
    "status": "tentative"
   },
   {
+   "id": "73a72cab9f03a9be9a5d",
    "start": "2027-10-10",
    "end": "2027-11-09",
    "name": "School Transfer Period 2",
@@ -3200,6 +3639,7 @@
    "status": "tentative"
   },
   {
+   "id": "92f893f127f6da641a8e",
    "start": "2027-10-13",
    "name": "National Curriculum Assessment",
    "category": "other",
@@ -3207,6 +3647,7 @@
    "status": "tentative"
   },
   {
+   "id": "4da6cfac62cfad5257e0",
    "start": "2027-11-03",
    "name": "Victory Day",
    "category": "public_holiday",
@@ -3214,6 +3655,7 @@
    "status": "tentative"
   },
   {
+   "id": "65a82afd306dfa3d3cf3",
    "start": "2027-11-04",
    "name": "Professional Development",
    "category": "other",
@@ -3221,6 +3663,7 @@
    "status": "tentative"
   },
   {
+   "id": "ab62cc2b9e9b156c6992",
    "start": "2027-11-11",
    "name": "Republic Day",
    "category": "public_holiday",
@@ -3228,6 +3671,7 @@
    "status": "tentative"
   },
   {
+   "id": "f68816a9cd04b6f552e7",
    "start": "2027-11-23",
    "end": "2027-12-04",
    "name": "Second Term Exam",
@@ -3236,6 +3680,7 @@
    "status": "tentative"
   },
   {
+   "id": "bb8699dc22f1d582b2ea",
    "start": "2027-12-09",
    "name": "End of Second Term",
    "category": "other",
@@ -3243,6 +3688,7 @@
    "status": "tentative"
   },
   {
+   "id": "9e2e9d8fa10e120cad4a",
    "start": "2027-12-10",
    "end": "2028-01-04",
    "name": "Second Term Holidays",

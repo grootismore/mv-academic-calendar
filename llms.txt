@@ -1,7 +1,7 @@
 # Maldives school academic calendar (unofficial, from Ministry of Education PDFs)
 
 Start here: data/index.json (list of years, status, counts, file paths).
-All events in one file: data/all.json -> {"events":[{start, end?, name, category, calendar, status}]}.
+All events in one file: data/all.json -> {"events":[{id, start, end?, name, category, calendar, status}]}; `id` is stable, upsert on it.
 One year: data/<year>.json (schema: data/schema.json). Calendar apps: data/<year>.ics.
 Raw base URL: https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/
 Dates are ISO 8601; `end` is inclusive. category: public_holiday | school_days | exam_days | term_holidays | other.
