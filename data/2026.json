@@ -1,54 +1,296 @@
 {
   "year": 2026,
   "source": "Ministry of Education, Maldives",
-  "source_url": "https://www.moe.gov.mv/en/academic-calendar",
-  "status": "current",
-  "retrieved": "2026-11-05",
-  "note": "Parsed from the MoE website's current calendar page. The page does not state tentative/final; the MoE archive lists 'Academic Calendar 2026 (Final)' dated 2026-01-21.",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/1768985022852-Academic%20Calendar%20-%202026%20FINAL.pdf",
+  "status": "final",
+  "retrieved": "2026-11-04",
+  "note": "Parsed from \"Academic Calendar - 2026 FINAL\".",
+  "pdf_sha256": "143bc54e81bfbc76fa470701411b97055636fed2b8cbd1c903199b44f87efd04",
   "events": [
-    {"start": "2026-01-01", "name": "New Year 2026", "category": "public_holiday"},
-    {"start": "2026-01-25", "name": "Teachers' Reporting Day 2026", "category": "school_days"},
-    {"start": "2026-01-25", "end": "2026-07-16", "name": "First Term 2026", "category": "school_days"},
-    {"start": "2026-01-27", "name": "Beginning of Academic Year 2026", "category": "other"},
-    {"start": "2026-02-05", "name": "Majilis Opening Day", "category": "other"},
-    {"start": "2026-02-18", "name": "First of Ramadan", "category": "public_holiday"},
-    {"start": "2026-03-01", "end": "2026-03-08", "name": "Professional Development Days", "category": "other"},
-    {"start": "2026-03-09", "end": "2026-03-19", "name": "Last 10 Days of Ramadan", "category": "public_holiday"},
-    {"start": "2026-03-20", "name": "Eid-al-Fitr", "category": "public_holiday"},
-    {"start": "2026-03-21", "end": "2026-03-22", "name": "On the occasion of Eid-al-Fitr", "category": "public_holiday"},
-    {"start": "2026-04-05", "end": "2026-04-14", "name": "Grade 11 and 12 First Term Exam", "category": "exam_days"},
-    {"start": "2026-05-01", "name": "Labour Day", "category": "public_holiday"},
-    {"start": "2026-05-10", "name": "Children's Day", "category": "other"},
-    {"start": "2026-05-17", "end": "2026-06-15", "name": "School Transfer Period 1", "category": "other"},
-    {"start": "2026-05-24", "end": "2026-05-30", "name": "First Term Mid-Break", "category": "term_holidays"},
-    {"start": "2026-05-26", "name": "Hajj Day", "category": "public_holiday"},
-    {"start": "2026-05-27", "name": "Eid-al-Adha", "category": "public_holiday"},
-    {"start": "2026-05-28", "end": "2026-05-30", "name": "On the occasion of Eid-al-Adha", "category": "public_holiday"},
-    {"start": "2026-06-07", "name": "Beginning of AL Batch 2026", "category": "other"},
-    {"start": "2026-06-16", "name": "Islamic New Year 1448", "category": "public_holiday"},
-    {"start": "2026-06-30", "end": "2026-07-09", "name": "First Term Exam", "category": "exam_days"},
-    {"start": "2026-07-09", "end": "2026-08-31", "name": "New Admission - LKG & Gr. 1", "category": "other"},
-    {"start": "2026-07-16", "name": "End of First Term 2026", "category": "other"},
-    {"start": "2026-07-17", "end": "2026-08-01", "name": "First Term Holidays", "category": "term_holidays"},
-    {"start": "2026-07-26", "name": "Independence Day", "category": "public_holiday"},
-    {"start": "2026-07-27", "name": "On the occasion of Independence Day", "category": "public_holiday"},
-    {"start": "2026-08-02", "end": "2026-12-17", "name": "Second Term 2026", "category": "school_days"},
-    {"start": "2026-08-02", "name": "Beginning of Second Term 2026", "category": "other"},
-    {"start": "2026-08-14", "name": "National Day", "category": "public_holiday"},
-    {"start": "2026-08-22", "end": "2026-08-25", "name": "Camps and Activities (KS1-KS4)", "category": "other"},
-    {"start": "2026-08-23", "end": "2026-09-10", "name": "Grade 11 and 12 Final Exam", "category": "exam_days"},
-    {"start": "2026-08-25", "name": "Prophet Mohammad's (SAW) Birthday", "category": "public_holiday"},
-    {"start": "2026-08-29", "end": "2026-09-10", "name": "Grade 10 Final Exam", "category": "exam_days"},
-    {"start": "2026-09-13", "end": "2026-09-19", "name": "Second Term Mid-Break", "category": "term_holidays"},
-    {"start": "2026-09-13", "name": "The Day Maldives Embraced Islam", "category": "public_holiday"},
-    {"start": "2026-10-05", "name": "Teachers' Day", "category": "other"},
-    {"start": "2026-10-18", "end": "2026-11-17", "name": "School Transfer Period 2", "category": "other"},
-    {"start": "2026-11-03", "name": "Victory Day", "category": "public_holiday"},
-    {"start": "2026-11-11", "name": "Republic Day", "category": "public_holiday"},
-    {"start": "2026-11-12", "name": "Professional Development Day", "category": "other"},
-    {"start": "2026-12-01", "end": "2026-12-10", "name": "Second Term Exam", "category": "exam_days"},
-    {"start": "2026-12-01", "end": "2026-12-10", "name": "First Term Exam (Grade 11, 2026 Batch)", "category": "exam_days"},
-    {"start": "2026-12-17", "name": "End of Second Term 2026", "category": "other"},
-    {"start": "2026-12-18", "end": "2027-01-12", "name": "Second Term Holidays", "category": "term_holidays"}
+    {
+      "start": "2026-01-01",
+      "name": "New Year 2026 4 5 6 7 8 9",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-01-01",
+      "name": "New Year 2027 27 28 29 30 31 1 2 3 4 5 6 7 8 9 2027 JANUARY 10 11 12 13 14 15 16",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-01-10",
+      "name": "11 12 13 14 15 16 17 18 19 20 21 22 23 24",
+      "category": "other"
+    },
+    {
+      "start": "2026-01-13",
+      "name": "Teachers' Reporting Day 2027 17 18 19 20 21 22 23",
+      "category": "other"
+    },
+    {
+      "start": "2026-01-17",
+      "name": "Beginning of Academic Year 2027 Teaching School Report Teacher Non- Total Dates School Holidays - Academic Year 2026 Term Days* Exam Preparation PD Teaching Sch",
+      "category": "exam_days"
+    },
+    {
+      "start": "2026-01-25",
+      "name": "Teachers' Reporting Day 2026 25 26 27 28 29 30 31",
+      "category": "other"
+    },
+    {
+      "start": "2026-01-25",
+      "end": "2026-07-16",
+      "name": "84.5 8 5 6 3.5 107 Mid-break (7) + Term-end vacation (16): 23 days Term 2",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2026-01-27",
+      "name": "Beginning of Academic Year 2026 1 2 3 4 5 6 7",
+      "category": "other"
+    },
+    {
+      "start": "2026-02-05",
+      "name": "Opening of the People’s Majlis 8 9 10 11 12 13",
+      "category": "other"
+    },
+    {
+      "start": "2026-02-18",
+      "name": "First of Ramadan 15 16 17 18 19 20 21 22 23 24 25 26 27 28 1 2 3 4 5 6 7",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-03-01",
+      "end": "2026-03-08",
+      "name": "Professional Development Days 8 9 10 11 12 13 14",
+      "category": "other"
+    },
+    {
+      "start": "2026-03-09",
+      "end": "2026-03-19",
+      "name": "Last 10 days of Ramadan MARCH 15 16 17 18 19 20 21",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-03-20",
+      "name": "Eid-al-Fitr",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-03-21",
+      "end": "2026-03-22",
+      "name": "On the occasion of Eid-al-Fitr 22 23 24 25 26 27 28 29 30 31 1 2 3 4 5 6 7 8 9 10 11",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-04-05",
+      "end": "2026-04-14",
+      "name": "Grade 11 and 12 First Term Exam 12 13 14 15 16 17",
+      "category": "exam_days"
+    },
+    {
+      "start": "2026-04-18",
+      "name": "19 20 21 22 23 24 25",
+      "category": "other"
+    },
+    {
+      "start": "2026-05-01",
+      "name": "Labour Day 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-05-10",
+      "name": "Children's Day MAY 17 18 19 20 21 22 23",
+      "category": "other"
+    },
+    {
+      "start": "2026-05-10",
+      "name": "(Children's Day) and",
+      "category": "other"
+    },
+    {
+      "start": "2026-05-17",
+      "end": "2026-06-15",
+      "name": "School Transfer Period 1 24 25 26 27 28 29 30",
+      "category": "other"
+    },
+    {
+      "start": "2026-05-24",
+      "end": "2026-05-30",
+      "name": "First Term Mid-Break",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2026-05-26",
+      "name": "Hajj Day",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-05-27",
+      "name": "Eid-al-Adha",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-05-28",
+      "end": "2026-05-30",
+      "name": "On the occasion of Eid-al-Adha 31 1 2 3 4 5 6 7 8 9 10 11 12 13",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-06-07",
+      "name": "Beginning of AL Batch 2026 JUNE 14 15 16 17 18 19 20",
+      "category": "other"
+    },
+    {
+      "start": "2026-06-16",
+      "name": "Islamic New Year 1448 21 22 23 24 25 26 27 2026 28 29 30 1 2 3 4",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-06-30",
+      "end": "2026-07-09",
+      "name": "First Term Exam",
+      "category": "exam_days"
+    },
+    {
+      "start": "2026-07-09",
+      "end": "2026-08-31",
+      "name": "New Admission - LKG & Gr. 1 5 6 7 8 9 10",
+      "category": "other"
+    },
+    {
+      "start": "2026-07-11",
+      "name": "12 13 14 15 16 17 18",
+      "category": "other"
+    },
+    {
+      "start": "2026-07-16",
+      "name": "End of First Term 2026 19 20 21 22 23 24 25",
+      "category": "other"
+    },
+    {
+      "start": "2026-07-17",
+      "end": "2026-08-01",
+      "name": "First Term Holidays 26 27 28 29 30 31 1",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2026-07-26",
+      "name": "Independence Day 2 3 4 5 6 7 8",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-07-27",
+      "name": "On the occasion of Independence Day",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-08-02",
+      "name": "Beginning of Second Term",
+      "category": "other"
+    },
+    {
+      "start": "2026-08-02",
+      "end": "2026-12-17",
+      "name": "75.5 8 5 1 2.5 92 Mid-break (7) + Term-end vacation (26): 33 days Total Number of Days 160 16 10 7 6 199 56 Calendar Days (32 working days) *",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2026-08-14",
+      "name": "National Day 9 10 11 12 13 14",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-08-15",
+      "name": "16 17 18 19 20 21 22 23 24 25 26 27 28 29",
+      "category": "other"
+    },
+    {
+      "start": "2026-08-22",
+      "end": "2026-08-25",
+      "name": "Camps and Activities (KS1 - KS4)",
+      "category": "other"
+    },
+    {
+      "start": "2026-08-23",
+      "end": "2026-09-10",
+      "name": "Grade 11 and 12 Final Exam 6 7 8 9 10 11 12",
+      "category": "exam_days"
+    },
+    {
+      "start": "2026-08-25",
+      "name": "Prophet Muhammad's ( ملسو هيلع هللا ىلص ) Birthday 30 31 1 2 3 4 5",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-09-01",
+      "end": "2026-09-10",
+      "name": "Grade 10 Mock Exam",
+      "category": "exam_days"
+    },
+    {
+      "start": "2026-09-13",
+      "name": "The Day Maldives Embraced Islam 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9 10",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-09-13",
+      "end": "2026-09-19",
+      "name": "Second Term Mid-Break",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2026-10-05",
+      "name": "Teachers' Day 11 12 13 14 15 16",
+      "category": "other"
+    },
+    {
+      "start": "2026-10-05",
+      "name": "(Teachers' Day) are calculated as half-days of teaching. Grade 10 of 2025 Grade 10 of 2026 Grade 11 & 12 SSC/HSC and International Examinations Remarks SSC & CI",
+      "category": "exam_days"
+    },
+    {
+      "start": "2026-10-18",
+      "end": "2026-11-17",
+      "name": "School Transfer Period 2 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4 5 6 7",
+      "category": "other"
+    },
+    {
+      "start": "2026-11-03",
+      "name": "Victory Day 8 9 10 11 12 13 14",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-11-11",
+      "name": "Republic Day NOVEMBER 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2026-11-12",
+      "name": "Professional Development Day",
+      "category": "other"
+    },
+    {
+      "start": "2026-12-01",
+      "end": "2026-12-10",
+      "name": "Second Term Exam 6 7 8 9 10 11 12",
+      "category": "exam_days"
+    },
+    {
+      "start": "2026-12-01",
+      "end": "2026-12-10",
+      "name": "First Term Exam (Gr. 11, 2026 Batch) DECEMBER 13 14 15 16 17 18 19",
+      "category": "exam_days"
+    },
+    {
+      "start": "2026-12-17",
+      "name": "End of Second Term 2026 20 21 22 23 24 25 26",
+      "category": "other"
+    },
+    {
+      "start": "2026-12-18",
+      "end": "2027-01-12",
+      "name": "Second Term Holidays",
+      "category": "term_holidays"
+    }
   ]
 }
