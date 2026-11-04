@@ -1,11 +1,11 @@
 {
   "year": 2024,
   "source": "Ministry of Education, Maldives",
-  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_2024.pdf",
-  "status": "current",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_2024_Tentative_8.1.2024_.pdf",
+  "status": "tentative",
   "retrieved": "2026-11-04",
-  "note": "Parsed from \"Academic_Calendar_2024\".",
-  "pdf_sha256": "01b754142eb69bf8897609e107b4e280916b5560ac87edf3233b986a822f4805",
+  "note": "Parsed from \"Academic_Calendar_2024_Tentative_8.1.2024_\".",
+  "pdf_sha256": "02a2b130ed70e3cdf6f8e852e3933b30e157e735378db712282789a2cd2dcbcc",
   "events": [
     {
       "start": "2024-01-01",
@@ -14,7 +14,7 @@
     },
     {
       "start": "2024-01-11",
-      "name": "PD Day - 3 12 13 14 15 16 17",
+      "name": "PD Day - 3",
       "category": "other"
     },
     {
@@ -23,38 +23,54 @@
       "category": "other"
     },
     {
+      "start": "2024-01-19",
+      "end": "2024-01-23",
+      "name": "SSE and SIP 12 13 14 15 16 17",
+      "category": "other"
+    },
+    {
       "start": "2024-01-24",
       "name": "World Education Day 26 27 28 29 30 31 1",
       "category": "other"
     },
     {
-      "start": "2024-01-26",
-      "end": "2024-01-30",
-      "name": "SSE and SIP 2 3 4 5 6 7 8 8 &",
-      "category": "other"
-    },
-    {
-      "start": "2024-02-09",
-      "end": "2024-02-27",
-      "name": "Mock Exam - Grade",
-      "category": "exam_days"
-    },
-    {
-      "start": "2024-02-09",
-      "end": "2024-02-27",
-      "name": "Term Exam - Grade 11 & 12 16 17 18 19 20 21 22 2025 23 24 25 26 27 28 1",
-      "category": "exam_days"
-    },
-    {
-      "start": "2024-02-15",
-      "name": "PTS Meeting 9 10 11 12 13 14 15",
-      "category": "other"
-    },
-    {
-      "start": "2024-02-15",
-      "end": "2024-02-27",
+      "start": "2024-01-30",
+      "end": "2024-02-08",
       "name": "Second Term Exam - Grade 7,8 & 9",
       "category": "exam_days"
+    },
+    {
+      "start": "2024-01-30",
+      "end": "2024-02-13",
+      "name": "Term Exam - Grade 11 & 12 2 3 4 5 6 7 8",
+      "category": "exam_days"
+    },
+    {
+      "start": "2024-02-09",
+      "end": "2024-02-20",
+      "name": "Mock Exam - Grade 10 8 &",
+      "category": "exam_days"
+    },
+    {
+      "start": "2024-02-15",
+      "name": "PTS Meeting 2025 9 10 11 12 13 14",
+      "category": "other"
+    },
+    {
+      "start": "2024-02-15",
+      "name": "16 17 18 19 20 21 22",
+      "category": "other"
+    },
+    {
+      "start": "2024-02-20",
+      "name": "End of Second Term 23 24 25 26 27 28 1",
+      "category": "other"
+    },
+    {
+      "start": "2024-02-23",
+      "end": "2024-03-06",
+      "name": "Second Term Holidays",
+      "category": "term_holidays"
     },
     {
       "start": "2024-03-01",
@@ -62,36 +78,18 @@
       "category": "public_holiday"
     },
     {
-      "start": "2024-03-06",
-      "name": "End of Second Term 9 10 11 12 13 14 15",
+      "start": "2024-03-05",
+      "name": "Reporting Day for Teachers MARCH 9 10 11 12 13 14 15",
       "category": "other"
     },
     {
       "start": "2024-03-09",
-      "end": "2024-04-03",
-      "name": "Second Term Holidays MARCH 16 17 18 19 20 21 22",
-      "category": "term_holidays"
-    },
-    {
-      "start": "2024-03-21",
-      "end": "2024-03-30",
-      "name": "Last 10 days of Ramadan 23 24 25 26 27 28 29",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2024-03-31",
-      "name": "Eid-al-Fitr 30 31 1 2 3 4 5",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2024-04-01",
-      "end": "2024-04-02",
-      "name": "On the occasion of Eid-al-Fitr APRIL 6 7 8 9 10 11 12",
-      "category": "public_holiday"
+      "name": "Beginning of Academic Year 2025 School Days Exam Days Weekends Term Holidays Professional Development Days Public Holidays School Completion Examinations: Apr -",
+      "category": "exam_days"
     },
     {
       "start": "2024-05-01",
-      "name": "Labour Day 1 2 3 4 5 6 7 8 9 10 11",
+      "name": "Labour Day 5 6 7 8 9 10 11",
       "category": "public_holiday"
     },
     {
@@ -138,7 +136,7 @@
     },
     {
       "start": "2024-07-07",
-      "name": "Islamic New Year (1 Mu'harram 1446) JULY 14 15 16 17 18 19 20 21 22 23 24 25 26 27",
+      "name": "., Islamic New Year (1 Mu'harram 1446) JULY 14 15 16 17 18 19 20 21 22 23 24 25 26 27",
       "category": "public_holiday"
     },
     {
@@ -163,25 +161,20 @@
       "category": "other"
     },
     {
-      "start": "2024-09-01",
-      "name": "Classes begin for grade 11",
-      "category": "other"
-    },
-    {
       "start": "2024-09-04",
       "name": "National Day (1 Rabee'ul Awwal 1446) 8 9 10 11 12 13 14",
       "category": "public_holiday"
     },
     {
-      "start": "2024-09-08",
-      "end": "2024-09-21",
-      "name": "First Term Exam - Grade 7,8,9 &",
-      "category": "exam_days"
-    },
-    {
       "start": "2024-09-10",
       "name": "15 16 17 18 19 20 21 14 &",
       "category": "other"
+    },
+    {
+      "start": "2024-09-10",
+      "end": "2024-09-22",
+      "name": "First Term Exam - Grade 7,8,9 &",
+      "category": "exam_days"
     },
     {
       "start": "2024-09-15",
@@ -251,19 +244,9 @@
       "category": "term_holidays"
     },
     {
-      "start": "2025-03-06",
-      "name": "105 MALÉ, REPUBLIC OF MALDIVES Total 190 Final YEAR MONTH S M T W T F S CALENDAR DATES PUBLIC HOLIDAYS",
+      "start": "2025-02-20",
+      "name": "95 MALÉ, REPUBLIC OF MALDIVES Tentative Total 180 YEAR MONTH S M T W T F S CALENDAR DATES PUBLIC HOLIDAYS 1 2 3 4",
       "category": "public_holiday"
-    },
-    {
-      "start": "2025-04-03",
-      "name": "Reporting Day for Teachers",
-      "category": "other"
-    },
-    {
-      "start": "2025-04-06",
-      "name": "Beginning of Academic Year 2025 School Days Exam Days Weekends Term Holidays Professional Development Days Public Holidays",
-      "category": "exam_days"
     }
   ]
 }
