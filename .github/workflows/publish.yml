@@ -1,23 +1,44 @@
 name: publish packages
+# Publishes to npm and PyPI whenever a package version on main is new. Versions that already exist are skipped.
 on:
   push:
-    tags: ["v*"]          # a version tag such as v0.1.0 publishes both packages
+    branches: [main]
+    paths: ["packages/js/package.json", "packages/python/pyproject.toml", ".github/workflows/publish.yml"]
+  workflow_dispatch:
+concurrency:
+  group: publish
+  cancel-in-progress: false
 permissions:
   contents: read
 jobs:
   check:
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.v.outputs.version }}
+      npm_new: ${{ steps.npm.outputs.new }}
+      pypi_new: ${{ steps.pypi.outputs.new }}
     steps:
       - uses: actions/checkout@v4
-      - name: Tag must match both package versions
+      - name: Both packages must have the same version
+        id: v
         run: |
-          TAG="${GITHUB_REF_NAME#v}"
           JS=$(python3 -c "import json;print(json.load(open('packages/js/package.json'))['version'])")
           PY=$(python3 -c "import tomllib;print(tomllib.load(open('packages/python/pyproject.toml','rb'))['project']['version'])")
-          echo "tag=$TAG js=$JS py=$PY"
-          [ "$TAG" = "$JS" ] && [ "$TAG" = "$PY" ] || { echo "::error::Release tag $GITHUB_REF_NAME does not match the package versions"; exit 1; }
+          echo "js=$JS py=$PY"
+          [ "$JS" = "$PY" ] || { echo "::error::package versions differ"; exit 1; }
+          echo "version=$JS" >> "$GITHUB_OUTPUT"
+      - name: Is this version already on npm?
+        id: npm
+        run: |
+          if npm view "mv-academic-calendar@${{ steps.v.outputs.version }}" version >/dev/null 2>&1; then echo "new=false" >> "$GITHUB_OUTPUT"; else echo "new=true" >> "$GITHUB_OUTPUT"; fi
+      - name: Is this version already on PyPI?
+        id: pypi
+        run: |
+          code=$(curl -s -o /dev/null -w "%{http_code}" "https://pypi.org/pypi/mv-academic-calendar/${{ steps.v.outputs.version }}/json")
+          if [ "$code" = "200" ]; then echo "new=false" >> "$GITHUB_OUTPUT"; else echo "new=true" >> "$GITHUB_OUTPUT"; fi
   npm:
     needs: check
+    if: needs.check.outputs.npm_new == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -40,6 +61,7 @@ jobs:
           npm publish --provenance --access public
   pypi:
     needs: check
+    if: needs.check.outputs.pypi_new == 'true'
     runs-on: ubuntu-latest
     environment: pypi
     permissions:
