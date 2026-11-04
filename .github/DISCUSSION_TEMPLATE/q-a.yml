@@ -9,4 +9,4 @@ body:
     validations: { required: true }
   - type: input
     id: calendar
-    attributes: { label: Which calendar, if any, description: "For example 2026 or 2023-2024" }
+    attributes: { label: "Which calendar, if any", description: "For example 2026 or 2023-2024" }
