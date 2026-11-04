@@ -218,11 +218,11 @@ DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:385b3f741ad15f2e9c9e@mv-academic-calendar
+UID:037272b76f1323a56df8@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270901
-SUMMARY:New Admission - LKG & Gr.
+SUMMARY:New Admission - LKG & Gr. 1
 CATEGORIES:Other
 DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT

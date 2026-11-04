@@ -142,9 +142,9 @@
    "status": "current"
   },
   {
-   "id": "b19f1300817d426a2008",
+   "id": "eab226fa4a07274a396e",
    "start": "2015-06-18",
-   "name": "First of Ramazan 14",
+   "name": "First of Ramazan",
    "category": "other",
    "calendar": 2015,
    "status": "current"
@@ -2190,10 +2190,10 @@
    "status": "current"
   },
   {
-   "id": "4545b2d6f441da16b496",
+   "id": "75375de78a364e7cea7b",
    "start": "2023-05-26",
    "end": "2023-06-06",
-   "name": "Second Term Exam - Grade",
+   "name": "Second Term Exam - Grade 7,8,9,11 & 12",
    "category": "exam_days",
    "calendar": 2023,
    "status": "current"
@@ -2282,9 +2282,9 @@
    "status": "current"
   },
   {
-   "id": "8a16cb7750edfb3551d0",
+   "id": "e5dbf10e03c0e0e38c14",
    "start": "2023-09-03",
-   "name": "Classes begin for Grade",
+   "name": "Classes begin for Grade 11",
    "category": "other",
    "calendar": 2023,
    "status": "current"
@@ -2364,10 +2364,10 @@
    "status": "current"
   },
   {
-   "id": "16e71806a7fcb01d32d6",
+   "id": "0b9c02db8c1263430c65",
    "start": "2023-12-03",
    "end": "2023-12-14",
-   "name": "First Term Exam - Grade 7,8,9,11 &",
+   "name": "First Term Exam - Grade 7,8,9,11 & 12",
    "category": "exam_days",
    "calendar": 2023,
    "status": "current"
@@ -2457,10 +2457,10 @@
    "status": "tentative"
   },
   {
-   "id": "d5a7e5dc7a7e7c3c90f0",
+   "id": "af8a75df8e21e7630650",
    "start": "2024-02-09",
    "end": "2024-02-20",
-   "name": "Mock Exam - Grade 10 8 &",
+   "name": "Mock Exam - Grade 10",
    "category": "exam_days",
    "calendar": 2024,
    "status": "tentative"
@@ -2588,10 +2588,10 @@
    "status": "tentative"
   },
   {
-   "id": "37ffa6b6d3fa4f48baa0",
+   "id": "eaac9ad99a467f915f38",
    "start": "2024-08-11",
    "end": "2024-08-29",
-   "name": "Final Exam - Grade 11 &",
+   "name": "Final Exam - Grade 11 & 12",
    "category": "exam_days",
    "calendar": 2024,
    "status": "tentative"
@@ -2605,10 +2605,10 @@
    "status": "tentative"
   },
   {
-   "id": "a8f4849700f2ed945e1a",
+   "id": "732ff51a8e8b87370738",
    "start": "2024-09-10",
    "end": "2024-09-22",
-   "name": "First Term Exam - Grade 7,8,9 &",
+   "name": "First Term Exam - Grade 7,8,9 & 10",
    "category": "exam_days",
    "calendar": 2024,
    "status": "tentative"
@@ -3521,10 +3521,10 @@
    "status": "tentative"
   },
   {
-   "id": "385b3f741ad15f2e9c9e",
+   "id": "037272b76f1323a56df8",
    "start": "2027-07-04",
    "end": "2027-08-31",
-   "name": "New Admission - LKG & Gr.",
+   "name": "New Admission - LKG & Gr. 1",
    "category": "other",
    "calendar": 2027,
    "status": "tentative"

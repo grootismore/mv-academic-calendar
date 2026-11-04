@@ -20,7 +20,8 @@ def grid_cut(s):
                 int(t[i + run]) == int(t[i + run - 1]) + 1 or (t[i + run] == "1" and int(t[i + run - 1]) >= 28)):
             run += 1
         if run >= 4 and t[i].isdigit() and len(t[i]) <= 2:
-            return " ".join(t[:i])
+            keep = i + 1 if i and t[i - 1] in ("&", "and", ",") else i          # '… Grade 11 & 12 13 14 …': the 12 is a grade, not grid
+            return " ".join(t[:keep])
     return s
 
 def clean_name(s):
@@ -32,6 +33,12 @@ def clean_name(s):
     s = re.sub(r"(\s\d{1,2})\s\d{1,2}$", r"\1", s)                  # 'Period 1 9' -> 'Period 1'
     s = re.sub(r"\s+…\s.*$", "", s)                             # '… March, <next event>' run-ons
     s = re.sub(r"\s+", " ", re.sub(r"^[\s.,;:\-–]+|[\s;:\-–,]+$", "", s))            # leading '.,' / trailing ';'
+    prev = None
+    while prev != s:                                                     # truncated by the PDF line wrap: drop dangling tails
+        prev = s
+        s = re.sub(r"\s+(?:&|-|–|,|and|for|to|of|the)$|\s+(?:Grades?|Gr\.?)$", "", s).strip()
+        s = re.sub(r"(?<=[A-Za-z\)])\s(?:1[3-9]|[2-9]\d)$", "", s)       # 'Ramazan 14': a stray day number, not a grade/term
+        s = re.sub(r"(\s\d{1,2})\s\d{1,2}$", r"\1", s)
     return s if len(s) >= 3 and re.search(r"[A-Za-z]", s) and not JUNK.search(s) else None
 
 def normalize(doc):

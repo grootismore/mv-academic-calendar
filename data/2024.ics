@@ -58,11 +58,11 @@ DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d5a7e5dc7a7e7c3c90f0@mv-academic-calendar
+UID:af8a75df8e21e7630650@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20240209
 DTEND;VALUE=DATE:20240221
-SUMMARY:Mock Exam - Grade 10 8 &
+SUMMARY:Mock Exam - Grade 10
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
@@ -218,11 +218,11 @@ DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:37ffa6b6d3fa4f48baa0@mv-academic-calendar
+UID:eaac9ad99a467f915f38@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20240811
 DTEND;VALUE=DATE:20240830
-SUMMARY:Final Exam - Grade 11 &
+SUMMARY:Final Exam - Grade 11 & 12
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
@@ -238,11 +238,11 @@ DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:a8f4849700f2ed945e1a@mv-academic-calendar
+UID:732ff51a8e8b87370738@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20240910
 DTEND;VALUE=DATE:20240923
-SUMMARY:First Term Exam - Grade 7\,8\,9 &
+SUMMARY:First Term Exam - Grade 7\,8\,9 & 10
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT

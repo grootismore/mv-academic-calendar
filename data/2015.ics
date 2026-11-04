@@ -178,11 +178,11 @@ DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:b19f1300817d426a2008@mv-academic-calendar
+UID:eab226fa4a07274a396e@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20150618
 DTEND;VALUE=DATE:20150619
-SUMMARY:First of Ramazan 14
+SUMMARY:First of Ramazan
 CATEGORIES:Other
 DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT

@@ -38,7 +38,7 @@
     {
       "start": "2024-02-09",
       "end": "2024-02-20",
-      "name": "Mock Exam - Grade 10 8 &",
+      "name": "Mock Exam - Grade 10",
       "category": "exam_days"
     },
     {
@@ -121,7 +121,7 @@
     {
       "start": "2024-08-11",
       "end": "2024-08-29",
-      "name": "Final Exam - Grade 11 &",
+      "name": "Final Exam - Grade 11 & 12",
       "category": "exam_days"
     },
     {
@@ -132,7 +132,7 @@
     {
       "start": "2024-09-10",
       "end": "2024-09-22",
-      "name": "First Term Exam - Grade 7,8,9 &",
+      "name": "First Term Exam - Grade 7,8,9 & 10",
       "category": "exam_days"
     },
     {
