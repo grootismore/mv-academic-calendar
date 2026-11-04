@@ -1,11 +1,11 @@
 {
   "year": 2023,
   "source": "Ministry of Education, Maldives",
-  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_Term_2_2023_2024_Revised_8.1.2024_.pdf",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_2023_2024_Revised.pdf",
   "status": "current",
   "retrieved": "2026-11-04",
-  "note": "Parsed from \"Academic_Calendar_Term_2_2023_2024_Revised_8.1.2024_\".",
-  "pdf_sha256": "5851097d772504678a473681d7cdd14414e8e48cae9f9f685c04e13db11b03e9",
+  "note": "Parsed from \"Academic_Calendar_2023_2024_Revised\".",
+  "pdf_sha256": "cc67e62117c7252c9e9de79030727b90225836c5e483ff46644d82411a31b3e4",
   "events": [
     {
       "start": "2023-01-01",
@@ -14,115 +14,140 @@
     },
     {
       "start": "2023-01-07",
-      "name": "Beginning of Second Term JANUARY 14 15 16 17 18 19 20",
-      "category": "other"
-    },
-    {
-      "start": "2023-01-20",
-      "name": "PD Day - 2 21 22 23 24 25 26 27",
+      "name": "Beginning of Second Term JANUARY 14 15 16 17 18 19 20 21 22 23 24 25 26 27",
       "category": "other"
     },
     {
       "start": "2023-01-21",
       "end": "2023-02-08",
-      "name": "Term Exam - Grade 11 & 12",
+      "name": "First Term Exam - Grade 11",
       "category": "exam_days"
     },
     {
       "start": "2023-01-24",
-      "name": "World Education Day 28 29 30 31 1 2 3 4 5 6 7 8 9",
+      "name": "World Education Day",
+      "category": "other"
+    },
+    {
+      "start": "2023-01-25",
+      "name": "PD Day - 2 28 29 30 31 1 2 3 4 5 6 7 8 9",
       "category": "other"
     },
     {
       "start": "2023-02-10",
-      "name": "11 12 13 14 15 16 17 18 19 20 21 22 23 24",
+      "name": "11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 1 2",
       "category": "other"
     },
     {
-      "start": "2023-02-24",
-      "name": "PD Day - 3 25 26 27 28 29 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16",
+      "start": "2023-03-07",
+      "name": "PD Day - 3 3 4 5 6 7 8 9 10 11 12 13 14 15 16",
       "category": "other"
-    },
-    {
-      "start": "2023-02-25",
-      "end": "2023-03-14",
-      "name": "Second Term Exam- Grade 10 (Mock)",
-      "category": "exam_days"
     },
     {
       "start": "2023-03-11",
-      "name": "First of Ramadan MARCH 2024 17 18 19 20 21 22 23",
+      "name": "First of Ramadan MARCH 17 18 19 20 21 22 23",
       "category": "public_holiday"
     },
     {
       "start": "2023-03-17",
-      "end": "2023-03-21",
-      "name": "SSE and SIP 24 25 26 27 28 29 30 31 1 2 3 4 5 6",
-      "category": "other"
+      "end": "2023-03-28",
+      "name": "Second Term Exam - Grade 10 (Mock) 24 25 26 27 28 29 30 31 1 2 3 4 5 6",
+      "category": "exam_days"
     },
     {
-      "start": "2023-03-31",
-      "end": "2023-04-04",
+      "start": "2023-04-07",
+      "end": "2023-04-11",
       "name": "Second Term Mid Break",
       "category": "term_holidays"
     },
     {
-      "start": "2023-03-31",
-      "end": "2023-04-09",
-      "name": "Last 10 days of Ramazan 7 8 9 10 11 12 13",
-      "category": "other"
-    },
-    {
       "start": "2023-04-10",
-      "name": "Eid-al-Fitr APRIL 14 15 16 17 18 19 20",
+      "name": "Eid-al-Fitr 7 8 9 10 11 12",
       "category": "public_holiday"
     },
     {
       "start": "2023-04-11",
       "end": "2023-04-12",
-      "name": "On the occasion of Eid-al-Fitr 21 22 23 24 25 26 27 28 29 30 1 2 3 4",
+      "name": "On the occasion of Eid-al-Fitr 2024 21 22 23 24 25 26 27 28 29 30 1 2 3 4",
       "category": "public_holiday"
     },
     {
-      "start": "2023-04-16",
-      "end": "2023-04-27",
-      "name": "Second Term Exam - Grade 7,8 & 9",
-      "category": "exam_days"
-    },
-    {
-      "start": "2023-04-30",
-      "name": "End of Second Term",
+      "start": "2023-04-13",
+      "name": "14 15 16 17 18 19 20",
       "category": "other"
     },
     {
       "start": "2023-05-01",
-      "name": "Labour Day",
+      "name": "Labour Day 5 6 7 8 9 10 11",
       "category": "public_holiday"
     },
     {
-      "start": "2023-05-02",
-      "end": "2023-05-23",
-      "name": "Annual Holidays",
-      "category": "public_holiday"
+      "start": "2023-05-05",
+      "end": "2023-05-09",
+      "name": "SSE and SIP 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1",
+      "category": "other"
     },
     {
       "start": "2023-05-10",
-      "name": "Children's Day 5 6 7 8 9 10",
+      "name": "Children's Day",
       "category": "other"
     },
     {
-      "start": "2023-05-11",
-      "name": "12 13 14 15 16 17 18",
+      "start": "2023-05-26",
+      "end": "2023-06-06",
+      "name": "Second Term Exam - Grade 2 3 4 5 6 7 8 7,8,9,11 & 12 9 10 11 12 13 14 15",
+      "category": "exam_days"
+    },
+    {
+      "start": "2023-06-13",
+      "name": "End of Second Term",
       "category": "other"
+    },
+    {
+      "start": "2023-06-15",
+      "name": "Hajj Day",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2023-06-16",
+      "name": "Eid-al-Adha",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2023-06-16",
+      "end": "2023-07-30",
+      "name": "Annual Holidays 7 8 9 10 11 12",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2023-06-17",
+      "end": "2023-06-19",
+      "name": "On the occasion of Eid-al-Adha 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2023-07-13",
+      "name": "14 15 16 17 18 19 20",
+      "category": "other"
+    },
+    {
+      "start": "2023-07-26",
+      "name": "Independence Day 21 22 23 24 25 26 27 28 29 30 31 1 2 3",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2023-07-27",
+      "name": "On the occassion of Independence Day AUGUST 4 5 6 7 8 9 10",
+      "category": "public_holiday"
     },
     {
       "start": "2023-08-01",
-      "name": "Reporting Day for Teachers 6 7 8 9 10 11 12",
+      "name": "Reporting Day for Teachers",
       "category": "other"
     },
     {
       "start": "2023-08-06",
-      "name": "Beginning of Academic Year AUGUST 13 14 15 16 17 18 19 20 21 22 23 24 25 26",
+      "name": "Beginning of Academic Year 6 7 8 9 10 11",
       "category": "other"
     },
     {
@@ -130,6 +155,11 @@
       "end": "2023-12-21",
       "name": "93 MINISTRY OF EDUCATION Term 2",
       "category": "school_days"
+    },
+    {
+      "start": "2023-08-12",
+      "name": "13 14 15 16 17 18 19 20 21 22 23 24 25 26",
+      "category": "other"
     },
     {
       "start": "2023-08-20",
@@ -143,18 +173,13 @@
       "category": "other"
     },
     {
-      "start": "2023-09-11",
-      "name": "10 11 12 13 14 15 16",
-      "category": "other"
-    },
-    {
       "start": "2023-09-14",
       "name": "PD Day - 1",
       "category": "other"
     },
     {
       "start": "2023-09-16",
-      "name": "National Day 17 18 19 20 21 22 23 24 25 26 27 28 29 30",
+      "name": "National Day 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30",
       "category": "public_holiday"
     },
     {
@@ -168,11 +193,6 @@
       "category": "other"
     },
     {
-      "start": "2023-10-14",
-      "name": "15 16 17 18 19 20 21",
-      "category": "other"
-    },
-    {
       "start": "2023-10-15",
       "end": "2023-10-19",
       "name": "First Term Mid Break",
@@ -180,7 +200,7 @@
     },
     {
       "start": "2023-10-17",
-      "name": "The Day Maldives Embraced Islam 22 23 24 25 26 27 28 29 30 31 1 2 3 4",
+      "name": "The Day Maldives Embraced Islam 2023 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4",
       "category": "public_holiday"
     },
     {
@@ -190,13 +210,13 @@
     },
     {
       "start": "2023-11-11",
-      "name": "Republic Day",
+      "name": "Republic Day NOVEMBER 12 13 14 15 16 17 18",
       "category": "public_holiday"
     },
     {
       "start": "2023-11-12",
       "end": "2023-11-23",
-      "name": "First Term Exam - Grade 10 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9",
+      "name": "First Term Exam - Grade 10 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5 6 7 8 9",
       "category": "exam_days"
     },
     {
@@ -217,29 +237,29 @@
     },
     {
       "start": "2023-12-24",
-      "end": "2024-01-06",
+      "end": "2024-01-04",
       "name": "First Term Holidays 24 25 26 27 28 29 30 31 1 2 3 4 5 6",
       "category": "term_holidays"
     },
     {
       "start": "2024-01-07",
-      "end": "2024-04-30",
-      "name": "78 MALÉ, REPUBLIC OF MALDIVES Total 171 Revised",
+      "end": "2024-06-13",
+      "name": "108 MALÉ, REPUBLIC OF MALDIVES Total 201 YEAR MONTH CALENDAR DATES PUBLIC HOLIDAYS S M T W T F S 1 2 3 4 5",
       "category": "public_holiday"
     },
     {
-      "start": "2024-01-08",
-      "name": "CALENDAR DATES PUBLIC HOLIDAYS YEAR MONTH S M T W T F S 1 2 3 4 5",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2024-05-22",
-      "name": "Reporting Day for Teachers 19 20 21 22 23 24 25 26 27 28 29 30 31 1",
+      "start": "2024-07-28",
+      "name": "Reporting Day for Teachers",
       "category": "other"
     },
     {
-      "start": "2024-05-26",
-      "name": "Beginning of Academic Year School Days Exam Days Weekends Term Holidays Professional Development Days Public Holidays School Completion Examinations: Apr - June",
+      "start": "2024-07-31",
+      "name": "Beginning of Academic Year",
+      "category": "other"
+    },
+    {
+      "start": "2024-08-01",
+      "name": "Dhulhaheyo Hashiheyo Dhuvas School Days Exam Days Weekends Term Holidays Public Holidays Professional Development Days School Completion Examinations: Oct - Nov",
       "category": "exam_days"
     }
   ]
