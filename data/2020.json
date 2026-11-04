@@ -9,12 +9,6 @@
   "pdf_date": "2020-10-27",
   "events": [
     {
-      "start": "2020-01-10",
-      "end": "2020-06-24",
-      "name": "113 Revised on",
-      "category": "other"
-    },
-    {
       "start": "2020-02-18",
       "name": "Professional Development Day 5",
       "category": "other"
@@ -38,7 +32,7 @@
     },
     {
       "start": "2020-05-01",
-      "name": "Labour Day IAL, AL (Edexcel) & HSC Examinations",
+      "name": "Labour Day",
       "category": "exam_days"
     },
     {
@@ -150,7 +144,7 @@
     },
     {
       "start": "2020-10-08",
-      "name": "Professional Development Day 4 IAL, AL (Edexcel) & HSC Examinations",
+      "name": "Professional Development Day 4",
       "category": "exam_days"
     },
     {

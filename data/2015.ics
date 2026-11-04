@@ -78,11 +78,11 @@ DESCRIPTION:Term holidays · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:50065129174ff8799687@mv-academic-calendar
+UID:df0a770d0eff6fba418f@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20150421
 DTEND;VALUE=DATE:20150422
-SUMMARY:Professional Development Day 2 A'Level (Edexcel) & HSC Examinations
+SUMMARY:Professional Development Day 2
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
@@ -279,11 +279,11 @@ DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:2e2fd91d34565c1bfe83@mv-academic-calendar
+UID:93dd6c6a20794e192a3d@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20151005
 DTEND;VALUE=DATE:20151006
-SUMMARY:Teachers' Day IAL (Edexcel) Examinations
+SUMMARY:Teachers' Day
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT

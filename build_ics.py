@@ -5,7 +5,7 @@ from datetime import date, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = f"{HERE}/data"
-JUNK = re.compile(r"MINISTRY OF EDUCATION|CALENDAR DATES|PUBLIC HOLIDAYS MONTH|MALÉ, REPUBLIC|Total \d+|^\W*\d{4}\W*$", re.I)
+JUNK = re.compile(r"MINISTRY OF EDUCATION|CALENDAR DATES|PUBLIC HOLIDAYS MONTH|MALÉ, REPUBLIC|Total \d+|^\W*\d{4}\W*$|^\d+(\.\d+)?\s+(Revised|Total|Term)\b|\bRevised on\b\s*$|No\. of Days", re.I)   # header/table text, not events
 LEGEND = re.compile(r"\s*School days\s+Exam days.*$", re.I)
 MONTHS = r"(?:JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)"
 LABEL = {"public_holiday": "Public holiday", "school_days": "School days", "exam_days": "Exam days",
@@ -32,6 +32,7 @@ def clean_name(s):
     s = re.sub(r"^\d{1,2}\s*[-–]\s*[A-Z][a-z]{2,8}\s+\d{1,2}\s*:\s*", "", s)   # '31 - Nov 10: …' date-range remnants
     s = re.sub(r"(\s\d{1,2})\s\d{1,2}$", r"\1", s)                  # 'Period 1 9' -> 'Period 1'
     s = re.sub(r"\b(Rama[dz]an)\s+\d{1,2}$", r"\1", s)                # 'First of Ramadan 5' (stray grid number)
+    s = re.sub(r"\s+(?:IAL|A'Level|AL)\b[^()]*\(?Edexcel\)?.*$", "", s)         # exam notes from a neighbouring column glued onto a holiday name
     s = re.sub(r"\s+…\s.*$", "", s)                             # '… March, <next event>' run-ons
     s = re.sub(r"\s+", " ", re.sub(r"^[\s.,;:\-–]+|[\s;:\-–,]+$", "", s))            # leading '.,' / trailing ';'
     prev = None

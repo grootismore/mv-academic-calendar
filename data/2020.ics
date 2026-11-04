@@ -8,16 +8,6 @@ X-WR-TIMEZONE:Indian/Maldives
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
-UID:ff892d78008c4bff1be7@mv-academic-calendar
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20200110
-DTEND;VALUE=DATE:20200625
-SUMMARY:113 Revised on
-CATEGORIES:Other
-DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:34e2fde6d51d02f742b9@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20200218
@@ -58,11 +48,11 @@ DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:610e3f03d1608c205c57@mv-academic-calendar
+UID:d57113e12734c7e1210a@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20200501
 DTEND;VALUE=DATE:20200502
-SUMMARY:Labour Day IAL\, AL (Edexcel) & HSC Examinations
+SUMMARY:Labour Day
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
@@ -268,12 +258,11 @@ DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c9b6c8f96ec797003474@mv-academic-calendar
+UID:d52d8dca2e53fd2599bc@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20201008
 DTEND;VALUE=DATE:20201009
-SUMMARY:Professional Development Day 4 IAL\, AL (Edexcel) & HSC Examination
- s
+SUMMARY:Professional Development Day 4
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
