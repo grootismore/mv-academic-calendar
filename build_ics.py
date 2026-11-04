@@ -66,7 +66,8 @@ def normalize(doc):
     for e in out:
         if e.get("end") == e["start"]: del e["end"]
     out.sort(key=lambda e: (e["start"], e.get("end", e["start"]), e["name"]))
-    return {**doc, "events": out}
+    note = re.sub(r"\s*\u2014 review before saving\.?", ".", doc.get("note", "")).replace("Draft parsed from", "Parsed from")
+    return {**doc, **({"note": note} if "note" in doc else {}), "events": out}
 
 def esc(s):
     return s.replace("\\", "\\\\").replace(",", "\\,").replace(";", "\\;").replace("\n", "\\n")
