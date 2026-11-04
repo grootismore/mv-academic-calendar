@@ -1,74 +1,44 @@
 {
   "year": 2020,
   "source": "Ministry of Education, Maldives",
-  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/REVISED_Academic_Calendar_2020.pdf",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_2020_Revised_on_Oct_.pdf",
   "status": "current",
   "retrieved": "2026-11-04",
-  "note": "Parsed from \"REVISED_Academic_Calendar_2020\".",
-  "pdf_sha256": "4a5f76591532b7e6d690bf76d9d8eebb6c3f0086eab9d8d4a1dd94cce8840140",
+  "note": "Parsed from \"Academic_Calendar_2020_Revised_on_Oct_\".",
+  "pdf_sha256": "98af421a871a5e7c2eb72704ac622b02e008612d324fb82cdba18857b97d4e70",
   "events": [
     {
-      "start": "2020-01-01",
-      "name": "New Year",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2020-01-07",
-      "name": "Teachers' Reporting Day",
+      "start": "2020-01-10",
+      "end": "2020-06-24",
+      "name": "113 Revised on",
       "category": "other"
     },
     {
-      "start": "2020-01-12",
-      "name": "Beginning of Term 1",
+      "start": "2020-02-18",
+      "name": "Professional Development Day 5",
       "category": "other"
     },
     {
-      "start": "2020-01-12",
-      "end": "2020-05-21",
-      "name": "90 Term 2",
-      "category": "school_days"
-    },
-    {
-      "start": "2020-02-13",
-      "name": "Professional Development Day",
-      "category": "other"
-    },
-    {
-      "start": "2020-03-08",
-      "end": "2020-03-12",
-      "name": "First Term Mid-Term Holidays",
+      "start": "2020-03-07",
+      "end": "2020-03-11",
+      "name": "Second Term Mid-Term Holidays",
       "category": "term_holidays"
     },
     {
-      "start": "2020-03-15",
-      "name": "Beginning of High. Sec. Academic Year",
-      "category": "other"
+      "start": "2020-03-21",
+      "end": "2020-04-01",
+      "name": "Mock Exam (Grade 10 & 12)",
+      "category": "exam_days"
     },
     {
-      "start": "2020-04-16",
-      "name": "Professional Development Day 2",
-      "category": "other"
-    },
-    {
-      "start": "2020-04-24",
+      "start": "2020-04-13",
       "name": "First of Ramazan",
       "category": "other"
     },
     {
       "start": "2020-05-01",
-      "name": "Labour Day",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2020-05-04",
-      "name": "IAL, AL (Edexcel) & HSC Examinations",
+      "name": "Labour Day IAL, AL (Edexcel) & HSC Examinations",
       "category": "exam_days"
-    },
-    {
-      "start": "2020-05-06",
-      "end": "2020-05-21",
-      "name": "First Term Test and Reporting",
-      "category": "school_days"
     },
     {
       "start": "2020-05-10",
@@ -76,36 +46,53 @@
       "category": "other"
     },
     {
-      "start": "2020-05-21",
-      "name": "End of Term 1",
-      "category": "other"
+      "start": "2020-05-13",
+      "name": "Eid-ul Fithr GCE, GCSE, IGCSE & SSC Examinations",
+      "category": "exam_days"
     },
     {
-      "start": "2020-05-24",
-      "name": "Eid-ul Fithr",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2020-05-25",
-      "end": "2020-05-26",
+      "start": "2020-05-14",
+      "end": "2020-05-15",
       "name": "on the Occasion of Eid-ul Fithr",
       "category": "public_holiday"
     },
     {
-      "start": "2020-05-31",
-      "end": "2020-06-11",
-      "name": "First Term Holidays",
-      "category": "term_holidays"
+      "start": "2020-05-23",
+      "end": "2020-06-10",
+      "name": "Second Term Test",
+      "category": "school_days"
     },
     {
-      "start": "2020-06-14",
-      "name": "Beginning of Term 2",
+      "start": "2020-06-24",
+      "name": "End of Term 2",
       "category": "other"
+    },
+    {
+      "start": "2020-06-27",
+      "end": "2020-08-08",
+      "name": "Second Term Holidays",
+      "category": "term_holidays"
     },
     {
       "start": "2020-07-16",
       "name": "Professional Development Day 3",
       "category": "other"
+    },
+    {
+      "start": "2020-07-19",
+      "name": "Hajju Day",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2020-07-20",
+      "name": "Eid-ul Al'haa",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2020-07-21",
+      "end": "2020-07-23",
+      "name": "on the Occasion of Eid-ul Al'haa",
+      "category": "public_holiday"
     },
     {
       "start": "2020-07-26",
@@ -136,14 +123,13 @@
     {
       "start": "2020-08-02",
       "end": "2020-08-06",
-      "name": "Second Term Mid-Term Holidays",
+      "name": "First Term Mid-Term Holidays",
       "category": "term_holidays"
     },
     {
-      "start": "2020-08-16",
-      "end": "2020-08-27",
-      "name": "Mock Exam (Gr. 10 )",
-      "category": "exam_days"
+      "start": "2020-08-09",
+      "name": "Islamic New Year (1 Mu'harram 1443)",
+      "category": "public_holiday"
     },
     {
       "start": "2020-08-20",
@@ -151,14 +137,26 @@
       "category": "public_holiday"
     },
     {
-      "start": "2020-10-01",
-      "name": "GCE O'Level, IGCSE & SSC Examinations",
+      "start": "2020-09-06",
+      "end": "2020-09-21",
+      "name": "Mock Exam (Grade 12)",
       "category": "exam_days"
     },
     {
       "start": "2020-10-05",
       "name": "Teachers' Day",
       "category": "other"
+    },
+    {
+      "start": "2020-10-08",
+      "name": "Professional Development Day 4 IAL, AL (Edexcel) & HSC Examinations",
+      "category": "exam_days"
+    },
+    {
+      "start": "2020-10-11",
+      "end": "2020-10-28",
+      "name": "First Term Test (Grade 10)",
+      "category": "school_days"
     },
     {
       "start": "2020-10-18",
@@ -176,6 +174,12 @@
       "category": "public_holiday"
     },
     {
+      "start": "2020-11-08",
+      "end": "2020-11-26",
+      "name": "First Term Test",
+      "category": "school_days"
+    },
+    {
       "start": "2020-11-11",
       "name": "Republic Day",
       "category": "public_holiday"
@@ -186,19 +190,34 @@
       "category": "public_holiday"
     },
     {
-      "start": "2020-11-24",
-      "name": "Second Term Test",
-      "category": "school_days"
-    },
-    {
       "start": "2020-12-03",
-      "name": "End of Term 2",
+      "name": "End of Term 1",
       "category": "other"
     },
     {
       "start": "2021-01-01",
       "name": "New Year",
       "category": "public_holiday"
+    },
+    {
+      "start": "2021-01-05",
+      "name": "Teachers' Reporting Day",
+      "category": "other"
+    },
+    {
+      "start": "2021-01-07",
+      "name": "First Term Holidays",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2021-01-10",
+      "name": "Beginning of Term 2",
+      "category": "other"
+    },
+    {
+      "start": "2021-08-03",
+      "name": "Teachers' Reporting Day",
+      "category": "other"
     }
   ]
 }
