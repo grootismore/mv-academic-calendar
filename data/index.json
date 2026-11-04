@@ -3,7 +3,7 @@
   {
    "year": 2015,
    "status": "current",
-   "events": 38,
+   "events": 39,
    "retrieved": "2026-11-04",
    "json": "data/2015.json",
    "ics": "data/2015.ics"
@@ -35,7 +35,7 @@
   {
    "year": 2020,
    "status": "current",
-   "events": 40,
+   "events": 38,
    "retrieved": "2026-11-04",
    "json": "data/2020.json",
    "ics": "data/2020.ics"
@@ -43,7 +43,7 @@
   {
    "year": 2021,
    "status": "current",
-   "events": 38,
+   "events": 36,
    "retrieved": "2026-11-04",
    "json": "data/2021.json",
    "ics": "data/2021.ics"
@@ -59,7 +59,7 @@
   {
    "year": 2023,
    "status": "current",
-   "events": 36,
+   "events": 41,
    "retrieved": "2026-11-04",
    "json": "data/2023.json",
    "ics": "data/2023.ics"
