@@ -1,0 +1,43 @@
+# Using the data in your app
+
+Load `data/all.json` and **upsert each event by its `id`**.
+
+## Table
+
+```sql
+CREATE TABLE academic_events (
+  id         text PRIMARY KEY,
+  calendar   integer NOT NULL,
+  file       text NOT NULL,
+  status     text NOT NULL,
+  category   text NOT NULL,
+  name       text NOT NULL,
+  start_date date NOT NULL,
+  end_date   date            -- inclusive; NULL means one day
+);
+```
+
+## Keeping it in sync
+
+Events can be renamed or removed when the Ministry revises a calendar. To handle that, sync one calendar at a time:
+delete your rows for that `file`, then insert its events, inside one transaction. Running it once a day is plenty.
+
+## Mobile apps
+
+- Bundle a copy of `all.json` so the app works offline, then refresh it from your own backend.
+- Parse dates as local dates, not UTC.
+- For phone calendars, subscribe to the `.ics` file instead of importing events.
+
+## Node and PostgreSQL
+
+```js
+import pg from "pg";
+const { events } = await (await fetch("https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/data/all.json")).json();
+const db = new pg.Client({ connectionString: process.env.DATABASE_URL }); await db.connect();
+for (const e of events)
+  await db.query(
+    `INSERT INTO academic_events (id, calendar, file, status, category, name, start_date, end_date)
+     VALUES ($1,$2,$3,$4,$5,$6,$7,$8)
+     ON CONFLICT (id) DO UPDATE SET status=$4, category=$5, name=$6, start_date=$7, end_date=$8`,
+    [e.id, e.calendar, e.file, e.status, e.category, e.name, e.start, e.end ?? null]);
+```

@@ -1,0 +1,9 @@
+title: "[Idea] "
+body:
+  - type: textarea
+    id: idea
+    attributes: { label: What would you like to see, description: "A new field, a new format, more years" }
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes: { label: What it would help you do }

@@ -1,0 +1,27 @@
+name: publish wiki
+on:
+  push:
+    branches: [main]
+    paths: ["docs/wiki/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: wiki
+  cancel-in-progress: false
+jobs:
+  wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy docs/wiki into the wiki
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git clone "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.wiki.git" /tmp/wiki \
+            || { echo "::error::The wiki has no page yet. Open the Wiki tab, create any first page, then re-run this workflow."; exit 1; }
+          rsync -a --delete --exclude .git docs/wiki/ /tmp/wiki/
+          cd /tmp/wiki
+          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "Update wiki" && git push)
