@@ -1,6 +1,7 @@
 {
  "files": [
   {
+   "file": "2015",
    "year": 2015,
    "status": "current",
    "events": 39,
@@ -9,6 +10,7 @@
    "ics": "data/2015.ics"
   },
   {
+   "file": "2017",
    "year": 2017,
    "status": "current",
    "events": 37,
@@ -17,6 +19,7 @@
    "ics": "data/2017.ics"
   },
   {
+   "file": "2018",
    "year": 2018,
    "status": "current",
    "events": 34,
@@ -25,6 +28,7 @@
    "ics": "data/2018.ics"
   },
   {
+   "file": "2019",
    "year": 2019,
    "status": "current",
    "events": 35,
@@ -33,6 +37,7 @@
    "ics": "data/2019.ics"
   },
   {
+   "file": "2020",
    "year": 2020,
    "status": "current",
    "events": 38,
@@ -41,30 +46,34 @@
    "ics": "data/2020.ics"
   },
   {
+   "file": "2021-2022",
    "year": 2021,
+   "status": "current",
+   "events": 39,
+   "retrieved": "2026-11-04",
+   "json": "data/2021-2022.json",
+   "ics": "data/2021-2022.ics"
+  },
+  {
+   "file": "2022-2023",
+   "year": 2022,
+   "status": "current",
+   "events": 37,
+   "retrieved": "2026-11-04",
+   "json": "data/2022-2023.json",
+   "ics": "data/2022-2023.ics"
+  },
+  {
+   "file": "2023-2024",
+   "year": 2023,
    "status": "current",
    "events": 36,
    "retrieved": "2026-11-04",
-   "json": "data/2021.json",
-   "ics": "data/2021.ics"
+   "json": "data/2023-2024.json",
+   "ics": "data/2023-2024.ics"
   },
   {
-   "year": 2022,
-   "status": "final",
-   "events": 37,
-   "retrieved": "2026-11-04",
-   "json": "data/2022.json",
-   "ics": "data/2022.ics"
-  },
-  {
-   "year": 2023,
-   "status": "current",
-   "events": 41,
-   "retrieved": "2026-11-04",
-   "json": "data/2023.json",
-   "ics": "data/2023.ics"
-  },
-  {
+   "file": "2024",
    "year": 2024,
    "status": "current",
    "events": 46,
@@ -73,6 +82,7 @@
    "ics": "data/2024.ics"
   },
   {
+   "file": "2025",
    "year": 2025,
    "status": "final",
    "events": 45,
@@ -81,6 +91,7 @@
    "ics": "data/2025.ics"
   },
   {
+   "file": "2026",
    "year": 2026,
    "status": "final",
    "events": 43,
@@ -89,6 +100,7 @@
    "ics": "data/2026.ics"
   },
   {
+   "file": "2027",
    "year": 2027,
    "status": "tentative",
    "events": 42,

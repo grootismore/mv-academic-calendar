@@ -24,7 +24,7 @@ Base URL: `https://raw.githubusercontent.com/grootismore/mv-academic-calendar/ma
 |---|---|
 | `data/index.json` | list of available years: status, entry count, paths |
 | `data/all.json` | every event from every year in one flat list |
-| `data/<year>.json` | one year, with source and status |
+| `data/<year>.json` | one calendar, with source and status. Academic years that run August to June are `data/2023-2024.json` |
 | `data/<year>.ics` | the same as iCalendar, subscribe in any calendar app |
 | `data/schema.json` | JSON Schema for the year files |
 | `llms.txt` | short pointer file for AI tools |
@@ -48,7 +48,7 @@ Calendar subscription: add `…/data/2026.ics` as a URL calendar.
 ## Format
 
 Each event: `start` (ISO date), optional `end` (inclusive ISO date; absent means one day), `name`, `category`.
-In `all.json` each event also has a stable `id`, `calendar` (the year file it came from) and `status`.
+In `all.json` each event also has a stable `id`, `calendar` (the year the file starts in), `file` (the file name without extension, such as `2026` or `2023-2024`) and `status`.
 
 - `category`: `public_holiday`, `school_days`, `exam_days`, `term_holidays`, `other` (MoE's own)
 - `status`: `final` (MoE final) > `current` (taken from the MoE page, no status stated) > `tentative` (MoE draft; may change)

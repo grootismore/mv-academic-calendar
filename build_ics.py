@@ -31,6 +31,7 @@ def clean_name(s):
     s = re.sub(r"\(\s*[\u0600-\u06FF\s]+\)", "", s)               # reversed Arabic honorific the PDF text layer emits
     s = re.sub(r"^\d{1,2}\s*[-–]\s*[A-Z][a-z]{2,8}\s+\d{1,2}\s*:\s*", "", s)   # '31 - Nov 10: …' date-range remnants
     s = re.sub(r"(\s\d{1,2})\s\d{1,2}$", r"\1", s)                  # 'Period 1 9' -> 'Period 1'
+    s = re.sub(r"\b(Rama[dz]an)\s+\d{1,2}$", r"\1", s)                # 'First of Ramadan 5' (stray grid number)
     s = re.sub(r"\s+…\s.*$", "", s)                             # '… March, <next event>' run-ons
     s = re.sub(r"\s+", " ", re.sub(r"^[\s.,;:\-–]+|[\s;:\-–,]+$", "", s))            # leading '.,' / trailing ';'
     prev = None
@@ -41,15 +42,16 @@ def clean_name(s):
         s = re.sub(r"(\s\d{1,2})\s\d{1,2}$", r"\1", s)
     return s if len(s) >= 3 and re.search(r"[A-Za-z]", s) and not JUNK.search(s) else None
 
-def normalize(doc):
+def normalize(doc, years=None):
     """Clean names, drop junk/duplicates, merge same-name entries that overlap or touch into one range."""
-    evs, y = [], str(doc["year"])
+    evs, ys = [], years or [str(doc["year"])]
     for e in doc["events"]:
         n = clean_name(e["name"])
         if not n: continue
         yrs = re.findall(r"\b20\d\d\b", n)
-        if any(v != y for v in yrs): continue                 # belongs to a neighbouring year's page (e.g. 'New Year 2027' in 2026)
-        n = re.sub(r"\s*\b" + y + r"\b", "", n).strip() or None   # year in the name is redundant
+        if any(v not in ys for v in yrs): continue            # belongs to a neighbouring year's page (e.g. 'New Year 2027' in 2026)
+        for y in ys: n = re.sub(r"\s*\b" + y + r"\b", "", n).strip()          # year in the name is redundant
+        n = n or None
         if n and len(n) <= 100 and not re.match(r"^\d+(\.\d+)?(\s+\d+(\.\d+)?){2,}", n) and not re.match(r"^\(", n) and not re.search(r"\sand$", n):
             evs.append({**e, "name": n})
     evs.sort(key=lambda e: (e["name"].lower(), e["start"]))
@@ -81,18 +83,18 @@ def fold(line):                      # RFC 5545: <=75 octets per line, continuat
     parts.append(b.decode())
     return "\r\n ".join(parts)
 
-def event_id(year, e):                # stable across edits to other rows; same value feeds the ICS UID
-    return hashlib.sha1(f"{year}|{e['name'].lower()}|{e['start']}".encode()).hexdigest()[:20]
+def event_id(stem, e):                # stable across edits to other rows; same value feeds the ICS UID
+    return hashlib.sha1(f"{stem}|{e['name'].lower()}|{e['start']}".encode()).hexdigest()[:20]
 
-def to_ics(d):
+def to_ics(d, stem):
     stamp = d["retrieved"].replace("-", "") + "T000000Z"
     out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//mv-academic-calendar//EN", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
-           f"X-WR-CALNAME:Maldives Academic Calendar {d['year']}", "X-WR-TIMEZONE:Indian/Maldives",
+           f"X-WR-CALNAME:Maldives Academic Calendar {stem}", "X-WR-TIMEZONE:Indian/Maldives",
            "REFRESH-INTERVAL;VALUE=DURATION:P1D", "X-PUBLISHED-TTL:PT24H"]
     for e in d["events"]:
         start = date.fromisoformat(e["start"])
         end = date.fromisoformat(e.get("end", e["start"])) + timedelta(days=1)       # DTEND is exclusive
-        uid = event_id(d["year"], e)
+        uid = event_id(stem, e)
         out += ["BEGIN:VEVENT", f"UID:{uid}@mv-academic-calendar", f"DTSTAMP:{stamp}",
                 f"DTSTART;VALUE=DATE:{start:%Y%m%d}", f"DTEND;VALUE=DATE:{end:%Y%m%d}",
                 f"SUMMARY:{esc(e['name'])}", f"CATEGORIES:{LABEL.get(e['category'], e['category'])}",
@@ -105,17 +107,19 @@ def write(path, text, newline="\n"):
     with open(path, "w", encoding="utf-8", newline=newline) as f: f.write(text)
 
 def build(path):
-    d = normalize(json.load(open(path, encoding="utf-8")))
+    stem = os.path.basename(path)[:-5]                      # "2026" or an academic year "2023-2024"
+    span = re.fullmatch(r"(\d{4})-(\d{4})", stem)
+    d = normalize(json.load(open(path, encoding="utf-8")), list(span.groups()) if span else None)
     assert all(date.fromisoformat(e["start"]) <= date.fromisoformat(e.get("end", e["start"])) for e in d["events"]), path
     write(path, json.dumps(d, indent=2, ensure_ascii=False) + "\n")       # same shape the admin page saves
-    write(path[:-5] + ".ics", to_ics(d), newline="")
-    return d
+    write(path[:-5] + ".ics", to_ics(d, stem), newline="")
+    return stem, d
 
 def build_index(docs):
-    docs = sorted(docs, key=lambda d: d["year"])
-    idx = {"files": [{"year": d["year"], "status": d["status"], "events": len(d["events"]), "retrieved": d["retrieved"],
-                      "json": f"data/{d['year']}.json", "ics": f"data/{d['year']}.ics"} for d in docs]}
-    allj = {"events": [{"id": event_id(d["year"], e), **e, "calendar": d["year"], "status": d["status"]} for d in docs for e in d["events"]]}
+    docs = sorted(docs, key=lambda sd: sd[0])
+    idx = {"files": [{"file": stem, "year": d["year"], "status": d["status"], "events": len(d["events"]), "retrieved": d["retrieved"],
+                      "json": f"data/{stem}.json", "ics": f"data/{stem}.ics"} for stem, d in docs]}
+    allj = {"events": [{"id": event_id(stem, e), **e, "calendar": d["year"], "file": stem, "status": d["status"]} for stem, d in docs for e in d["events"]]}
     for name, obj in (("index", idx), ("all", allj)):
         write(f"{DATA}/{name}.json", json.dumps(obj, indent=1, ensure_ascii=False) + "\n")
 

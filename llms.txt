@@ -2,7 +2,7 @@
 
 Start here: data/index.json (list of years, status, counts, file paths).
 All events in one file: data/all.json -> {"events":[{id, start, end?, name, category, calendar, status}]}; `id` is stable, upsert on it.
-One year: data/<year>.json (schema: data/schema.json). Calendar apps: data/<year>.ics.
+One calendar: data/<year>.json, or data/<year>-<year+1>.json for an August–June academic year (schema: data/schema.json). Calendar apps: data/<year>.ics.
 Raw base URL: https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/
 Dates are ISO 8601; `end` is inclusive. category: public_holiday | school_days | exam_days | term_holidays | other.
 status: final > current > tentative in reliability. Always verify against https://www.moe.gov.mv/en/academic-calendar
