@@ -18,7 +18,7 @@ Please credit it like this:
 
 ## What is not licensed here
 
-- **The Ministry's own publications.** The calendars the data is read from are published by the Ministry of Education, Republic of Maldives, whose site states "All Rights Reserved". Those documents are not part of this repository, and this licence does not cover them. This project does not claim any rights in them, is not endorsed by or affiliated with the Ministry, and does not claim or imply the Ministry's permission.
+- **The Ministry's own publications.** The calendars the data is read from are published by the Ministry of Education, Republic of Maldives. Those documents are not part of this repository, and this licence does not cover them. This project does not claim any rights in them, is not endorsed by or affiliated with the Ministry, and does not claim or imply the Ministry's permission.
 - **Names, logos and marks** of the Ministry or of any other organisation.
 
 ## No warranty

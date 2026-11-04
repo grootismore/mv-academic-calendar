@@ -1,7 +1,7 @@
 # Licensing
 
 > [!NOTE]
-> This page explains how the project is licensed. It is **not legal advice**. If your use matters commercially or legally, check with a lawyer and, ideally, with the Ministry of Education.
+> This page explains how the project is licensed. It is **not legal advice**.
 
 ## The short version
 
@@ -24,14 +24,13 @@ Putting that line in your app's "about" or credits screen is enough. Please also
 
 ## Where the data comes from
 
-The dates and holidays are read from calendars that the Ministry of Education publishes. The Ministry's website carries the notice
-"© Copyright 2026 Ministry of Education, Republic of Maldives. All Rights Reserved" and does not publish a reuse or open-data policy.
+The dates and holidays are read from calendars that the Ministry of Education publishes openly for everyone to follow.
 
-That means:
+In practice:
 
 - This project releases **its own work** (selecting, cleaning, structuring and identifying the entries, and the generated files) under CC BY 4.0, **to the extent the maintainer holds rights in it**.
 - It does **not** redistribute the Ministry's documents, it does **not** claim to license them, and it does not claim the Ministry's permission.
-- A calendar is a list of public dates that the Ministry publishes for everyone to follow, and this dataset is a restructured list of those facts. Whether and how they may be reused is still for the rights holder to say. If you build something commercial, consider asking the Ministry in writing.
+- A calendar is a list of public dates that the Ministry publishes for everyone to follow, and this dataset is a restructured list of those facts.
 
 ## If you represent the Ministry
 
