@@ -19,10 +19,22 @@ def build(path):
     out.append("END:VCALENDAR")
     open(path[:-5] + ".ics", "w", newline="", encoding="utf-8").write("\r\n".join(out) + "\r\n")
 
+def build_index(files):
+    """data/index.json (manifest) + data/all.json (every event, flat) so consumers need one fetch."""
+    docs = sorted((json.load(open(f, encoding="utf-8")) for f in files), key=lambda d: d["year"])
+    files_out = [{"year": d["year"], "status": d["status"], "events": len(d["events"]), "retrieved": d["retrieved"],
+                  "json": f"data/{d['year']}.json", "ics": f"data/{d['year']}.ics"} for d in docs]
+    events = [{**e, "calendar": d["year"], "status": d["status"]} for d in docs for e in d["events"]]
+    here = os.path.dirname(os.path.abspath(__file__))
+    for name, obj in (("index", {"files": files_out}), ("all", {"events": events})):
+        open(f"{here}/data/{name}.json", "w", encoding="utf-8", newline="\n").write(json.dumps(obj, indent=1, ensure_ascii=False) + "\n")
+
 if __name__ == "__main__":
     here = os.path.dirname(os.path.abspath(__file__))
-    files = [f"{here}/data/{y}.json" for y in sys.argv[1:]] or glob.glob(f"{here}/data/*.json")
+    every = sorted(glob.glob(f"{here}/data/[0-9]*.json"))      # year files only, not index.json/all.json
+    files = [f"{here}/data/{y}.json" for y in sys.argv[1:]] or every
     for f in files:
         build(f)
         assert all(date.fromisoformat(e["start"]) <= date.fromisoformat(e.get("end", e["start"]))
                    for e in json.load(open(f, encoding="utf-8"))["events"]), f
+    build_index(every)

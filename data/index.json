@@ -1,0 +1,100 @@
+{
+ "files": [
+  {
+   "year": 2015,
+   "status": "current",
+   "events": 51,
+   "retrieved": "2026-11-04",
+   "json": "data/2015.json",
+   "ics": "data/2015.ics"
+  },
+  {
+   "year": 2017,
+   "status": "current",
+   "events": 51,
+   "retrieved": "2026-11-04",
+   "json": "data/2017.json",
+   "ics": "data/2017.ics"
+  },
+  {
+   "year": 2018,
+   "status": "current",
+   "events": 48,
+   "retrieved": "2026-11-04",
+   "json": "data/2018.json",
+   "ics": "data/2018.ics"
+  },
+  {
+   "year": 2019,
+   "status": "current",
+   "events": 48,
+   "retrieved": "2026-11-04",
+   "json": "data/2019.json",
+   "ics": "data/2019.ics"
+  },
+  {
+   "year": 2020,
+   "status": "current",
+   "events": 47,
+   "retrieved": "2026-11-04",
+   "json": "data/2020.json",
+   "ics": "data/2020.ics"
+  },
+  {
+   "year": 2021,
+   "status": "current",
+   "events": 45,
+   "retrieved": "2026-11-04",
+   "json": "data/2021.json",
+   "ics": "data/2021.ics"
+  },
+  {
+   "year": 2022,
+   "status": "current",
+   "events": 46,
+   "retrieved": "2026-11-04",
+   "json": "data/2022.json",
+   "ics": "data/2022.ics"
+  },
+  {
+   "year": 2023,
+   "status": "current",
+   "events": 48,
+   "retrieved": "2026-11-04",
+   "json": "data/2023.json",
+   "ics": "data/2023.ics"
+  },
+  {
+   "year": 2024,
+   "status": "tentative",
+   "events": 46,
+   "retrieved": "2026-11-04",
+   "json": "data/2024.json",
+   "ics": "data/2024.ics"
+  },
+  {
+   "year": 2025,
+   "status": "tentative",
+   "events": 48,
+   "retrieved": "2026-11-04",
+   "json": "data/2025.json",
+   "ics": "data/2025.ics"
+  },
+  {
+   "year": 2026,
+   "status": "tentative",
+   "events": 51,
+   "retrieved": "2026-11-04",
+   "json": "data/2026.json",
+   "ics": "data/2026.ics"
+  },
+  {
+   "year": 2027,
+   "status": "tentative",
+   "events": 53,
+   "retrieved": "2026-11-04",
+   "json": "data/2027.json",
+   "ics": "data/2027.ics"
+  }
+ ]
+}

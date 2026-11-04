@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Maldives academic calendar (one year file, data/<year>.json)",
+  "type": "object",
+  "required": ["year", "source", "status", "events"],
+  "properties": {
+    "year": { "type": "integer" },
+    "source": { "type": "string" },
+    "source_url": { "type": "string" },
+    "status": { "enum": ["tentative", "final", "current"], "description": "tentative = MoE draft, final = MoE final, current = taken from the MoE page without a stated status" },
+    "retrieved": { "type": "string", "format": "date" },
+    "note": { "type": "string" },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["start", "name", "category"],
+        "properties": {
+          "start": { "type": "string", "format": "date" },
+          "end": { "type": "string", "format": "date", "description": "inclusive last day; absent = single day" },
+          "name": { "type": "string" },
+          "category": { "enum": ["public_holiday", "school_days", "exam_days", "term_holidays", "other"] }
+        }
+      }
+    }
+  }
+}
