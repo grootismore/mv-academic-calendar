@@ -7,6 +7,8 @@ Ministry of Education's published calendars. **Unofficial.** Always check the
 ## Files
 
 - `data/<year>.json` – source of truth
+- `build_ics.py` – JSON → ICS
+
 
 ## Schema
 
@@ -15,6 +17,7 @@ Each file: `year`, `source`, `source_url`, `status` (`tentative` | `final` | `cu
 
 Each event: `start` (ISO date), optional `end` (inclusive ISO date), `name`, `category`
 (MoE's own: `public_holiday`, `school_days`, `exam_days`, `term_holidays`, `other`).
+Files imported from a PDF also carry `pdf_sha256` (used to skip unchanged PDFs).
 
 ## Updating
 
@@ -23,5 +26,4 @@ The MoE publishes tentative and revised calendars. Update the JSON, set `status`
 
 ## Coverage
 
-- 2026 (MoE school calendar)
-
+2015, 2017–2027 (see `data/`).
