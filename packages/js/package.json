@@ -9,22 +9,54 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js", "require": "./dist/index.cjs" },
-    "./ics": { "types": "./dist/ics.d.ts", "import": "./dist/ics.js", "require": "./dist/ics.cjs" },
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./ics": {
+      "types": "./dist/ics.d.ts",
+      "import": "./dist/ics.js",
+      "require": "./dist/ics.cjs"
+    },
     "./package.json": "./package.json"
   },
-  "files": ["dist", "README.md", "LICENSE", "DATA-LICENSE.md"],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "DATA-LICENSE.md"
+  ],
   "sideEffects": false,
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "sync": "python3 ../sync_data.py",
     "build": "npm run sync && node scripts/build.mjs",
     "test": "npm run build && node --test test/index.test.js",
     "prepublishOnly": "npm test"
   },
-  "repository": { "type": "git", "url": "git+https://github.com/grootismore/mv-academic-calendar.git", "directory": "packages/js" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grootismore/mv-academic-calendar.git",
+    "directory": "packages/js"
+  },
   "homepage": "https://github.com/grootismore/mv-academic-calendar#readme",
   "bugs": "https://github.com/grootismore/mv-academic-calendar/issues",
-  "keywords": ["maldives", "academic-calendar", "school-calendar", "holidays", "ics", "icalendar", "open-data"],
-  "devDependencies": { "esbuild": "^0.25.0" }
+  "keywords": [
+    "maldives",
+    "academic-calendar",
+    "school-calendar",
+    "holidays",
+    "ics",
+    "icalendar",
+    "open-data"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

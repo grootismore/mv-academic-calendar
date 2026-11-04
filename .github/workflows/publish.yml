@@ -1,5 +1,6 @@
 name: publish packages
-# Publishes to npm and PyPI whenever a package version on main is new. Versions that already exist are skipped.
+# Publishes to PyPI and stages on npm whenever a package version on main is new. Versions that already exist are skipped.
+# npm: after the run, approve the staged package at npmjs.com (Staged Packages tab, 2FA).
 on:
   push:
     branches: [main]
@@ -52,13 +53,17 @@ jobs:
       - name: Skip when no npm token is configured
         if: env.NODE_AUTH_TOKEN == ''
         run: echo "::warning::NPM_TOKEN is not set, skipping the npm publish"
-      - if: env.NODE_AUTH_TOKEN != ''
+      - name: Stage the package for approval
+        if: env.NODE_AUTH_TOKEN != ''
         working-directory: packages/js
         run: |
+          npm install -g npm@latest           # staged publishing needs npm 11.15 or newer
+          npm --version
           cp ../../LICENSE ../../DATA-LICENSE.md .
           npm install --no-audit --no-fund
           npm test
-          npm publish --provenance --access public
+          npm stage publish                   # does not need 2FA; a maintainer approves it afterwards on npmjs.com ("Staged Packages")
+          npm stage list || true
   pypi:
     needs: check
     if: needs.check.outputs.pypi_new == 'true'
