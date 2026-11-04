@@ -18,10 +18,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          git clone "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.wiki.git" /tmp/wiki \
-            || { echo "::error::The wiki has no page yet. Open the Wiki tab, create any first page, then re-run this workflow."; exit 1; }
-          rsync -a --delete --exclude .git docs/wiki/ /tmp/wiki/
-          cd /tmp/wiki
-          git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          URL="https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.wiki.git"
+          git config --global user.name "github-actions[bot]"; git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git clone "$URL" /tmp/wiki 2>/dev/null; then
+            rsync -a --delete --exclude .git docs/wiki/ /tmp/wiki/
+            cd /tmp/wiki
+          else
+            echo "No wiki repository yet: creating it from docs/wiki"      # works when the wiki is enabled but has no page
+            mkdir /tmp/wiki && cp -r docs/wiki/. /tmp/wiki/ && cd /tmp/wiki
+            git init -q -b master && git remote add origin "$URL"
+          fi
           git add -A
-          git diff --cached --quiet || (git commit -m "Update wiki" && git push)
+          git diff --cached --quiet || { git commit -q -m "Update wiki"; git push origin HEAD:master; }
