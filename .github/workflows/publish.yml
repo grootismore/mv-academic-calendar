@@ -1,7 +1,7 @@
 name: publish packages
 on:
-  release:
-    types: [published]
+  push:
+    tags: ["v*"]          # a version tag such as v0.1.0 publishes both packages
 permissions:
   contents: read
 jobs:
