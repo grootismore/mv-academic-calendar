@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Official calendar (Ministry of Education)
+    url: https://www.moe.gov.mv/en/academic-calendar
+    about: This dataset is unofficial. For the authoritative calendar, use the MoE site.

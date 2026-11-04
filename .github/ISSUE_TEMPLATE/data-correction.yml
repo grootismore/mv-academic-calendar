@@ -1,0 +1,19 @@
+name: Data correction
+description: A date, name or category in the calendar looks wrong
+labels: [data]
+body:
+  - type: input
+    id: year
+    attributes: { label: Calendar year, placeholder: "2026" }
+    validations: { required: true }
+  - type: input
+    id: event
+    attributes: { label: Event, description: "Name and date as it appears in the data", placeholder: "Eid-al-Adha, 2026-05-27" }
+    validations: { required: true }
+  - type: textarea
+    id: problem
+    attributes: { label: What is wrong, description: "What it should say instead" }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: Source, description: "Link to the MoE calendar or circular that shows the correct value" }
