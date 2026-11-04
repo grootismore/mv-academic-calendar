@@ -24,3 +24,4 @@ The MoE publishes tentative and revised calendars. Update the JSON, set `status`
 ## Coverage
 
 - 2026 (MoE school calendar)
+
