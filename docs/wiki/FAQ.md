@@ -31,6 +31,12 @@ The data is read from PDFs, so mistakes happen. [Report it](../issues/new?templa
 </details>
 
 <details>
+<summary><b>What is the licence? Can I use it commercially?</b></summary>
+
+The code is MIT and the compiled data is CC BY 4.0, so you can use and change it with credit. The Ministry's own publications are not licensed by this project. See [Licensing](Licensing), and for commercial use consider asking the Ministry in writing.
+</details>
+
+<details>
 <summary><b>Can I use this in my app?</b></summary>
 
 Yes. See [Using the data in your app](Using-the-Data-in-Your-App). Please keep a note that it is unofficial.

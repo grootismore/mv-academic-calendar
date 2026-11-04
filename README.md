@@ -132,6 +132,16 @@ The newest published version of each year always wins. Older revisions never rep
 Load `all.json` and **upsert each event by its `id`**. The wiki has a ready table definition, a Node and PostgreSQL example, and notes for mobile apps:
 [**Using the data in your app →**](../../wiki/Using-the-Data-in-Your-App)
 
+## Licensing
+
+| What | Licence |
+|---|---|
+| Code (`build_ics.py`, workflows) | [MIT](LICENSE) |
+| The compiled data and graphics (`data/`, `assets/`) | [CC BY 4.0](DATA-LICENSE.md), to the extent the maintainer holds rights in the compilation. Please credit this project and the Ministry as the source |
+| The Ministry's own publications | Not licensed here. They remain the Ministry's, and this project does not claim or imply the Ministry's permission |
+
+Details, and what to do if you represent the Ministry: [**DATA-LICENSE.md**](DATA-LICENSE.md). Not legal advice.
+
 ## Corrections and community
 
 - **Found a wrong date or name?** [Open a data correction](../../issues/new?template=data-correction.yml) with a link to the source.

@@ -10,6 +10,7 @@
 - [FAQ](FAQ)
 - [Data sources](Data-Sources-and-Updates)
 - [Contributing](Contributing)
+- [Licensing](Licensing)
 
 **Links**
 - [Discussions](../discussions)
