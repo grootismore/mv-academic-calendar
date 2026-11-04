@@ -1,0 +1,279 @@
+{
+  "year": 2017,
+  "source": "Ministry of Education, Maldives",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_2017.pdf",
+  "status": "current",
+  "retrieved": "2026-11-04",
+  "note": "Parsed from \"Academic_Calendar_2017\".",
+  "pdf_sha256": "5774eee6b0b64c098499c8e53412341eb230f0d14b7330c9db9a52ab76dbb8a3",
+  "events": [
+    {
+      "start": "2017-01-01",
+      "name": "New Year 2017 8 9 10 11 12 13 14",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-01-01",
+      "name": "15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4",
+      "category": "other"
+    },
+    {
+      "start": "2017-01-04",
+      "name": "Teachers' Reporting Day",
+      "category": "other"
+    },
+    {
+      "start": "2017-01-08",
+      "name": "Beginning of Term",
+      "category": "other"
+    },
+    {
+      "start": "2017-01-08",
+      "end": "2017-06-08",
+      "name": "104 MINISTRY OF EDUCATION Term 2",
+      "category": "school_days"
+    },
+    {
+      "start": "2017-01-11",
+      "name": ". 2018, 2nd Term Holidays",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2017-01-14",
+      "name": "Beginning of Term 1 (2018) School days Exam days Weekends Term holidays Public holidays Professional Development Day Disaster Preparedness Week Health Screening",
+      "category": "exam_days"
+    },
+    {
+      "start": "2017-02-02",
+      "name": "Professional Development Day 1 5 6 7 8 9 10 11",
+      "category": "other"
+    },
+    {
+      "start": "2017-02-05",
+      "end": "2017-05-11",
+      "name": "Health Screening FEBRUARY 12 13 14 15 16 17 18 Gr. 1 Risk Assessment 19 20 21 22 23 24 25 26 27 28 1 2 3 4 6 7 8 9 10 11",
+      "category": "other"
+    },
+    {
+      "start": "2017-03-05",
+      "name": "., Beginning of Higher Sec. Academic Year",
+      "category": "other"
+    },
+    {
+      "start": "2017-03-05",
+      "name": "12 13 14 15 16 17 18",
+      "category": "other"
+    },
+    {
+      "start": "2017-03-12",
+      "end": "2017-03-16",
+      "name": "Disaster Preparedness Week 1 19 20 21 22 23 24 25",
+      "category": "other"
+    },
+    {
+      "start": "2017-03-19",
+      "end": "2017-03-23",
+      "name": "First Term Mid-Term Holidays 26 27 28 29 30 31 1 2 3 4 5 6 7 8 9 10 11 12 13 14",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2017-04-15",
+      "name": "16 17 18 19 20 21 22 23 24 25 26 27 28 29",
+      "category": "other"
+    },
+    {
+      "start": "2017-04-27",
+      "name": "Professional Development Day 2 30 1 2 3 4 5 6 A'Level (Edexcel) & HSC Examinations",
+      "category": "exam_days"
+    },
+    {
+      "start": "2017-05-01",
+      "name": "Labour Day",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-05-10",
+      "name": "Children's Day 7 8 9 10 11 12",
+      "category": "other"
+    },
+    {
+      "start": "2017-05-13",
+      "name": "14 15 16 17 18 19 20",
+      "category": "other"
+    },
+    {
+      "start": "2017-05-14",
+      "end": "2017-05-31",
+      "name": "First Term Test 21 22 23 24 25 26 27",
+      "category": "school_days"
+    },
+    {
+      "start": "2017-05-27",
+      "name": "First of Ramazan 28 29 30 31 1 2 3 4 5 6 7 8 9 10",
+      "category": "other"
+    },
+    {
+      "start": "2017-06-08",
+      "name": "End of Term 1 11 12 13 14 15 16 17",
+      "category": "other"
+    },
+    {
+      "start": "2017-06-11",
+      "end": "2017-06-15",
+      "name": "First Term Holidays JUNE 19 20 21 22 23 24",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2017-06-18",
+      "name": "Beginning of Term 2 18 25 26 27 28 29 30 1",
+      "category": "other"
+    },
+    {
+      "start": "2017-06-18",
+      "end": "2017-11-23",
+      "name": "102 MALÉ, REPUBLIC OF MALDIVES Total 206 MONTH S M T W T F S CALENDAR DATES PUBLIC HOLIDAYS 1 2 3 4 5 6 7",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-06-25",
+      "name": "Eid-ul Fithr 2 3 4 5 6 7 8",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-06-26",
+      "end": "2017-06-27",
+      "name": "on the Occasion of Eid-ul Fithr 9 10 11 12 13 14",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-07-15",
+      "name": "16 17 18 19 20 21 22",
+      "category": "other"
+    },
+    {
+      "start": "2017-07-26",
+      "name": "Independence Day 23 24 25 26 27 28 29 30 31 1 2 3 4 5",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-07-27",
+      "name": "on the Occasion of Independence Day 6 7 8 9 10 11 12",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-08-03",
+      "name": "13 14 15 16 17 18 19 20 21 22 23 24 25 26",
+      "category": "other"
+    },
+    {
+      "start": "2017-08-10",
+      "name": "Professional Development Day",
+      "category": "other"
+    },
+    {
+      "start": "2017-08-15",
+      "end": "2017-08-30",
+      "name": "., 2nd Term Test for Gr. 10 and Gr. 12",
+      "category": "school_days"
+    },
+    {
+      "start": "2017-08-20",
+      "end": "2017-08-24",
+      "name": "Disaster Preparedness Week 2",
+      "category": "other"
+    },
+    {
+      "start": "2017-08-31",
+      "name": "Hajju Day 27 28 29 30 31 1 2 3 4 5 6 7 8 9",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-09-01",
+      "name": "Eid-ul Al'haa 10 11 12 13 14 15 16",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-09-02",
+      "end": "2017-09-04",
+      "name": "on the Occasion of Eid-ul Al'haa SEPTEMBER 17 18 19 20 21 22 23",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-09-03",
+      "end": "2017-09-07",
+      "name": "., Second Term Mid-Term Holidays",
+      "category": "term_holidays"
+    },
+    {
+      "start": "2017-09-21",
+      "name": "Islamic New Year (1 Mu'harram 1439) 24 25 26 27 28 29 30",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-10-05",
+      "name": "Teachers' Day 1 2 3 4 5 6 7 8 9 10 11 12 13 14 GCE O'Level, IGCSE & SSC Examinations OCTOBER 15 16 17 18 19 20 21 IAL (Edexcel) Examinations 22 23 24 25 26 27 2",
+      "category": "exam_days"
+    },
+    {
+      "start": "2017-10-25",
+      "end": "2017-11-13",
+      "name": "2nd Term Test 29 30 31 1 2 3 4",
+      "category": "school_days"
+    },
+    {
+      "start": "2017-11-03",
+      "name": "Victory Day",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-11-11",
+      "name": "Republic Day 5 6 7 8 9 10 11 12 13 14 15 16 17",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-11-18",
+      "name": "19 20 21 22 23 24 25",
+      "category": "other"
+    },
+    {
+      "start": "2017-11-19",
+      "name": "., National Day (1 Rabee'ul Awwal 1439) 26 27 28 29 30 1 2",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-11-23",
+      "name": "End of Term 2",
+      "category": "other"
+    },
+    {
+      "start": "2017-11-26",
+      "name": ". 2017",
+      "category": "other"
+    },
+    {
+      "start": "2017-11-30",
+      "name": "., Prophet Muhammad's (SAW) Birthday 3 4 5 6 7 8 9 10 11 12 13 14 15",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2017-12-16",
+      "name": "17 18 19 20 21 22 23",
+      "category": "other"
+    },
+    {
+      "start": "2017-12-20",
+      "name": "., The Day Maldives Embraced Islam 24 25 26 27 28 29 30 31 1 2 3 4 5 6",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2018-01-01",
+      "name": "New Year JANUARY 7 8 9 10 11 12 13",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2018-01-09",
+      "name": "Teachers' Reporting Day 2018 14 15 16 17 18 12 13",
+      "category": "other"
+    }
+  ]
+}
