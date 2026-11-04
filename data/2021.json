@@ -9,71 +9,61 @@
   "events": [
     {
       "start": "2021-01-01",
-      "name": "New Year 2 3 4 5 6 7 8 9 10 11 12 13 14",
+      "name": "New Year",
       "category": "public_holiday"
     },
     {
-      "start": "2021-01-15",
-      "name": "16 17 18 19 20 21 22",
-      "category": "other"
-    },
-    {
       "start": "2021-01-16",
-      "name": "Beginning of Second Term 23 24 25 26 27 28 29 30 31 1 2 3 4 5",
+      "name": "Beginning of Second Term",
       "category": "other"
     },
     {
       "start": "2021-02-03",
-      "name": "2nd PD Day 6 7 8 9 10 11",
-      "category": "other"
-    },
-    {
-      "start": "2021-02-12",
-      "name": "13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19",
+      "name": "2nd PD Day",
       "category": "other"
     },
     {
       "start": "2021-03-20",
       "end": "2021-03-24",
-      "name": "School Self Evaluation (SSE) MARCH 20 21 22 23 24 25 26",
+      "name": "School Self Evaluation (SSE)",
       "category": "other"
     },
     {
       "start": "2021-03-20",
       "end": "2021-03-31",
-      "name": "Second Term Exam & Mock 27 28 29 30 31 1 2 Exam Gr. 10,11 &12",
+      "name": "Second Term Exam & Mock",
       "category": "exam_days"
     },
     {
       "start": "2021-04-02",
-      "name": "First of Ramadan 3 4 5 6 7 8 9",
+      "name": "First of Ramadan",
       "category": "public_holiday"
     },
     {
       "start": "2021-04-03",
       "end": "2021-04-07",
-      "name": "Second Term Mid Break 10 11 12 13 14 15",
+      "name": "Second Term Mid Break",
       "category": "term_holidays"
     },
     {
       "start": "2021-04-21",
-      "name": "3rd PD Day 17 18 19 20 21 22 23 24 25 26 27 28 29 30 2022 1 2 3 4 5 6 7",
+      "name": "3rd PD Day",
       "category": "other"
     },
     {
       "start": "2021-05-01",
-      "name": "Labour Day 8 9 10 11 12 13 14",
+      "name": "Labour Day",
       "category": "public_holiday"
     },
     {
       "start": "2021-05-02",
-      "name": "Eid - al - Fitr MAY 15 16 17 18 19 20 21",
+      "name": "Eid - al - Fitr",
       "category": "public_holiday"
     },
     {
       "start": "2021-05-03",
       "end": "2021-05-04",
-      "name": "On the occasion of Eid - al - Fitr 22 23 24 25 26 27 28 29 30 31 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17",
+      "name": "On the occasion of Eid - al - Fitr",
       "category": "public_holiday"
     },
     {
@@ -84,23 +74,23 @@
     {
       "start": "2021-06-12",
       "end": "2021-06-23",
-      "name": "Second Term Exam 19 20 21 22 23 24 25",
+      "name": "Second Term Exam",
       "category": "exam_days"
     },
     {
       "start": "2021-06-30",
-      "name": "End of Second Term 26 27 28 29 30 1 2 3 4 5 6 7 8 9",
+      "name": "End of Second Term",
       "category": "other"
     },
     {
       "start": "2021-07-03",
       "end": "2021-08-01",
-      "name": "Annual Holidays 17 18 19 20 21 22 23",
+      "name": "Annual Holidays",
       "category": "public_holiday"
     },
     {
       "start": "2021-07-08",
-      "name": "Hajj Day 10 11 12 13 14 15 16",
+      "name": "Hajj Day",
       "category": "public_holiday"
     },
     {
@@ -111,7 +101,7 @@
     {
       "start": "2021-07-10",
       "end": "2021-07-12",
-      "name": "On the occasion of Eid - al - Adha 24 25 26 27 28 29 30",
+      "name": "On the occasion of Eid - al - Adha",
       "category": "public_holiday"
     },
     {
@@ -122,48 +112,32 @@
     },
     {
       "start": "2021-08-03",
-      "name": "Teachers Reporting Day 8 9 10 11 12 13 14",
-      "category": "other"
-    },
-    {
-      "start": "2021-08-06",
-      "name": "7 8 9 10 11 12 13",
+      "name": "Teachers Reporting Day",
       "category": "other"
     },
     {
       "start": "2021-08-09",
-      "name": "Islamic New Year AUGUST 15 16 17 18 19 20 21",
+      "name": "Islamic New Year",
       "category": "public_holiday"
     },
     {
       "start": "2021-08-10",
-      "name": "Academic Year 2021-2022 Starts",
-      "category": "other"
-    },
-    {
-      "start": "2021-08-10",
-      "name": "Education Act comes into effect 22 23 24 25 26 27 28 29 30 31 1 2 3 4 5 6 7 8 9 10 11",
-      "category": "other"
-    },
-    {
-      "start": "2021-08-10",
-      "end": "2021-12-23",
-      "name": "89 MINISTRY OF EDUCATION",
+      "name": "Education Act comes into effect",
       "category": "other"
     },
     {
       "start": "2021-09-08",
-      "name": "International Literacy Day SEPTEMBER 12 13 14 15 16 17 18",
+      "name": "International Literacy Day",
       "category": "other"
     },
     {
       "start": "2021-09-16",
-      "name": "1st PD Day 19 20 21 22 23 24 25 26 27 28 29 30 1 2",
+      "name": "1st PD Day",
       "category": "other"
     },
     {
       "start": "2021-09-26",
-      "name": "Academic Year for Grade 11 starts 3 4 5 6 7 8 9",
+      "name": "Academic Year for Grade 11 starts",
       "category": "other"
     },
     {
@@ -173,13 +147,8 @@
     },
     {
       "start": "2021-10-07",
-      "name": "National Day 10 11 12 13 14 15",
+      "name": "National Day",
       "category": "public_holiday"
-    },
-    {
-      "start": "2021-10-16",
-      "name": "17 18 19 20 21 22 23",
-      "category": "other"
     },
     {
       "start": "2021-10-17",
@@ -189,38 +158,33 @@
     },
     {
       "start": "2021-10-18",
-      "name": "Prophet Mohammad (SAW) Birth Day 24 25 26 27 28 29 30 31 1 2 3 4 5 6",
+      "name": "Prophet Mohammad (SAW) Birth Day",
       "category": "public_holiday"
     },
     {
       "start": "2021-11-03",
-      "name": "Victory Day 7 8 9 10 11 12",
+      "name": "Victory Day",
       "category": "public_holiday"
     },
     {
       "start": "2021-11-07",
-      "name": "The Day Maldives Embraced Islam 21 22 23 24 25 26 27",
+      "name": "The Day Maldives Embraced Islam",
       "category": "public_holiday"
     },
     {
       "start": "2021-11-11",
-      "name": "Republic Day 28 29 30 1 2 3 4 5 6 7 8 9 10 11",
+      "name": "Republic Day",
       "category": "public_holiday"
-    },
-    {
-      "start": "2021-11-13",
-      "name": "14 15 16 17 18 19 20",
-      "category": "other"
     },
     {
       "start": "2021-12-05",
       "end": "2021-12-16",
-      "name": "First Term Exam DECEMBER 12 13 14 15 16 17 18 19 20 21 22 23 24 25",
+      "name": "First Term Exam",
       "category": "exam_days"
     },
     {
       "start": "2021-12-23",
-      "name": "End of First Term 26 27 28 29 30 31 1",
+      "name": "End of First Term",
       "category": "other"
     },
     {
@@ -230,20 +194,9 @@
       "category": "term_holidays"
     },
     {
-      "start": "2022-01-16",
-      "end": "2022-06-30",
-      "name": "111 Term 2 MALÉ, REPUBLIC OF MALDIVES Total 200 YEAR MONTH S M T W T F S CALENDAR DATES PUBLIC HOLIDAYS 1 2 3 4 5 6 7",
-      "category": "term_holidays"
-    },
-    {
       "start": "2022-08-02",
-      "name": "Teachers Reporting Day 31 1 2 3 4 5",
+      "name": "Teachers Reporting Day",
       "category": "other"
-    },
-    {
-      "start": "2022-08-07",
-      "name": "Academic Year 2022 - 2023 Starts Professional Development Day School days Exam days Weekends Term holidays Public holidays",
-      "category": "exam_days"
     }
   ]
 }

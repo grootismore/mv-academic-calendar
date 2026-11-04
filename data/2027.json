@@ -9,70 +9,44 @@
   "events": [
     {
       "start": "2027-01-01",
-      "name": "New Year 2027 3 4 5 6 7 8",
+      "name": "New Year",
       "category": "public_holiday"
-    },
-    {
-      "start": "2027-01-01",
-      "name": "New Year 2028 2 3 4 5 6 7 8",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2027-01-05",
-      "name": "Teachers' Reporting Day 2028 2028 JANUARY 9 10 11 12 13 14 15",
-      "category": "other"
-    },
-    {
-      "start": "2027-01-09",
-      "name": "10 11 12 13 14 15 16",
-      "category": "other"
-    },
-    {
-      "start": "2027-01-09",
-      "name": "Beginning of Academic Year 2028 16 17 18 19 20 21 22 Teaching School Report Teacher Non- Total Term Dates School Holidays - Academic Year 2027 Days* Exam Prepar",
-      "category": "exam_days"
     },
     {
       "start": "2027-01-13",
-      "name": "Teachers' Reporting Day 2027 17 18 19 20 21 22 23",
+      "name": "Teachers' Reporting Day",
       "category": "other"
     },
     {
       "start": "2027-01-17",
-      "name": "Beginning of Academic Year 2027 24 25 26 27 28 29 30 31 1 2 3 4 5 6",
-      "category": "other"
-    },
-    {
-      "start": "2027-01-17",
-      "end": "2027-07-15",
-      "name": "90.5 8 5 6 4.5 114 Mid-term (7) + Term-end vacation (16): 23 days Term 2",
+      "name": "Beginning of Academic Year",
       "category": "other"
     },
     {
       "start": "2027-01-31",
-      "name": "Beginning of AL Batch 2027 (B-27) Opening of the People’s Majlis 7 8 9 10 11 12 13",
+      "name": "Beginning of AL Batch (B-27) Opening of the People’s Majlis",
       "category": "other"
     },
     {
       "start": "2027-02-08",
-      "name": "First of Ramadan FEBRUARY 14 15 16 17 18 19 20 21 22 23 24 25 26 27",
+      "name": "First of Ramadan",
       "category": "public_holiday"
     },
     {
       "start": "2027-02-26",
       "end": "2027-03-07",
-      "name": "Last 10 days of Ramadan 28 1 2 3 4 5 6 7 8 9 10 11 12 13",
+      "name": "Last 10 days of Ramadan",
       "category": "public_holiday"
     },
     {
       "start": "2027-03-09",
-      "name": "Eid-al-Fitr MARCH 14 15 16 17 18 19 20",
+      "name": "Eid-al-Fitr",
       "category": "public_holiday"
     },
     {
       "start": "2027-03-10",
       "end": "2027-03-11",
-      "name": "On the occasion of Eid-al-Fitr 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4 5 6 7 8 9 10",
+      "name": "On the occasion of Eid-al-Fitr",
       "category": "public_holiday"
     },
     {
@@ -84,38 +58,28 @@
     {
       "start": "2027-04-01",
       "end": "2027-04-15",
-      "name": "Gr. 11 (B-26) Mock & Gr. 12 Term Exam 11 12 13 14 15 16",
+      "name": "Gr. 11 (B-26) Mock & Gr. 12 Term Exam",
       "category": "exam_days"
     },
     {
-      "start": "2027-04-17",
-      "name": "18 19 20 21 22 23 24",
-      "category": "other"
-    },
-    {
       "start": "2027-04-22",
-      "name": "Professional Development 25 26 27 28 29 30 1",
+      "name": "Professional Development",
       "category": "other"
     },
     {
       "start": "2027-05-01",
-      "name": "Labour Day 2 3 4 5 6 7 8",
+      "name": "Labour Day",
       "category": "public_holiday"
     },
     {
       "start": "2027-05-09",
       "end": "2027-06-10",
-      "name": "School Transfer Period 1 9 11 12 13 14 15",
+      "name": "School Transfer Period 1",
       "category": "other"
     },
     {
       "start": "2027-05-10",
-      "name": "Children's Day MAY 16 17 18 19 20 21 22",
-      "category": "other"
-    },
-    {
-      "start": "2027-05-10",
-      "name": "(Children's day) and",
+      "name": "Children's Day",
       "category": "other"
     },
     {
@@ -131,18 +95,18 @@
     },
     {
       "start": "2027-05-17",
-      "name": "Eid-al-Adha 23 24 25 26 27 28 29",
+      "name": "Eid-al-Adha",
       "category": "public_holiday"
     },
     {
       "start": "2027-05-18",
       "end": "2027-05-20",
-      "name": "On the occasion of Eid-al-Adha 30 31 1 2 3 4 5 6 7 8 9 10 11 12",
+      "name": "On the occasion of Eid-al-Adha",
       "category": "public_holiday"
     },
     {
       "start": "2027-06-06",
-      "name": "Islamic New Year 1449 JUNE 13 14 15 16 17 18 19 20 21 22 23 24 25 26 2027 27 28 29 30 1 2 3",
+      "name": "Islamic New Year 1449",
       "category": "public_holiday"
     },
     {
@@ -154,13 +118,8 @@
     {
       "start": "2027-06-29",
       "end": "2027-07-10",
-      "name": "First Term Exam 4 5 6 7 8 9 10",
+      "name": "First Term Exam",
       "category": "exam_days"
-    },
-    {
-      "start": "2027-07-01",
-      "name": "11 12 13 14 15 16 17",
-      "category": "other"
     },
     {
       "start": "2027-07-04",
@@ -170,7 +129,7 @@
     },
     {
       "start": "2027-07-15",
-      "name": "End of First Term 2027 18 19 20 21 22 23 24",
+      "name": "End of First Term",
       "category": "other"
     },
     {
@@ -181,12 +140,12 @@
     },
     {
       "start": "2027-07-26",
-      "name": "Independence Day 25 26 27 28 29 30 31",
+      "name": "Independence Day",
       "category": "public_holiday"
     },
     {
       "start": "2027-07-27",
-      "name": "On the occasion of Independence Day 1 2 3 4 5 6 7",
+      "name": "On the occasion of Independence Day",
       "category": "public_holiday"
     },
     {
@@ -195,25 +154,19 @@
       "category": "other"
     },
     {
-      "start": "2027-08-01",
-      "end": "2027-12-09",
-      "name": "72.5 8 5 1 0.5 87 Mid-term (7) + Term-end vacation (26): 33 days Total Number of Days 163 16 10 7 5 201 56 Calendar Days (31 working days) *",
-      "category": "other"
-    },
-    {
       "start": "2027-08-03",
-      "name": "National Day 8 9 10 11 12 13 14",
+      "name": "National Day",
       "category": "public_holiday"
     },
     {
       "start": "2027-08-14",
-      "name": "Prophet Muhammad's ( ملسو هيلع هللا ىلص ) Birthday AUGUST 15 16 17 18 19 20 21 22 23 24 25 26 27 28",
+      "name": "Prophet Muhammad's Birthday",
       "category": "public_holiday"
     },
     {
       "start": "2027-08-26",
       "end": "2027-09-09",
-      "name": "Gr. 10 Mock Exam 29 30 31 1 2 3 4",
+      "name": "Gr. 10 Mock Exam",
       "category": "exam_days"
     },
     {
@@ -224,44 +177,34 @@
     },
     {
       "start": "2027-09-03",
-      "name": "The Day Maldives Embraced Islam 5 6 7 8 9 10",
+      "name": "The Day Maldives Embraced Islam",
       "category": "public_holiday"
-    },
-    {
-      "start": "2027-09-11",
-      "name": "12 13 14 15 16 17 18 19 20 21 22 23 24 25",
-      "category": "other"
     },
     {
       "start": "2027-09-19",
       "end": "2027-09-25",
-      "name": "Second Term Mid-Break 26 27 28 29 30 1 2 3 4 6 7 8 9",
+      "name": "Second Term Mid-Break",
       "category": "term_holidays"
     },
     {
       "start": "2027-10-05",
-      "name": "Teachers' Day OCTOBER 10 11 12 13 14 15 16",
+      "name": "Teachers' Day",
       "category": "other"
-    },
-    {
-      "start": "2027-10-05",
-      "name": "(Teachers' day) are calculated as half-days of teaching. Grade 10 Grade 11 Grade 11 & 12 SSC/HSC and International Examinations Remarks SSC & CIE HSC & Edexcel",
-      "category": "exam_days"
     },
     {
       "start": "2027-10-10",
       "end": "2027-11-09",
-      "name": "School Transfer Period 2 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 1 2 3 4 5 6",
+      "name": "School Transfer Period 2",
       "category": "other"
     },
     {
       "start": "2027-10-13",
-      "name": "31 - Nov 10: National Curriculum Assessment",
+      "name": "National Curriculum Assessment",
       "category": "other"
     },
     {
       "start": "2027-11-03",
-      "name": "Victory Day 7 8 9 10 11 12",
+      "name": "Victory Day",
       "category": "public_holiday"
     },
     {
@@ -271,24 +214,24 @@
     },
     {
       "start": "2027-11-11",
-      "name": "Republic Day NOVEMBER 14 15 16 17 18 19 20 21 22 23 24 25 26 27",
+      "name": "Republic Day",
       "category": "public_holiday"
     },
     {
       "start": "2027-11-23",
       "end": "2027-12-04",
-      "name": "Second Term Exam 28 29 30 1 2 3 4 5 6 7 8 9 10 11",
+      "name": "Second Term Exam",
       "category": "exam_days"
     },
     {
       "start": "2027-12-09",
-      "name": "End of Second Term 2027 DECEMBER 12 13 14 15 16 17 18",
+      "name": "End of Second Term",
       "category": "other"
     },
     {
       "start": "2027-12-10",
       "end": "2028-01-04",
-      "name": "Second Term Holidays 19 20 21 22 23 24 25 26 27 28 29 30 31 1",
+      "name": "Second Term Holidays",
       "category": "term_holidays"
     }
   ]

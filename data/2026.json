@@ -9,102 +9,61 @@
   "events": [
     {
       "start": "2026-01-01",
-      "name": "New Year 2026 4 5 6 7 8 9",
+      "name": "New Year",
       "category": "public_holiday"
     },
     {
-      "start": "2026-01-01",
-      "name": "New Year 2027 3 4 5 6 7 8 9 2027 JANUARY 10 11 12 13 14 15 16",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2026-01-10",
-      "name": "11 12 13 14 15 16 17 18 19 20 21 22 23 24",
-      "category": "other"
-    },
-    {
-      "start": "2026-01-13",
-      "name": "Teachers' Reporting Day 2027 17 18 19 20 21 22 23",
-      "category": "other"
-    },
-    {
-      "start": "2026-01-17",
-      "name": "Beginning of Academic Year 2027 Teaching School Report Teacher Non- Total Term Dates School Holidays - Academic Year 2026 Days* Exam Preparation PD Teaching Sch",
-      "category": "exam_days"
-    },
-    {
       "start": "2026-01-25",
-      "name": "Teachers' Reporting Day 2026 25 26 27 28 29 30 31",
-      "category": "other"
-    },
-    {
-      "start": "2026-01-25",
-      "end": "2026-07-16",
-      "name": "84.5 8 5 6 3.5 107 Mid-term (7) + Term-end vacation (16): 23 days Term 2",
+      "name": "Teachers' Reporting Day",
       "category": "other"
     },
     {
       "start": "2026-01-27",
-      "name": "Beginning of Academic Year 2026 1 2 3 4 5 6 7 * Opening of the People’s Majlis (TBD) 8 9 10 11 12 13",
-      "category": "other"
-    },
-    {
-      "start": "2026-02-14",
-      "name": "15 16 17 18 19 20 21",
+      "name": "Beginning of Academic Year",
       "category": "other"
     },
     {
       "start": "2026-02-18",
-      "name": "First of Ramadan 22 23 24 25 26 27 28 1 2 3 4 5 6 7",
+      "name": "First of Ramadan",
       "category": "public_holiday"
     },
     {
       "start": "2026-03-01",
       "end": "2026-03-08",
-      "name": "Professional Development Days 8 9 10 11 12 13 14",
+      "name": "Professional Development Days",
       "category": "other"
     },
     {
       "start": "2026-03-09",
       "end": "2026-03-19",
-      "name": "Last 10 days of Ramadan MARCH 15 16 17 18 19 20 21",
+      "name": "Last 10 days of Ramadan",
       "category": "public_holiday"
     },
     {
       "start": "2026-03-20",
-      "name": "Eid-al-Fitr 22 23 24 25 26 27 28",
+      "name": "Eid-al-Fitr",
       "category": "public_holiday"
     },
     {
       "start": "2026-03-21",
       "end": "2026-03-22",
-      "name": "On the occasion of Eid-al-Fitr 29 30 31 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17",
+      "name": "On the occasion of Eid-al-Fitr",
       "category": "public_holiday"
-    },
-    {
-      "start": "2026-04-18",
-      "name": "19 20 21 22 23 24 25 26 27 28 29 30 1 2",
-      "category": "other"
     },
     {
       "start": "2026-05-01",
-      "name": "Labour Day 3 4 5 6 7 8 9 11 12 13 14 15 16",
+      "name": "Labour Day",
       "category": "public_holiday"
     },
     {
       "start": "2026-05-10",
-      "name": "Children's Day MAY 17 18 19 20 21 22 23",
-      "category": "other"
-    },
-    {
-      "start": "2026-05-10",
-      "name": "(Children's day) and",
+      "name": "Children's Day",
       "category": "other"
     },
     {
       "start": "2026-05-17",
       "end": "2026-06-15",
-      "name": "School Transfer Period 1 24 25 26 27 28 29 30",
+      "name": "School Transfer Period 1",
       "category": "other"
     },
     {
@@ -120,61 +79,56 @@
     },
     {
       "start": "2026-05-27",
-      "name": "Eid-al-Adha 31 1 2 3 4 5 6",
+      "name": "Eid-al-Adha",
       "category": "public_holiday"
     },
     {
       "start": "2026-05-28",
       "end": "2026-05-30",
-      "name": "On the occasion of Eid-al-Adha 7 8 9 10 11 12 13",
+      "name": "On the occasion of Eid-al-Adha",
       "category": "public_holiday"
     },
     {
       "start": "2026-06-07",
-      "name": "Beginning of AL Batch 2026 JUNE 14 15 16 17 18 19 20",
+      "name": "Beginning of AL Batch",
       "category": "other"
     },
     {
       "start": "2026-06-16",
-      "name": "Islamic New Year 1448 21 22 23 24 25 26 27 2026 28 29 30 1 2 3 4",
+      "name": "Islamic New Year 1448",
       "category": "public_holiday"
     },
     {
       "start": "2026-06-30",
       "end": "2026-07-09",
-      "name": "First Term Exam 5 6 7 8 9 10",
+      "name": "First Term Exam",
       "category": "exam_days"
-    },
-    {
-      "start": "2026-07-11",
-      "name": "12 13 14 15 16 17 18",
-      "category": "other"
     },
     {
       "start": "2026-07-12",
       "end": "2026-08-31",
-      "name": "New Admission - LKG & Gr. 1 6 7 8 9 10 11",
+      "name": "New Admission - LKG & Gr. 1",
       "category": "other"
     },
     {
       "start": "2026-07-16",
-      "name": "End of First Term 2026 19 20 21 22 23 24 25",
+      "name": "End of First Term",
       "category": "other"
     },
     {
       "start": "2026-07-17",
       "end": "2026-08-01",
-      "name": "First Term Holidays 26 27 28 29 30 31 1",
+      "name": "First Term Holidays",
       "category": "term_holidays"
     },
     {
       "start": "2026-07-26",
-      "name": "Independence Day 2 3 4 5 6 7 8",
+      "name": "Independence Day",
       "category": "public_holiday"
     },
     {
       "start": "2026-07-27",
-      "name": "On the occasion of Independence Day 9 10 11 12 13 14 15",
+      "name": "On the occasion of Independence Day",
       "category": "public_holiday"
     },
     {
@@ -183,14 +137,8 @@
       "category": "other"
     },
     {
-      "start": "2026-08-02",
-      "end": "2026-12-17",
-      "name": "75.5 8 5 1 2.5 92 Mid-term (7) + Term-end vacation (26): 33 days Total Number of Days 160 16 10 7 6 199 56 Calendar Days (32 working days) *",
-      "category": "other"
-    },
-    {
       "start": "2026-08-14",
-      "name": "National Day AUGUST 16 17 18 19 20 21 22 23 24 25 26 27 28 29",
+      "name": "National Day",
       "category": "public_holiday"
     },
     {
@@ -201,17 +149,12 @@
     },
     {
       "start": "2026-08-25",
-      "name": "Prophet Muhammad's ( ملسو هيلع هللا ىلص ) Birthday 30 31 1 2 3 4 5",
+      "name": "Prophet Muhammad's Birthday",
       "category": "public_holiday"
     },
     {
-      "start": "2026-09-12",
-      "name": "13 14 15 16 17 18 19",
-      "category": "other"
-    },
-    {
       "start": "2026-09-13",
-      "name": "The Day Maldives Embraced Islam 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 6 7 8 9 10",
+      "name": "The Day Maldives Embraced Islam",
       "category": "public_holiday"
     },
     {
@@ -222,33 +165,23 @@
     },
     {
       "start": "2026-10-05",
-      "name": "Teachers' Day 11 12 13 14 15 16",
-      "category": "other"
-    },
-    {
-      "start": "2026-10-05",
-      "name": "(Teachers' day) are calculated as half-days of teaching Grade 10 of 2025 Grade 10 of 2026 Grade 11 & 12 SSC/HSC and International Examinations Remarks SSC & CIE",
-      "category": "exam_days"
-    },
-    {
-      "start": "2026-10-17",
-      "name": "18 19 20 21 22 23 24",
+      "name": "Teachers' Day",
       "category": "other"
     },
     {
       "start": "2026-10-18",
       "end": "2026-11-17",
-      "name": "School Transfer Period 2 25 26 27 28 29 30 31 1 2 3 4 5 6 7",
+      "name": "School Transfer Period 2",
       "category": "other"
     },
     {
       "start": "2026-11-03",
-      "name": "Victory Day 8 9 10 11 12 13 14",
+      "name": "Victory Day",
       "category": "public_holiday"
     },
     {
       "start": "2026-11-11",
-      "name": "Republic Day NOVEMBER 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 1 2 3 4 5",
+      "name": "Republic Day",
       "category": "public_holiday"
     },
     {
@@ -259,23 +192,18 @@
     {
       "start": "2026-12-01",
       "end": "2026-12-10",
-      "name": "Second Term Exam 6 7 8 9 10 11",
+      "name": "Second Term Exam",
       "category": "exam_days"
     },
     {
-      "start": "2026-12-12",
-      "name": "13 14 15 16 17 18 19",
-      "category": "other"
-    },
-    {
       "start": "2026-12-17",
-      "name": "End of Second Term 2026 20 21 22 23 24 25 26",
+      "name": "End of Second Term",
       "category": "other"
     },
     {
       "start": "2026-12-18",
       "end": "2027-01-12",
-      "name": "Second Term Holidays 27 28 29 30 31 1 2",
+      "name": "Second Term Holidays",
       "category": "term_holidays"
     }
   ]
