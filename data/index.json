@@ -3,7 +3,7 @@
   {
    "year": 2015,
    "status": "current",
-   "events": 39,
+   "events": 38,
    "retrieved": "2026-11-04",
    "json": "data/2015.json",
    "ics": "data/2015.ics"
@@ -35,7 +35,7 @@
   {
    "year": 2020,
    "status": "current",
-   "events": 37,
+   "events": 40,
    "retrieved": "2026-11-04",
    "json": "data/2020.json",
    "ics": "data/2020.ics"
@@ -43,15 +43,15 @@
   {
    "year": 2021,
    "status": "current",
-   "events": 36,
+   "events": 38,
    "retrieved": "2026-11-04",
    "json": "data/2021.json",
    "ics": "data/2021.ics"
   },
   {
    "year": 2022,
-   "status": "current",
-   "events": 35,
+   "status": "final",
+   "events": 37,
    "retrieved": "2026-11-04",
    "json": "data/2022.json",
    "ics": "data/2022.ics"
@@ -59,31 +59,31 @@
   {
    "year": 2023,
    "status": "current",
-   "events": 39,
+   "events": 36,
    "retrieved": "2026-11-04",
    "json": "data/2023.json",
    "ics": "data/2023.ics"
   },
   {
    "year": 2024,
-   "status": "tentative",
-   "events": 36,
+   "status": "current",
+   "events": 46,
    "retrieved": "2026-11-04",
    "json": "data/2024.json",
    "ics": "data/2024.ics"
   },
   {
    "year": 2025,
-   "status": "tentative",
-   "events": 39,
+   "status": "final",
+   "events": 45,
    "retrieved": "2026-11-04",
    "json": "data/2025.json",
    "ics": "data/2025.ics"
   },
   {
    "year": 2026,
-   "status": "tentative",
-   "events": 37,
+   "status": "final",
+   "events": 43,
    "retrieved": "2026-11-04",
    "json": "data/2026.json",
    "ics": "data/2026.ics"

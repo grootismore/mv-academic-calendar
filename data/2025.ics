@@ -8,13 +8,33 @@ X-WR-TIMEZONE:Indian/Maldives
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:PT24H
 BEGIN:VEVENT
+UID:0bd59a6a713344f4b5b3@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250124
+DTEND;VALUE=DATE:20250125
+SUMMARY:World Education Day
+CATEGORIES:Other
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:33629944ec841696f982@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250127
+DTEND;VALUE=DATE:20250128
+SUMMARY:Beginning of Academic Year
+CATEGORIES:Other
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:866bfc0f8d5cbd304a42@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20250331
 DTEND;VALUE=DATE:20250401
 SUMMARY:Eid-ul-Fitr
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -24,27 +44,27 @@ DTSTART;VALUE=DATE:20250401
 DTEND;VALUE=DATE:20250403
 SUMMARY:On the occasion of Eid-ul-Fitr
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:9b4d43098de4261a57e7@mv-academic-calendar
+UID:f059822597e1cee3f5fa@mv-academic-calendar
 DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20250403
-DTEND;VALUE=DATE:20250404
+DTSTART;VALUE=DATE:20250405
+DTEND;VALUE=DATE:20250406
 SUMMARY:Teachers' Reporting Day
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:6b353c431584be2c167e@mv-academic-calendar
+UID:2ea71f3a107aaf2cca78@mv-academic-calendar
 DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20250406
-DTEND;VALUE=DATE:20250407
+DTSTART;VALUE=DATE:20250407
+DTEND;VALUE=DATE:20250408
 SUMMARY:Beginning of Academic Year
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -54,7 +74,7 @@ DTSTART;VALUE=DATE:20250426
 DTEND;VALUE=DATE:20250427
 SUMMARY:Professional Development Day 1
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -64,7 +84,7 @@ DTSTART;VALUE=DATE:20250501
 DTEND;VALUE=DATE:20250502
 SUMMARY:Labour Day
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -74,17 +94,17 @@ DTSTART;VALUE=DATE:20250510
 DTEND;VALUE=DATE:20250511
 SUMMARY:Children's Day
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c32784c841d6ddbeefeb@mv-academic-calendar
+UID:d589612d0a92b1824125@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20250524
 DTEND;VALUE=DATE:20250525
-SUMMARY:PTS Meeting 1
+SUMMARY:PTS Meeting
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -94,7 +114,7 @@ DTSTART;VALUE=DATE:20250531
 DTEND;VALUE=DATE:20250601
 SUMMARY:Professional Development Day 2
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -104,7 +124,7 @@ DTSTART;VALUE=DATE:20250605
 DTEND;VALUE=DATE:20250606
 SUMMARY:Hajj Day
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -114,7 +134,7 @@ DTSTART;VALUE=DATE:20250606
 DTEND;VALUE=DATE:20250607
 SUMMARY:Eid-ul Al'haa
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -124,7 +144,17 @@ DTSTART;VALUE=DATE:20250607
 DTEND;VALUE=DATE:20250610
 SUMMARY:on the Occasion of Eid-ul Al'haa
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:157260ad628b08a69b14@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250621
+DTEND;VALUE=DATE:20250622
+SUMMARY:PTS Meeting
+CATEGORIES:Other
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -134,37 +164,27 @@ DTSTART;VALUE=DATE:20250626
 DTEND;VALUE=DATE:20250627
 SUMMARY:Islamic New Year (1 Mu'harram 1447)
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:6a60a603a3f77dd496d3@mv-academic-calendar
+UID:96dd23ba616167429bcb@mv-academic-calendar
 DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20250705
+DTSTART;VALUE=DATE:20250706
 DTEND;VALUE=DATE:20250720
-SUMMARY:Final Exam (Gr 11 & 12)
+SUMMARY:Term 1 Exam (Gr 9 & 10)
 CATEGORIES:Exam days
-DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Exam days · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dbb74f0f823f22dbb33c@mv-academic-calendar
+UID:516d254f7d98431c7b46@mv-academic-calendar
 DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20250705
+DTSTART;VALUE=DATE:20250709
 DTEND;VALUE=DATE:20250720
-SUMMARY:Term 1 Exam (Gr 7\, 8\, 9 & 10)
+SUMMARY:Term 1 Exam (Gr 7 & 8)
 CATEGORIES:Exam days
-DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2cada3a82efe5e7a025d@mv-academic-calendar
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20250721
-DTEND;VALUE=DATE:20250722
-SUMMARY:PTS Meeting 2
-CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Exam days · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -174,7 +194,7 @@ DTSTART;VALUE=DATE:20250724
 DTEND;VALUE=DATE:20250725
 SUMMARY:End of Term 1
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -184,7 +204,7 @@ DTSTART;VALUE=DATE:20250726
 DTEND;VALUE=DATE:20250727
 SUMMARY:Independence Day
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -194,7 +214,7 @@ DTSTART;VALUE=DATE:20250727
 DTEND;VALUE=DATE:20250728
 SUMMARY:on the Occasion of Independence Day
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -204,17 +224,27 @@ DTSTART;VALUE=DATE:20250728
 DTEND;VALUE=DATE:20250808
 SUMMARY:First Term Holidays
 CATEGORIES:Term holidays
-DESCRIPTION:Term holidays · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Term holidays · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c62bc79abfa80a3b2c72@mv-academic-calendar
+UID:adec86c5f612d1173118@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20250810
 DTEND;VALUE=DATE:20250811
-SUMMARY:Beginning of Term
+SUMMARY:Beginning of Term 2
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:5e0be6a311420417c40d@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250816
+DTEND;VALUE=DATE:20250902
+SUMMARY:Final Exam (Gr 11 & 12)
+CATEGORIES:Exam days
+DESCRIPTION:Exam days · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -224,7 +254,17 @@ DTSTART;VALUE=DATE:20250824
 DTEND;VALUE=DATE:20250825
 SUMMARY:National Day (1 Rabee'ul Awwal 1447)
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b1fce1f4c73421de73aa@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250830
+DTEND;VALUE=DATE:20250831
+SUMMARY:Professional Development Day 3
+CATEGORIES:Other
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -234,7 +274,17 @@ DTSTART;VALUE=DATE:20250904
 DTEND;VALUE=DATE:20250905
 SUMMARY:Prophet Muhammad's (SAW) Birthday
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2c5f2470b2eb2f236e14@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20250913
+DTEND;VALUE=DATE:20250914
+SUMMARY:PTS Meeting
+CATEGORIES:Other
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -244,7 +294,7 @@ DTSTART;VALUE=DATE:20250914
 DTEND;VALUE=DATE:20250915
 SUMMARY:Classes begin for Gr 11
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -254,7 +304,7 @@ DTSTART;VALUE=DATE:20250921
 DTEND;VALUE=DATE:20250926
 SUMMARY:Second Term Mid-Break
 CATEGORIES:Term holidays
-DESCRIPTION:Term holidays · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Term holidays · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -264,7 +314,7 @@ DTSTART;VALUE=DATE:20250924
 DTEND;VALUE=DATE:20250925
 SUMMARY:The Day Maldives Embraced Islam
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -274,17 +324,17 @@ DTSTART;VALUE=DATE:20251005
 DTEND;VALUE=DATE:20251006
 SUMMARY:Teachers' Day
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:bf0172af0e29678c813b@mv-academic-calendar
+UID:f3eecd06ec1b47fcb52c@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20251018
 DTEND;VALUE=DATE:20251019
-SUMMARY:Professional Development Day
+SUMMARY:Professional Development Day 4
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -294,7 +344,7 @@ DTSTART;VALUE=DATE:20251102
 DTEND;VALUE=DATE:20251107
 SUMMARY:SSE & SIP
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -304,7 +354,7 @@ DTSTART;VALUE=DATE:20251103
 DTEND;VALUE=DATE:20251104
 SUMMARY:Victory Day
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -314,37 +364,17 @@ DTSTART;VALUE=DATE:20251111
 DTEND;VALUE=DATE:20251112
 SUMMARY:Republic Day
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:0daca9d9c1d70eca811f@mv-academic-calendar
+UID:4dabe55194001f4fb0c9@mv-academic-calendar
 DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20251129
-DTEND;VALUE=DATE:20251130
+DTSTART;VALUE=DATE:20251122
+DTEND;VALUE=DATE:20251123
 SUMMARY:PTS Meeting
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a344cfc4a24eb1ef1b46@mv-academic-calendar
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20251206
-DTEND;VALUE=DATE:20251221
-SUMMARY:Gr 10 Mock Exam
-CATEGORIES:Exam days
-DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:17de79e460ad9dbb6a57@mv-academic-calendar
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20251206
-DTEND;VALUE=DATE:20251221
-SUMMARY:Term 2 Exam (Gr 7\, 8\, 9)
-CATEGORIES:Exam days
-DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -354,7 +384,37 @@ DTSTART;VALUE=DATE:20251206
 DTEND;VALUE=DATE:20251221
 SUMMARY:Term Exam (Gr 11 & 12)
 CATEGORIES:Exam days
-DESCRIPTION:Exam days · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Exam days · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:434d93bd857fe7452d11@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251221
+SUMMARY:Gr 10 Mock Exam
+CATEGORIES:Exam days
+DESCRIPTION:Exam days · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6cfc284aa24d50dde7f5@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251221
+SUMMARY:Term 2 Exam (Gr 9)
+CATEGORIES:Exam days
+DESCRIPTION:Exam days · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:f71d48322b072716b294@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20251210
+DTEND;VALUE=DATE:20251221
+SUMMARY:Term 2 Exam (Gr 7 & 8)
+CATEGORIES:Exam days
+DESCRIPTION:Exam days · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -364,7 +424,7 @@ DTSTART;VALUE=DATE:20251225
 DTEND;VALUE=DATE:20251226
 SUMMARY:End of Term 2
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -374,17 +434,7 @@ DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260102
 SUMMARY:New Year
 CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d7f6afef63dc4d9cfb74@mv-academic-calendar
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20260122
-DTEND;VALUE=DATE:20260123
-SUMMARY:Annual Holidays
-CATEGORIES:Public holiday
-DESCRIPTION:Public holiday · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -394,7 +444,17 @@ DTSTART;VALUE=DATE:20260125
 DTEND;VALUE=DATE:20260126
 SUMMARY:Teachers' Reporting Day
 CATEGORIES:Other
-DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+DESCRIPTION:Other · final · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:621ddcf63eee0b8b2c81@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+SUMMARY:Annual Holidays
+CATEGORIES:Public holiday
+DESCRIPTION:Public holiday · final · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
