@@ -7,7 +7,6 @@ Ministry of Education's published calendars. **Unofficial.** Always check the
 ## Files
 
 - `data/<year>.json` – source of truth
-- `data/<year>.ics` – generated with `python build_ics.py` (stdlib only)
 
 ## Schema
 
