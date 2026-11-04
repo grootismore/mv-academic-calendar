@@ -1,12 +1,12 @@
 {
   "year": 2022,
   "source": "Ministry of Education, Maldives",
-  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_2022_2023_REVISED_March_2023_.pdf",
-  "status": "current",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_2022_2023_FINAL_1.pdf",
+  "status": "final",
   "retrieved": "2026-11-04",
-  "note": "Parsed from \"Academic_Calendar_2022_2023_REVISED_March_2023_\".",
-  "pdf_sha256": "5a2e95f906ea06f1a46f6f583a6514954e42bb91bab835b15ff8406537e8927d",
-  "pdf_date": "2023-03-28",
+  "note": "Parsed from \"Academic_Calendar_2022_2023_FINAL_1\".",
+  "pdf_sha256": "6aa5e74c68cccf2585281368ff0856076fa7ebed79391bd592386a0a93bfae30",
+  "pdf_date": "2022-06-15",
   "events": [
     {
       "start": "2022-01-01",
@@ -46,7 +46,13 @@
       "category": "term_holidays"
     },
     {
+      "start": "2022-04-22",
+      "name": "Eid-al-Fitr",
+      "category": "public_holiday"
+    },
+    {
       "start": "2022-04-23",
+      "end": "2022-04-24",
       "name": "On the occasion of Eid-al-Fitr",
       "category": "public_holiday"
     },
@@ -80,16 +86,16 @@
     {
       "start": "2022-06-25",
       "end": "2022-08-03",
-      "name": "Annual Holidays Hijri New Year 1445",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2022-06-27",
-      "name": "Hajj Day",
+      "name": "Annual Holidays",
       "category": "public_holiday"
     },
     {
       "start": "2022-06-28",
+      "name": "Hajj Day",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2022-06-29",
       "name": "Eid-al-Adha",
       "category": "public_holiday"
     },
