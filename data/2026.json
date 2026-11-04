@@ -1,11 +1,11 @@
 {
   "year": 2026,
   "source": "Ministry of Education, Maldives",
-  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/1755007289237-Academic%20Calendar%20-%202026%20TENTATIVE_250812_151956.pdf",
-  "status": "tentative",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/1768985022852-Academic%20Calendar%20-%202026%20FINAL.pdf",
+  "status": "final",
   "retrieved": "2026-11-04",
-  "note": "Parsed from \"Academic Calendar - 2026 TENTATIVE_250812_151956\".",
-  "pdf_sha256": "f33cea5f9163ce3fe695fbf1f4ec64db8eb7379212c4a5a83d1bdc54e1dceaa3",
+  "note": "Parsed from \"Academic Calendar - 2026 FINAL\".",
+  "pdf_sha256": "143bc54e81bfbc76fa470701411b97055636fed2b8cbd1c903199b44f87efd04",
   "events": [
     {
       "start": "2026-01-01",
@@ -13,13 +13,29 @@
       "category": "public_holiday"
     },
     {
+      "start": "2026-01-13",
+      "name": "Teachers' Reporting Day",
+      "category": "other"
+    },
+    {
       "start": "2026-01-25",
       "name": "Teachers' Reporting Day",
       "category": "other"
     },
     {
+      "start": "2026-01-25",
+      "end": "2026-07-16",
+      "name": "84.5 5 6 3.5 107 Mid-break (7) + Term-end vacation (16): 23 days Term 2",
+      "category": "term_holidays"
+    },
+    {
       "start": "2026-01-27",
       "name": "Beginning of Academic Year",
+      "category": "other"
+    },
+    {
+      "start": "2026-02-05",
+      "name": "Opening of the People’s Majlis",
       "category": "other"
     },
     {
@@ -49,6 +65,12 @@
       "end": "2026-03-22",
       "name": "On the occasion of Eid-al-Fitr",
       "category": "public_holiday"
+    },
+    {
+      "start": "2026-04-05",
+      "end": "2026-04-14",
+      "name": "Grade 11 and 12 First Term Exam",
+      "category": "exam_days"
     },
     {
       "start": "2026-05-01",
@@ -105,7 +127,7 @@
       "category": "exam_days"
     },
     {
-      "start": "2026-07-12",
+      "start": "2026-07-09",
       "end": "2026-08-31",
       "name": "New Admission - LKG & Gr. 1",
       "category": "other"
@@ -144,13 +166,25 @@
     {
       "start": "2026-08-22",
       "end": "2026-08-25",
-      "name": "Camps and Activities (KS1-KS4)",
+      "name": "Camps and Activities (KS1 - KS4)",
       "category": "other"
+    },
+    {
+      "start": "2026-08-23",
+      "end": "2026-09-10",
+      "name": "Grade 11 and 12 Final Exam",
+      "category": "exam_days"
     },
     {
       "start": "2026-08-25",
       "name": "Prophet Muhammad's Birthday",
       "category": "public_holiday"
+    },
+    {
+      "start": "2026-09-01",
+      "end": "2026-09-10",
+      "name": "Grade 10 Mock Exam",
+      "category": "exam_days"
     },
     {
       "start": "2026-09-13",
@@ -188,6 +222,12 @@
       "start": "2026-11-12",
       "name": "Professional Development Day",
       "category": "other"
+    },
+    {
+      "start": "2026-12-01",
+      "end": "2026-12-10",
+      "name": "First Term Exam (Gr. 11, Batch)",
+      "category": "exam_days"
     },
     {
       "start": "2026-12-01",
