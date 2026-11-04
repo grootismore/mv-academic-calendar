@@ -10,6 +10,7 @@ Ministry of Education's published calendars. **Unofficial.** Always check the
 - `data/<year>.ics` – generated with `python build_ics.py` (stdlib only)
 - `build_ics.py` – JSON → ICS
 
+Maintained by the repo owner. For questions or inquiries, please [open an issue](../../issues/new).
 
 ## Schema
 
