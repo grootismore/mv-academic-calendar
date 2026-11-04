@@ -1,12 +1,12 @@
 {
   "year": 2015,
   "source": "Ministry of Education, Maldives",
-  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/22_E.CIR.2015.722.pdf",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/Academic_Calendar_2015_UPDATED.pdf",
   "status": "current",
   "retrieved": "2026-11-04",
-  "note": "Parsed from \"22_E.CIR.2015.722\".",
-  "pdf_sha256": "f8a844b6e0147ef09179cfa30f29e6decdbe84bd4f95368efc707fa34947b6a5",
-  "pdf_date": "2015-12-08",
+  "note": "Parsed from \"Academic_Calendar_2015_UPDATED\".",
+  "pdf_sha256": "9ff9e4e4e3815466554c3e934cf04998dc38604965b8b05248a24587fb289a58",
+  "pdf_date": "2015-01-06",
   "events": [
     {
       "start": "2015-01-01",
@@ -14,47 +14,57 @@
       "category": "public_holiday"
     },
     {
-      "start": "2015-01-12",
+      "start": "2015-01-03",
+      "name": "Prophet Muhammad's Birthday (1436)",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2015-01-06",
+      "name": "Teachers' Reporting Day",
+      "category": "other"
+    },
+    {
+      "start": "2015-01-11",
+      "name": "Beginning of Term 1",
+      "category": "other"
+    },
+    {
+      "start": "2015-01-23",
       "name": "The Day Maldives Embraced Islam",
       "category": "public_holiday"
     },
     {
-      "start": "2015-02-11",
+      "start": "2015-02-12",
       "name": "Professional Development Day 1",
       "category": "other"
     },
     {
-      "start": "2015-02-14",
-      "end": "2015-02-18",
+      "start": "2015-02-15",
+      "end": "2015-02-19",
       "name": "Health Screening Week",
       "category": "other"
     },
     {
-      "start": "2015-03-06",
-      "name": "Beginning of High. Sec. Academic Year",
-      "category": "other"
-    },
-    {
-      "start": "2015-03-06",
-      "end": "2015-03-10",
+      "start": "2015-03-08",
+      "end": "2015-03-12",
       "name": "Disaster Preparedness Week 1",
       "category": "other"
     },
     {
-      "start": "2015-03-20",
-      "end": "2015-03-24",
+      "start": "2015-03-22",
+      "end": "2015-03-26",
       "name": "First Term Mid-Term Holidays",
       "category": "term_holidays"
     },
     {
-      "start": "2015-04-21",
-      "name": "Professional Development Day 2 A'Level (Edexcel) & HSC Examinations",
-      "category": "exam_days"
+      "start": "2015-04-23",
+      "name": "Professional Development Day 2",
+      "category": "other"
     },
     {
       "start": "2015-05-01",
-      "name": "Labour Day",
-      "category": "public_holiday"
+      "name": "Labour Day A'Level (Edexcel) & HSC Examinations",
+      "category": "exam_days"
     },
     {
       "start": "2015-05-10",
@@ -62,40 +72,45 @@
       "category": "other"
     },
     {
-      "start": "2015-05-22",
-      "end": "2015-06-02",
+      "start": "2015-05-17",
+      "end": "2015-05-28",
       "name": "First Term Test",
       "category": "school_days"
     },
     {
-      "start": "2015-06-06",
-      "name": "First of Ramazan",
-      "category": "other"
-    },
-    {
-      "start": "2015-06-09",
+      "start": "2015-06-04",
       "name": "End of Term 1",
       "category": "other"
     },
     {
-      "start": "2015-06-12",
-      "end": "2015-06-16",
+      "start": "2015-06-07",
+      "end": "2015-06-11",
       "name": "First Term Holidays",
       "category": "term_holidays"
     },
     {
-      "start": "2015-06-19",
+      "start": "2015-06-14",
+      "name": "Beginning of H. Sec. Academic Year",
+      "category": "other"
+    },
+    {
+      "start": "2015-06-14",
       "name": "Beginning of Term 2",
       "category": "other"
     },
     {
-      "start": "2015-07-06",
+      "start": "2015-06-18",
+      "name": "First of Ramazan",
+      "category": "other"
+    },
+    {
+      "start": "2015-07-17",
       "name": "Eid-ul Fithr",
       "category": "public_holiday"
     },
     {
-      "start": "2015-07-07",
-      "end": "2015-07-08",
+      "start": "2015-07-18",
+      "end": "2015-07-19",
       "name": "on the Occasion of Eid-ul Fithr",
       "category": "public_holiday"
     },
@@ -110,58 +125,52 @@
       "category": "public_holiday"
     },
     {
-      "start": "2015-08-04",
+      "start": "2015-08-06",
       "name": "Professional Development Day 3",
       "category": "other"
     },
     {
-      "start": "2015-08-14",
-      "end": "2015-08-18",
+      "start": "2015-08-16",
+      "end": "2015-08-20",
       "name": "Disaster Preparedness Week 2",
       "category": "other"
     },
     {
-      "start": "2015-08-14",
-      "end": "2015-08-25",
+      "start": "2015-08-16",
+      "end": "2015-08-27",
       "name": "2nd Term Test for Gr. 10",
       "category": "school_days"
     },
     {
-      "start": "2015-09-10",
-      "name": "Hajju Day",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2015-09-11",
-      "name": "Eid-ul Al'haa",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2015-09-12",
-      "end": "2015-09-14",
-      "name": "on the Occasion of Eid-ul Al'haa GCE O'Level, IGCSE & SSC Examinations",
-      "category": "exam_days"
-    },
-    {
-      "start": "2015-09-15",
+      "start": "2015-09-03",
       "name": "Second Term Mid-Term Holidays",
       "category": "term_holidays"
     },
     {
-      "start": "2015-10-02",
-      "name": "Islamic New Year (1 Mu'harram 1438)",
+      "start": "2015-09-22",
+      "name": "Hajju Day",
       "category": "public_holiday"
     },
     {
-      "start": "2015-10-05",
-      "name": "Teachers' Day IAL (Edexcel) Examinations",
+      "start": "2015-09-23",
+      "name": "Eid-ul Al'haa",
+      "category": "public_holiday"
+    },
+    {
+      "start": "2015-09-24",
+      "end": "2015-09-26",
+      "name": "on the Occasion of Eid-ul Al'haa GCE O'Level, IGCSE & SSC Examinations",
       "category": "exam_days"
     },
     {
-      "start": "2015-10-30",
-      "end": "2015-11-10",
-      "name": "2nd Term Test",
-      "category": "school_days"
+      "start": "2015-10-05",
+      "name": "Teachers' Day",
+      "category": "other"
+    },
+    {
+      "start": "2015-10-14",
+      "name": "Islamic New Year (1 Mu'harram 1437)",
+      "category": "public_holiday"
     },
     {
       "start": "2015-11-03",
@@ -169,42 +178,38 @@
       "category": "public_holiday"
     },
     {
+      "start": "2015-11-04",
+      "end": "2015-11-18",
+      "name": "2nd Term Test",
+      "category": "school_days"
+    },
+    {
       "start": "2015-11-11",
       "name": "Republic Day",
       "category": "public_holiday"
     },
     {
-      "start": "2015-11-17",
+      "start": "2015-11-24",
       "name": "End of Term 2",
       "category": "other"
     },
     {
-      "start": "2015-11-30",
-      "name": "National Day (1 Rabee'ul Awwal 1438)",
+      "start": "2015-11-25",
+      "name": "Expatriate teachers' departure",
+      "category": "other"
+    },
+    {
+      "start": "2015-12-12",
+      "name": "National Day (1 Rabee'ul Awwal 1437)",
       "category": "public_holiday"
     },
     {
-      "start": "2015-12-11",
-      "name": "Prophet Muhammad's Birthday (1438)",
+      "start": "2015-12-23",
+      "name": "Prophet Muhammad's Birthday (1437)",
       "category": "public_holiday"
     },
     {
       "start": "2016-01-07",
-      "name": "Teachers' Reporting Day",
-      "category": "other"
-    },
-    {
-      "start": "2016-01-13",
-      "name": "Beginning of Term 1",
-      "category": "other"
-    },
-    {
-      "start": "2017-01-01",
-      "name": "New Year",
-      "category": "public_holiday"
-    },
-    {
-      "start": "2017-01-04",
       "name": "Teachers' Reporting Day",
       "category": "other"
     }
