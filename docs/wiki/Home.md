@@ -1,7 +1,7 @@
 # Maldives Academic Calendar
 
 Open data for the Maldives school year: terms, exams, holidays and public holidays, as **JSON** and **iCalendar (.ics)**.
-Compiled from the calendars the Ministry of Education publishes. **Unofficial.** Always check the
+Compiled from the calendars the Ministry of Education publishes, and kept up to date as newer versions appear. **Unofficial.** Always check the
 [Ministry of Education site](https://www.moe.gov.mv/en/academic-calendar) for the authoritative version.
 
 ## Start here
