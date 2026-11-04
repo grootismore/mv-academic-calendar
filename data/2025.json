@@ -1,12 +1,22 @@
 {
   "year": 2025,
   "source": "Ministry of Education, Maldives",
-  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/1730401199029-Academic%20Calendar%20-%202025%20(Tentative%20-%2031.10.2024).pdf",
-  "status": "tentative",
+  "source_url": "https://www.moe.gov.mv/storage/files/downloads/calendars/1740988707784-Academic%20Calendar%20-%202025%20(23.2.2025)%20FINAL%20(2).pdf",
+  "status": "final",
   "retrieved": "2026-11-04",
-  "note": "Parsed from \"Academic Calendar - 2025 (Tentative - 31.10.2024)\".",
-  "pdf_sha256": "01fd5494eba86f30ffa642ac03d469d2b9f7091d110018efd348936654494127",
+  "note": "Parsed from \"Academic Calendar - 2025 (23.2.2025) FINAL (2)\".",
+  "pdf_sha256": "7d150eb65d83cd56dee4b41f7f7facf74925d03813ff1b7920a047dcbab98161",
   "events": [
+    {
+      "start": "2025-01-24",
+      "name": "World Education Day",
+      "category": "other"
+    },
+    {
+      "start": "2025-01-27",
+      "name": "Beginning of Academic Year",
+      "category": "other"
+    },
     {
       "start": "2025-03-31",
       "name": "Eid-ul-Fitr",
@@ -19,12 +29,12 @@
       "category": "public_holiday"
     },
     {
-      "start": "2025-04-03",
+      "start": "2025-04-05",
       "name": "Teachers' Reporting Day",
       "category": "other"
     },
     {
-      "start": "2025-04-06",
+      "start": "2025-04-07",
       "name": "Beginning of Academic Year",
       "category": "other"
     },
@@ -45,7 +55,7 @@
     },
     {
       "start": "2025-05-24",
-      "name": "PTS Meeting 1",
+      "name": "PTS Meeting",
       "category": "other"
     },
     {
@@ -70,26 +80,26 @@
       "category": "public_holiday"
     },
     {
+      "start": "2025-06-21",
+      "name": "PTS Meeting",
+      "category": "other"
+    },
+    {
       "start": "2025-06-26",
       "name": "Islamic New Year (1 Mu'harram 1447)",
       "category": "public_holiday"
     },
     {
-      "start": "2025-07-05",
+      "start": "2025-07-06",
       "end": "2025-07-19",
-      "name": "Final Exam (Gr 11 & 12)",
+      "name": "Term 1 Exam (Gr 9 & 10)",
       "category": "exam_days"
     },
     {
-      "start": "2025-07-05",
+      "start": "2025-07-09",
       "end": "2025-07-19",
-      "name": "Term 1 Exam (Gr 7, 8, 9 & 10)",
+      "name": "Term 1 Exam (Gr 7 & 8)",
       "category": "exam_days"
-    },
-    {
-      "start": "2025-07-21",
-      "name": "PTS Meeting 2",
-      "category": "other"
     },
     {
       "start": "2025-07-24",
@@ -114,8 +124,14 @@
     },
     {
       "start": "2025-08-10",
-      "name": "Beginning of Term",
+      "name": "Beginning of Term 2",
       "category": "other"
+    },
+    {
+      "start": "2025-08-16",
+      "end": "2025-09-01",
+      "name": "Final Exam (Gr 11 & 12)",
+      "category": "exam_days"
     },
     {
       "start": "2025-08-24",
@@ -123,9 +139,19 @@
       "category": "public_holiday"
     },
     {
+      "start": "2025-08-30",
+      "name": "Professional Development Day 3",
+      "category": "other"
+    },
+    {
       "start": "2025-09-04",
       "name": "Prophet Muhammad's (SAW) Birthday",
       "category": "public_holiday"
+    },
+    {
+      "start": "2025-09-13",
+      "name": "PTS Meeting",
+      "category": "other"
     },
     {
       "start": "2025-09-14",
@@ -150,7 +176,7 @@
     },
     {
       "start": "2025-10-18",
-      "name": "Professional Development Day",
+      "name": "Professional Development Day 4",
       "category": "other"
     },
     {
@@ -170,26 +196,32 @@
       "category": "public_holiday"
     },
     {
-      "start": "2025-11-29",
+      "start": "2025-11-22",
       "name": "PTS Meeting",
       "category": "other"
     },
     {
       "start": "2025-12-06",
       "end": "2025-12-20",
+      "name": "Term Exam (Gr 11 & 12)",
+      "category": "exam_days"
+    },
+    {
+      "start": "2025-12-07",
+      "end": "2025-12-20",
       "name": "Gr 10 Mock Exam",
       "category": "exam_days"
     },
     {
-      "start": "2025-12-06",
+      "start": "2025-12-07",
       "end": "2025-12-20",
-      "name": "Term 2 Exam (Gr 7, 8, 9)",
+      "name": "Term 2 Exam (Gr 9)",
       "category": "exam_days"
     },
     {
-      "start": "2025-12-06",
+      "start": "2025-12-10",
       "end": "2025-12-20",
-      "name": "Term Exam (Gr 11 & 12)",
+      "name": "Term 2 Exam (Gr 7 & 8)",
       "category": "exam_days"
     },
     {
@@ -203,14 +235,14 @@
       "category": "public_holiday"
     },
     {
-      "start": "2026-01-22",
-      "name": "Annual Holidays",
-      "category": "public_holiday"
-    },
-    {
       "start": "2026-01-25",
       "name": "Teachers' Reporting Day",
       "category": "other"
+    },
+    {
+      "start": "2026-01-26",
+      "name": "Annual Holidays",
+      "category": "public_holiday"
     }
   ]
 }
