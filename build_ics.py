@@ -116,11 +116,36 @@ def build(path):
     write(path[:-5] + ".ics", to_ics(d, stem), newline="")
     return stem, d
 
+PALETTE = {"light": dict(tile="#fffdf8", line="#d9d3c4", ink="#0b2b33", mut="#566b70", acc="#00747e", pill="#f1ece1"),
+           "dark":  dict(tile="#0b2830", line="#1c3f48", ink="#e6f3f0", mut="#8fa9ad", acc="#52d6c4", pill="#04161b")}
+
+def coverage_svg(docs, mode):
+    """assets/coverage-<mode>.svg: one tile per calendar; fill height = number of entries, hatched = tentative."""
+    c, docs = PALETTE[mode], sorted(docs, key=lambda sd: sd[0])
+    mx, w, gap, pad = max(len(d["events"]) for _, d in docs), 92, 10, 16
+    W, H = pad * 2 + len(docs) * (w + gap) - gap, 168
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="Calendars available and their status">',
+           f'<defs><pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="3.5" height="8" fill="{c["acc"]}"/></pattern></defs>']
+    for i, (stem, d) in enumerate(docs):
+        x, n, st = pad + i * (w + gap), len(d["events"]), d["status"]
+        h = max(8, round(n / mx * 74)); fill = "url(#h)" if st == "tentative" else c["acc"]
+        op = ' fill-opacity=".72"' if st == "current" else ""
+        out.append(f'<g font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle"><rect x="{x}" y="8" width="{w}" height="{H-16}" rx="16" fill="{c["tile"]}" stroke="{c["line"]}"/>'
+                   f'<text x="{x+w/2}" y="34" font-family="Georgia, serif" font-size="{16 if "-" in stem else 20}" font-weight="700" fill="{c["ink"]}">{stem}</text>'
+                   f'<rect x="{x+14}" y="46" width="{w-28}" height="80" rx="10" fill="{c["pill"]}"/>'
+                   f'<rect x="{x+14}" y="{46+80-h}" width="{w-28}" height="{h}" rx="10" fill="{fill}"{op}/>'
+                   f'<rect x="{x+w/2-16}" y="52" width="32" height="18" rx="9" fill="{c["tile"]}" stroke="{c["line"]}"/><text x="{x+w/2}" y="65" font-size="12" font-weight="700" fill="{c["ink"]}">{n}</text>'
+                   f'<text x="{x+w/2}" y="146" font-size="12" font-weight="600" fill="{c["mut"]}">{st}</text></g>')
+    out.append("</svg>")
+    return "\n".join(out) + "\n"
+
 def build_index(docs):
     docs = sorted(docs, key=lambda sd: sd[0])
     idx = {"files": [{"file": stem, "year": d["year"], "status": d["status"], "events": len(d["events"]), "retrieved": d["retrieved"],
                       "json": f"data/{stem}.json", "ics": f"data/{stem}.ics"} for stem, d in docs]}
     allj = {"events": [{"id": event_id(stem, e), **e, "calendar": d["year"], "file": stem, "status": d["status"]} for stem, d in docs for e in d["events"]]}
+    os.makedirs(f"{HERE}/assets", exist_ok=True)
+    for mode in PALETTE: write(f"{HERE}/assets/coverage-{mode}.svg", coverage_svg(docs, mode))
     for name, obj in (("index", idx), ("all", allj)):
         write(f"{DATA}/{name}.json", json.dumps(obj, indent=1, ensure_ascii=False) + "\n")
 

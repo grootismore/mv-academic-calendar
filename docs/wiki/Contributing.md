@@ -5,3 +5,6 @@
 - **Something you built with the data:** share it under *Show and tell* in Discussions.
 
 Calendar files are generated and maintained by the repository owner, so please use issues and discussions rather than pull requests for data changes.
+
+---
+[← Where the data comes from](Data-Sources-and-Updates) · [Home](Home)

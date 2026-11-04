@@ -1,130 +1,142 @@
-# Maldives Academic Calendar
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+    <img alt="Maldives Academic Calendar: school terms, exams and holidays as open JSON and iCalendar data" src="assets/banner-light.svg" width="100%">
+  </picture>
+</p>
 
-[![Build](https://github.com/grootismore/mv-academic-calendar/actions/workflows/build.yml/badge.svg)](https://github.com/grootismore/mv-academic-calendar/actions/workflows/build.yml)
-![Years](https://img.shields.io/badge/years-2015%E2%80%932027-blue)
-![Formats](https://img.shields.io/badge/formats-JSON%20%7C%20iCalendar-informational)
+<p align="center">
+  <a href="https://github.com/grootismore/mv-academic-calendar/actions/workflows/build.yml"><img alt="Build" src="https://github.com/grootismore/mv-academic-calendar/actions/workflows/build.yml/badge.svg"></a>
+  <img alt="Years 2015 to 2027" src="https://img.shields.io/badge/years-2015%E2%80%932027-0b6b5c">
+  <img alt="Formats: JSON and iCalendar" src="https://img.shields.io/badge/formats-JSON%20%7C%20iCalendar-0b6b5c">
+  <img alt="No API key" src="https://img.shields.io/badge/API%20key-not%20needed-0b6b5c">
+</p>
 
-Maldives school academic calendar as open data: terms, exams, holidays and public holidays in **JSON** and **iCalendar (.ics)**,
-for every published year from 2015 to 2027. No API key, no install; fetch a file and use it.
+<p align="center">
+  <b><a href="#quick-start">Quick start</a></b> &nbsp;·&nbsp;
+  <a href="../../wiki">Wiki</a> &nbsp;·&nbsp;
+  <a href="../../discussions">Discussions</a> &nbsp;·&nbsp;
+  <a href="../../issues/new?template=data-correction.yml">Report a correction</a>
+</p>
 
-- One flat file with every event: [`data/all.json`](data/all.json)
-- One file per year, JSON or `.ics` for calendar apps: `data/<year>.json`, `data/<year>.ics`
-- A manifest of what is available: [`data/index.json`](data/index.json)
-- Rebuilt automatically whenever a year file changes
+> [!IMPORTANT]
+> **Unofficial.** This data is compiled from calendars published by the Ministry of Education and is not affiliated with or endorsed by the Ministry.
+> Always check the [Ministry's site](https://www.moe.gov.mv/en/academic-calendar) for the authoritative version.
 
-> **Unofficial.** Compiled from calendars published by the Ministry of Education. It is not affiliated with or endorsed by the Ministry.
-> Always check the [MoE site](https://www.moe.gov.mv/en/academic-calendar) for the authoritative version.
-> Tentative years can change; see the `status` field.
+Terms, exams, mid-term breaks, school days and public holidays for the Maldives school year, in two formats everything understands.
+Fetch a file and use it. No key, no signup, no install.
 
-## Use it (no install, no key)
+## Coverage
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/coverage-dark.svg">
+    <img alt="Calendars available, one tile per year, with status and number of entries" src="assets/coverage-light.svg">
+  </picture>
+</p>
+
+<p align="center"><sub>Bar height is the number of entries. <b>Solid</b> = final or current, <b>hatched</b> = tentative and may change. This graphic rebuilds itself whenever the data changes.</sub></p>
+
+## Quick start
 
 Base URL: `https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/`
 
-| File | What |
-|---|---|
-| `data/index.json` | list of available years: status, entry count, paths |
-| `data/all.json` | every event from every year in one flat list |
-| `data/<year>.json` | one calendar, with source and status. Academic years that run August to June are `data/2023-2024.json` |
-| `data/<year>.ics` | the same as iCalendar, subscribe in any calendar app |
-| `data/schema.json` | JSON Schema for the year files |
-| `llms.txt` | short pointer file for AI tools |
-
 ```sh
+# every event from every calendar, in one request
+curl -s https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/data/all.json
+
+# one calendar
 curl -s https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/data/2026.json
 ```
+
+<details>
+<summary><b>Python</b></summary>
+
 ```python
 import requests
 B = "https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/"
 events = requests.get(B + "data/all.json").json()["events"]
 holidays = [e for e in events if e["category"] == "public_holiday" and e["calendar"] == 2026]
 ```
+</details>
+
+<details>
+<summary><b>JavaScript</b></summary>
+
 ```js
 const B = "https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/";
 const { events } = await (await fetch(B + "data/all.json")).json();
 ```
+</details>
 
-Calendar subscription: add `…/data/2026.ics` as a URL calendar.
+<details>
+<summary><b>Subscribe in a calendar app</b></summary>
 
-## Format
+Add `data/2026.ics` as a **URL calendar**. In Apple Calendar: File → New Calendar Subscription. In Google Calendar: Other calendars → From URL.
+The file asks apps to refresh once a day.
+</details>
 
-Each event: `start` (ISO date), optional `end` (inclusive ISO date; absent means one day), `name`, `category`.
-In `all.json` each event also has a stable `id`, `calendar` (the year the file starts in), `file` (the file name without extension, such as `2026` or `2023-2024`) and `status`.
+## What is in `data/`
 
-- `category`: `public_holiday`, `school_days`, `exam_days`, `term_holidays`, `other` (MoE's own)
-- `status`: `final` (MoE final) > `current` (taken from the MoE page, no status stated) > `tentative` (MoE draft; may change)
+| File | What it is |
+|---|---|
+| [`all.json`](data/all.json) | every event from every calendar in one flat list, each with a stable `id` |
+| [`index.json`](data/index.json) | the list of calendars: status, number of entries, file paths |
+| `2026.json`, `2023-2024.json`, … | one calendar each, with its source and status |
+| `2026.ics`, `2023-2024.ics`, … | the same as iCalendar, one all-day event per entry |
+| [`schema.json`](data/schema.json) | JSON Schema for the calendar files |
 
-## Seed your own app or database
+Academic years that run August to June, as the Ministry has published them since 2021, are named like `2023-2024`.
 
-Fetch `data/all.json` and upsert each event by its `id`. The `id` is stable: it only changes if an event's
-name or start date changes. Use `index.json` (`retrieved` per year) to see whether anything changed since your last sync.
+## How it fits together
 
-Suggested table:
-
-```sql
-CREATE TABLE academic_events (
-  id        text PRIMARY KEY,      -- from all.json
-  calendar  integer NOT NULL,      -- year file
-  status    text NOT NULL,         -- final | current | tentative
-  category  text NOT NULL,
-  name      text NOT NULL,
-  start_date date NOT NULL,
-  end_date   date                  -- inclusive; NULL = one day
-);
+```mermaid
+flowchart LR
+    A["Ministry of Education<br/>published calendars"] --> B["Read, clean and<br/>check against the latest version"]
+    B --> C[("data/*.json")]
+    C --> D["all.json<br/>index.json"]
+    C --> E[".ics files"]
+    D --> F["Your app<br/>or database"]
+    E --> G["Calendar apps"]
 ```
 
-**Push to a REST endpoint** (any language; here with `curl` + `jq`):
+The newest published version of each year always wins. Older revisions never replace newer data.
 
-```sh
-B=https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main
-curl -s $B/data/all.json | jq -c '.events[]' | while read -r ev; do
-  curl -s -X PUT "https://your-api.example.com/academic-events/$(echo "$ev" | jq -r .id)" \
-done
-```
-Or send the whole list in one request: `curl -s $B/data/all.json | curl -X POST https://your-api.example.com/academic-events/bulk -H "Content-Type: application/json" --data-binary @-`
+## The format
 
-**Node / TypeScript (Postgres, upsert):**
-
-```js
-import pg from "pg";
-const { events } = await (await fetch("https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/data/all.json")).json();
-const db = new pg.Client({ connectionString: process.env.DATABASE_URL }); await db.connect();
-for (const e of events)
-  await db.query(
-    `INSERT INTO academic_events (id, calendar, status, category, name, start_date, end_date)
-     VALUES ($1,$2,$3,$4,$5,$6,$7)
-     ON CONFLICT (id) DO UPDATE SET status=$3, category=$4, name=$5, start_date=$6, end_date=$7`,
-    [e.id, e.calendar, e.status, e.category, e.name, e.start, e.end ?? null]);
+```json
+{
+  "id": "6c1f0a8e2b7d94c3a1f5",
+  "start": "2026-05-27",
+  "end": "2026-05-30",
+  "name": "Eid-al-Adha",
+  "category": "public_holiday",
+  "calendar": 2026,
+  "file": "2026",
+  "status": "final"
+}
 ```
 
-**Python (any HTTP API):**
+| Field | Meaning |
+|---|---|
+| `start`, `end` | ISO dates. `end` is the last day, inclusive. Missing means a single day |
+| `category` | `public_holiday`, `school_days`, `exam_days`, `term_holidays` or `other` |
+| `status` | `final`, `current` or `tentative` |
+| `id` | stable across updates. It only changes if the name or start date changes |
 
-```python
-import requests
-B = "https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/"
-for e in requests.get(B + "data/all.json").json()["events"]:
-    requests.put(f"https://your-api.example.com/academic-events/{e['id']}", json=e, headers={"Authorization": "Bearer …"})
-```
+> [!TIP]
+> Dates have no time zone. Parse them as local dates (the Maldives is UTC+5), not as UTC, or events will shift by a day.
 
-**Keeping in sync / removals.** Events can be removed or renamed upstream. To handle that, sync one year at a time:
-delete your rows where `calendar = <year>`, then insert that year's events (inside one transaction), or delete ids that are no longer in the feed.
-Run it on a schedule (cron, a GitHub Action, a cloud scheduler); once a day is plenty.
+## Put it in your app
 
-**Mobile apps.** Don't ship the raw GitHub URL as your only source:
-- Bundle a copy of `all.json` in the app so it works offline, then refresh it from your own backend (seeded as above) or from the raw URL with an `If-None-Match` header (the raw host sends an `ETag`; a `304` means nothing changed).
-- Dates are plain `YYYY-MM-DD` with no time zone: parse them as local dates (Maldives is UTC+5), not as UTC instants, or events will shift a day.
-- For calendar apps (iOS/Android), subscribe to `data/<year>.ics` instead of importing events.
+Load `all.json` and **upsert each event by its `id`**. The wiki has a ready table definition, a Node and PostgreSQL example, and notes for mobile apps:
+[**Using the data in your app →**](../../wiki/Using-the-Data-in-Your-App)
 
-## Files and updating
+## Corrections and community
 
-`data/<year>.json` is the source of truth. `*.ics`, `index.json` and `all.json` are generated by
-`python build_ics.py` (stdlib only), and a GitHub Action regenerates them whenever a year file changes.
+- **Found a wrong date or name?** [Open a data correction](../../issues/new?template=data-correction.yml) with a link to the source.
+- **Questions and ideas:** [Discussions](../../discussions).
+- **Guides and the full field reference:** [Wiki](../../wiki).
 
-## Documentation and community
-
-- [Wiki](../../wiki): guides for using and loading the data
-- [Discussions](../../discussions): questions, ideas and things you have built
-
-## Corrections and questions
-
-Found a wrong date or name? [Open a data correction](../../issues/new?template=data-correction.yml) with a link to the source.
-For any other question or inquiry, [open an issue](../../issues/new). Maintained by the repo owner.
+The data is read from PDFs and then cleaned, so an entry name can still contain a small slip. Dates are the reliable part.
+Maintained by the repo owner.

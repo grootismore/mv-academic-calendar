@@ -1,5 +1,25 @@
 # Data format
 
+```mermaid
+classDiagram
+    class Calendar {
+        year
+        source
+        source_url
+        status
+        retrieved
+        note
+    }
+    class Event {
+        id
+        start
+        end
+        name
+        category
+    }
+    Calendar "1" --> "many" Event : events
+```
+
 ## Calendar file (`data/<name>.json`)
 
 | Field | Meaning |
@@ -14,14 +34,19 @@
 
 ## Event
 
+```json
+{ "start": "2026-05-27", "end": "2026-05-30", "name": "Eid-al-Adha", "category": "public_holiday" }
+```
+
 | Field | Meaning |
 |---|---|
-| `start` | First day, ISO date (`2026-05-27`) |
+| `start` | First day, ISO date |
 | `end` | Last day, **inclusive**. Missing means a single day |
 | `name` | What it is |
 | `category` | `public_holiday`, `school_days`, `exam_days`, `term_holidays` or `other` |
 
-Dates are plain `YYYY-MM-DD` with no time zone. Parse them as local dates (Maldives is UTC+5), not as UTC instants, or events shift by a day.
+> [!WARNING]
+> Dates are plain `YYYY-MM-DD` with no time zone. Parse them as **local dates** (the Maldives is UTC+5), not as UTC instants, or events shift by a day.
 
 ## In `all.json`
 
@@ -38,4 +63,7 @@ A JSON Schema for the calendar files is in `data/schema.json`.
 
 ## iCalendar (`.ics`)
 
-One all-day event per entry. Time zone `Indian/Maldives`, event ids are stable, and long lines are folded as the standard requires.
+One all-day event per entry. Time zone `Indian/Maldives`. Event ids are stable, and long lines are folded as the standard requires.
+
+---
+[← Getting started](Getting-Started) · Next: [Calendars and years →](Calendars-and-Years)

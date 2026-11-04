@@ -10,3 +10,6 @@ Because the source documents are PDFs, entries are read automatically and then c
 dates are the reliable part. If you find a mistake, please [report it](Contributing).
 
 This project is not affiliated with or endorsed by the Ministry of Education.
+
+---
+[← FAQ](FAQ) · Next: [Contributing →](Contributing)

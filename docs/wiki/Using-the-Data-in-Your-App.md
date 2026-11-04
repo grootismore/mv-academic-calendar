@@ -1,6 +1,7 @@
 # Using the data in your app
 
-Load `data/all.json` and **upsert each event by its `id`**.
+> [!NOTE]
+> Load `data/all.json` and **upsert each event by its `id`**. That is all most apps need.
 
 ## Table
 
@@ -41,3 +42,6 @@ for (const e of events)
      ON CONFLICT (id) DO UPDATE SET status=$4, category=$5, name=$6, start_date=$7, end_date=$8`,
     [e.id, e.calendar, e.file, e.status, e.category, e.name, e.start, e.end ?? null]);
 ```
+
+---
+[← Calendars and years](Calendars-and-Years) · Next: [FAQ →](FAQ)
