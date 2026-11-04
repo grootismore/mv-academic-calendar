@@ -9,7 +9,7 @@ description = "Maldives school academic calendar data, 2015 to 2027: terms, exam
 readme = "README.md"
 license = "MIT AND CC-BY-4.0"
 license-files = ["LICENSE", "DATA-LICENSE.md"]
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 authors = [{ name = "grootismore" }]
 keywords = ["maldives", "academic-calendar", "school-calendar", "holidays", "icalendar", "open-data"]
 classifiers = [
