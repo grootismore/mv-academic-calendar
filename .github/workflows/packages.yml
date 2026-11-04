@@ -1,0 +1,32 @@
+name: test packages
+on:
+  push:
+    branches: [main]
+    paths: ["packages/**", "data/**", ".github/workflows/packages.yml"]
+  pull_request:
+    paths: ["packages/**", "data/**"]
+jobs:
+  js:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [18, 20, 22]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "${{ matrix.node }}" }
+      - run: cp LICENSE DATA-LICENSE.md packages/js/ || true
+      - working-directory: packages/js
+        run: npm install --no-audit --no-fund && npm test
+  python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.9", "3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "${{ matrix.python }}" }
+      - run: python packages/sync_data.py
+      - working-directory: packages/python
+        run: PYTHONPATH=src python -m unittest discover -s tests -v

@@ -1,0 +1,58 @@
+name: publish packages
+on:
+  release:
+    types: [published]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tag must match both package versions
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          JS=$(python3 -c "import json;print(json.load(open('packages/js/package.json'))['version'])")
+          PY=$(python3 -c "import tomllib;print(tomllib.load(open('packages/python/pyproject.toml','rb'))['project']['version'])")
+          echo "tag=$TAG js=$JS py=$PY"
+          [ "$TAG" = "$JS" ] && [ "$TAG" = "$PY" ] || { echo "::error::Release tag $GITHUB_REF_NAME does not match the package versions"; exit 1; }
+  npm:
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write          # for npm provenance
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, registry-url: "https://registry.npmjs.org" }
+      - name: Skip when no npm token is configured
+        if: env.NODE_AUTH_TOKEN == ''
+        run: echo "::warning::NPM_TOKEN is not set, skipping the npm publish"
+      - if: env.NODE_AUTH_TOKEN != ''
+        working-directory: packages/js
+        run: |
+          cp ../../LICENSE ../../DATA-LICENSE.md .
+          npm install --no-audit --no-fund
+          npm test
+          npm publish --provenance --access public
+  pypi:
+    needs: check
+    runs-on: ubuntu-latest
+    environment: pypi
+    permissions:
+      id-token: write          # PyPI trusted publishing, no token needed
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python packages/sync_data.py && cp LICENSE DATA-LICENSE.md packages/python/
+      - working-directory: packages/python
+        run: |
+          PYTHONPATH=src python -m unittest discover -s tests
+          pip install build && python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: packages/python/dist/

@@ -127,6 +127,12 @@ The newest published version of each year always wins. Older revisions never rep
 > [!TIP]
 > Dates have no time zone. Parse them as local dates (the Maldives is UTC+5), not as UTC, or events will shift by a day.
 
+## Packages for developers
+
+Prefer a library over fetching files? The same data ships as a small package for JavaScript and for Python. Both work offline, have no dependencies, and share one API:
+`isPublicHoliday`, `eventsOn`, `nextEvent`, `events` (filter by calendar, category, status, date range or text) and `calendars`.
+See [`packages/`](packages/js/README.md) for the usage.
+
 ## Put it in your app
 
 Load `all.json` and **upsert each event by its `id`**. The wiki has a ready table definition, a Node and PostgreSQL example, and notes for mobile apps:

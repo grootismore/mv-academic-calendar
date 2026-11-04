@@ -1,0 +1,6 @@
+_data/
+LICENSE
+DATA-LICENSE.md
+dist/
+__pycache__/
+*.egg-info/
