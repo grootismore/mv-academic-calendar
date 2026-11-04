@@ -4,7 +4,7 @@
    "file": "2015",
    "year": 2015,
    "status": "current",
-   "events": 39,
+   "events": 38,
    "retrieved": "2026-11-04",
    "json": "data/2015.json",
    "ics": "data/2015.ics"
@@ -40,7 +40,7 @@
    "file": "2020",
    "year": 2020,
    "status": "current",
-   "events": 38,
+   "events": 40,
    "retrieved": "2026-11-04",
    "json": "data/2020.json",
    "ics": "data/2020.ics"
