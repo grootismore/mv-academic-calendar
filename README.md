@@ -138,7 +138,7 @@ Load `all.json` and **upsert each event by its `id`**. The wiki has a ready tabl
 |---|---|
 | Code (`build_ics.py`, workflows) | [MIT](LICENSE) |
 | The compiled data and graphics (`data/`, `assets/`) | [CC BY 4.0](DATA-LICENSE.md), to the extent the maintainer holds rights in the compilation. Please credit this project and the Ministry as the source |
-| The Ministry's own publications | Not licensed here. They remain the Ministry's, and this project does not claim or imply the Ministry's permission |
+| The Ministry's own publications | **Not included and not licensed here.** No PDF or copy of any Ministry document is stored or redistributed. Only the extracted dates, names and categories are, with a link to the source. The documents remain the Ministry's, and this project does not claim or imply the Ministry's permission |
 
 Details, and what to do if you represent the Ministry: [**DATA-LICENSE.md**](DATA-LICENSE.md). Not legal advice.
 

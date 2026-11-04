@@ -2,6 +2,11 @@
 
 This applies to the files in `data/` and to the graphics in `assets/`. The code (`build_ics.py` and the workflows) is under the [MIT licence](LICENSE).
 
+## What this repository does and does not contain
+
+- **It does not contain, store or redistribute any Ministry document.** There is no PDF, scan, image or copy of a page here, and none in the repository's history.
+- **It contains only data extracted from them:** dates, short event names and a category, in a structured form (JSON and iCalendar). Each calendar also keeps a link to the Ministry document it was read from (`source_url`) and a checksum of it, so readers can find and compare the original.
+
 ## What is licensed
 
 The compilation, meaning the selection and structure of the entries, the cleaning and normalisation, the stable identifiers, and the generated JSON and iCalendar files, is released under the
@@ -13,7 +18,7 @@ Please credit it like this:
 
 ## What is not licensed here
 
-- **The Ministry's own publications.** The calendars the data is read from are published by the Ministry of Education, Republic of Maldives, whose site states "All Rights Reserved". This repository does not claim or grant any rights in those documents, and it is not endorsed by or affiliated with the Ministry. No permission from the Ministry is claimed or implied.
+- **The Ministry's own publications.** The calendars the data is read from are published by the Ministry of Education, Republic of Maldives, whose site states "All Rights Reserved". Those documents are not part of this repository, and this licence does not cover them. This project does not claim any rights in them, is not endorsed by or affiliated with the Ministry, and does not claim or imply the Ministry's permission.
 - **Names, logos and marks** of the Ministry or of any other organisation.
 
 ## No warranty

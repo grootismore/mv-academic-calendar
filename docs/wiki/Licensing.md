@@ -17,6 +17,11 @@
 
 Putting that line in your app's "about" or credits screen is enough. Please also keep it clear that the data is **unofficial**.
 
+## What is stored, and what is not
+
+- **Not stored:** any Ministry document. No PDF, scan, image or copy of a page is in this repository, and none has ever been in its history.
+- **Stored:** the data read from those documents. That is dates, short event names and a category, in JSON and iCalendar form, plus a link to the original document (`source_url`) and a checksum of it so you can find and compare the original.
+
 ## Where the data comes from
 
 The dates and holidays are read from calendars that the Ministry of Education publishes. The Ministry's website carries the notice
@@ -25,8 +30,8 @@ The dates and holidays are read from calendars that the Ministry of Education pu
 That means:
 
 - This project releases **its own work** (selecting, cleaning, structuring and identifying the entries, and the generated files) under CC BY 4.0, **to the extent the maintainer holds rights in it**.
-- It does **not** claim to license the Ministry's original documents, and it does not claim the Ministry's permission.
-- Calendar dates are public facts that the Ministry publishes for everyone to follow, but whether and how they may be reused is for the rights holder to say. If you build something commercial, consider asking the Ministry in writing.
+- It does **not** redistribute the Ministry's documents, it does **not** claim to license them, and it does not claim the Ministry's permission.
+- A calendar is a list of public dates that the Ministry publishes for everyone to follow, and this dataset is a restructured list of those facts. Whether and how they may be reused is still for the rights holder to say. If you build something commercial, consider asking the Ministry in writing.
 
 ## If you represent the Ministry
 
