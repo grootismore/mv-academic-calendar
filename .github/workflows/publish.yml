@@ -63,7 +63,7 @@ jobs:
           if [ "$code" = "200" ]; then echo "new=false" >> "$GITHUB_OUTPUT"; else echo "new=true" >> "$GITHUB_OUTPUT"; fi
   npm:
     needs: check
-    if: needs.check.outputs.npm_new == 'true'
+    if: ${{ !cancelled() && needs.check.result == 'success' && needs.check.outputs.npm_new == 'true' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -91,7 +91,7 @@ jobs:
           npm stage list || true
   pypi:
     needs: check
-    if: needs.check.outputs.pypi_new == 'true'
+    if: ${{ !cancelled() && needs.check.result == 'success' && needs.check.outputs.pypi_new == 'true' }}
     runs-on: ubuntu-latest
     environment: pypi
     permissions:
