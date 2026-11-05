@@ -167,6 +167,16 @@ mv.next_event("2026-02-01", category="public_holiday")
 Functions: `isPublicHoliday`, `eventsOn`, `nextEvent`, `events` (filter by calendar, category, status, date range or text) and `calendars`, plus the iCalendar text per calendar.
 Details: [JavaScript](packages/js/README.md) · [Python](packages/python/README.md). What changed in each release: [CHANGELOG](CHANGELOG.md). The packages are snapshots; fetch the files above for the very latest data between releases.
 
+## At a glance
+
+<p align="center">
+  <img alt="Calendars" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgrootismore%2Fmv-academic-calendar%2Fmain%2Fdata%2Findex.json&amp;query=%24.files.length&amp;label=calendars&amp;color=0b6b5c&amp;labelColor=555"> <img alt="Events" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgrootismore%2Fmv-academic-calendar%2Fmain%2Fdata%2Fall.json&amp;query=%24.events.length&amp;label=events&amp;color=0b6b5c&amp;labelColor=555"><br>
+  <a href="https://www.npmjs.com/package/mv-academic-calendar"><img alt="npm downloads per month" src="https://img.shields.io/npm/dm/mv-academic-calendar?color=0b6b5c&amp;labelColor=555&amp;label=npm%20downloads%2Fmonth"></a> <a href="https://pypi.org/project/mv-academic-calendar/"><img alt="PyPI downloads per month" src="https://img.shields.io/pypi/dm/mv-academic-calendar?color=0b6b5c&amp;labelColor=555&amp;label=PyPI%20downloads%2Fmonth"></a><br>
+  <a href="https://github.com/grootismore/mv-academic-calendar/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/grootismore/mv-academic-calendar?color=0b6b5c&amp;labelColor=555"></a> <img alt="Last commit" src="https://img.shields.io/github/last-commit/grootismore/mv-academic-calendar?color=0b6b5c&amp;labelColor=555">
+</p>
+
+<p align="center"><sub>These numbers update themselves: the counts are read from <code>data/</code>, and downloads come from the npm and PyPI registries.</sub></p>
+
 ## Put it in your app
 
 Load `all.json` and **upsert each event by its `id`**. The wiki has a ready table definition, a Node and PostgreSQL example, and notes for mobile apps:
