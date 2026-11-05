@@ -1,10 +1,13 @@
 name: publish packages
 # Publishes to PyPI and stages on npm whenever a package version on main is new. Versions that already exist are skipped.
+# Once a day it also checks whether the calendars changed since the last release; if so it bumps the patch version first.
 # npm: after the run, approve the staged package at npmjs.com (Staged Packages tab, 2FA).
 on:
   push:
     branches: [main]
     paths: ["packages/js/package.json", "packages/python/pyproject.toml", ".github/workflows/publish.yml"]
+  schedule:
+    - cron: "41 3 * * *"
   workflow_dispatch:
 concurrency:
   group: publish
@@ -12,7 +15,27 @@ concurrency:
 permissions:
   contents: read
 jobs:
+  bump:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - name: Bump the version if the calendars changed since the last release
+        run: |
+          python3 packages/release_if_changed.py | tee /tmp/out
+          if grep -q "changed=true" /tmp/out; then
+            V=$(sed -n 's/^version=//p' /tmp/out)
+            git config user.name "github-actions[bot]"; git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add packages
+            git commit -m "Release $V: calendar data updated"
+            git push origin HEAD:main
+          fi
   check:
+    needs: bump
+    if: ${{ !cancelled() && (needs.bump.result == 'success' || needs.bump.result == 'skipped') }}
     runs-on: ubuntu-latest
     outputs:
       version: ${{ steps.v.outputs.version }}
@@ -20,6 +43,7 @@ jobs:
       pypi_new: ${{ steps.pypi.outputs.new }}
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }
       - name: Both packages must have the same version
         id: v
         run: |
@@ -48,6 +72,7 @@ jobs:
       NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-node@v4
         with: { node-version: 22, registry-url: "https://registry.npmjs.org" }
       - name: Skip when no npm token is configured
@@ -73,6 +98,7 @@ jobs:
       id-token: write          # PyPI trusted publishing, no token needed
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python packages/sync_data.py && cp LICENSE DATA-LICENSE.md packages/python/
