@@ -1,7 +1,7 @@
 {
   "name": "mv-academic-calendar",
-  "version": "0.1.0",
-  "description": "Maldives school academic calendar data, 2015 to 2027: terms, exams and holidays. Offline, no dependencies. Unofficial.",
+  "version": "0.1.1",
+  "description": "Maldives school academic calendar and public holidays, 2015 to 2027, as a small offline JavaScript and TypeScript library. Terms, exams, holidays and iCalendar (ICS). No dependencies.",
   "license": "MIT AND CC-BY-4.0",
   "author": "grootismore",
   "type": "module",
@@ -47,12 +47,26 @@
   "bugs": "https://github.com/grootismore/mv-academic-calendar/issues",
   "keywords": [
     "maldives",
-    "academic-calendar",
+    "maldives-calendar",
+    "maldives-holidays",
+    "maldives-public-holidays",
     "school-calendar",
+    "academic-calendar",
+    "school-holidays",
+    "public-holidays",
     "holidays",
+    "calendar",
     "ics",
     "icalendar",
-    "open-data"
+    "ical",
+    "json",
+    "dataset",
+    "open-data",
+    "ministry-of-education",
+    "typescript",
+    "esm",
+    "offline",
+    "mv"
   ],
   "devDependencies": {
     "esbuild": "^0.25.0"

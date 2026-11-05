@@ -4,25 +4,39 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mv-academic-calendar"
-version = "0.1.0"
-description = "Maldives school academic calendar data, 2015 to 2027: terms, exams and holidays. Offline, no dependencies. Unofficial."
+version = "0.1.1"
+description = "Maldives school academic calendar and public holidays, 2015 to 2027, for Python. Terms, exams and holidays as typed objects, plus iCalendar (ICS). Offline, no dependencies."
 readme = "README.md"
 license = "MIT AND CC-BY-4.0"
 license-files = ["LICENSE", "DATA-LICENSE.md"]
 requires-python = ">=3.11"
 authors = [{ name = "grootismore" }]
-keywords = ["maldives", "academic-calendar", "school-calendar", "holidays", "icalendar", "open-data"]
+keywords = ["maldives", "maldives calendar", "maldives holidays", "maldives public holidays", "school calendar", "academic calendar", "school holidays", "public holidays", "holidays", "calendar", "ics", "icalendar", "ical", "dataset", "open data", "ministry of education", "offline", "mv"]
 classifiers = [
-  "Programming Language :: Python :: 3",
+  "Development Status :: 4 - Beta",
   "Intended Audience :: Developers",
-  "Topic :: Software Development :: Libraries",
+  "Intended Audience :: Education",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Education",
+  "Topic :: Office/Business :: Scheduling",
+  "Topic :: Software Development :: Libraries :: Python Modules",
   "Typing :: Typed",
 ]
 
 [project.urls]
 Homepage = "https://github.com/grootismore/mv-academic-calendar"
-Issues = "https://github.com/grootismore/mv-academic-calendar/issues"
 Documentation = "https://github.com/grootismore/mv-academic-calendar/wiki"
+Source = "https://github.com/grootismore/mv-academic-calendar"
+Changelog = "https://github.com/grootismore/mv-academic-calendar/blob/main/CHANGELOG.md"
+Issues = "https://github.com/grootismore/mv-academic-calendar/issues"
+Discussions = "https://github.com/grootismore/mv-academic-calendar/discussions"
+"Data (JSON)" = "https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/data/all.json"
 
 [tool.hatch.build]
 artifacts = ["src/mv_academic_calendar/_data/**", "LICENSE", "DATA-LICENSE.md"]   # generated, so not in git, but must ship

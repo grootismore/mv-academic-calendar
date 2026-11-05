@@ -2,6 +2,10 @@
 
 Notable changes to the calendar data and the packages. Newest first. New entries are written automatically whenever the calendars change.
 
+## 0.1.1 - 2026-11-05
+
+Package pages on npm and PyPI improved: clearer descriptions, more search keywords, richer metadata, and a fuller README with examples. No change to the calendar data.
+
 ## 0.1.0 - 2026-11-04
 
 First release of the npm and PyPI packages.
