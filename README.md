@@ -165,7 +165,7 @@ mv.next_event("2026-02-01", category="public_holiday")
 </table>
 
 Functions: `isPublicHoliday`, `eventsOn`, `nextEvent`, `events` (filter by calendar, category, status, date range or text) and `calendars`, plus the iCalendar text per calendar.
-Details: [JavaScript](packages/js/README.md) · [Python](packages/python/README.md). The packages are snapshots; fetch the files above for the very latest data between releases.
+Details: [JavaScript](packages/js/README.md) · [Python](packages/python/README.md). What changed in each release: [CHANGELOG](CHANGELOG.md). The packages are snapshots; fetch the files above for the very latest data between releases.
 
 ## Put it in your app
 

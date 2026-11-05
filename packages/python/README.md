@@ -36,3 +36,5 @@ Code: MIT. The compiled data: CC BY 4.0. Please credit it, and say it is unoffic
 (`mv_academic_calendar.attribution` holds that text.) The package stores no Ministry documents, only the dates and names extracted from them.
 
 More: <https://github.com/grootismore/mv-academic-calendar>
+
+Changes in each release: [CHANGELOG](https://github.com/grootismore/mv-academic-calendar/blob/main/CHANGELOG.md)

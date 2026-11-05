@@ -7,5 +7,5 @@ for (const entry of ["index", "ics"]) {
   await build({ ...common, format: "cjs", outfile: `dist/${entry}.cjs` });
   copyFileSync(`src/${entry}.d.ts`, `dist/${entry}.d.ts`);
 }
-for (const f of ["LICENSE", "DATA-LICENSE.md"]) copyFileSync(`../../${f}`, f);
+for (const f of ["LICENSE", "DATA-LICENSE.md", "CHANGELOG.md"]) copyFileSync(`../../${f}`, f);
 console.log("built");

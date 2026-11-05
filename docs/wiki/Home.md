@@ -22,6 +22,7 @@ Open data for the Maldives school year: terms, exams, holidays and public holida
 | **[Where the data comes from](Data-Sources-and-Updates)** | Sources and how updates are handled |
 | **[Contributing](Contributing)** | Report a mistake, share what you built |
 | **[Licensing](Licensing)** | How the code and data are licensed, and how to give credit |
+| **[Changelog](Changelog)** | What changed in each release |
 
 ## Coverage
 

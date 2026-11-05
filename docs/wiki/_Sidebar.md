@@ -11,6 +11,7 @@
 - [Data sources](Data-Sources-and-Updates)
 - [Contributing](Contributing)
 - [Licensing](Licensing)
+- [Changelog](Changelog)
 
 **Links**
 - [Discussions](../discussions)
