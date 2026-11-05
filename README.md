@@ -10,6 +10,8 @@
   <img alt="Years 2015 to 2027" src="https://img.shields.io/badge/years-2015%E2%80%932027-0b6b5c">
   <img alt="Formats: JSON and iCalendar" src="https://img.shields.io/badge/formats-JSON%20%7C%20iCalendar-0b6b5c">
   <img alt="No API key" src="https://img.shields.io/badge/API%20key-not%20needed-0b6b5c">
+  <a href="https://www.npmjs.com/package/mv-academic-calendar"><img alt="npm" src="https://img.shields.io/npm/v/mv-academic-calendar?color=0b6b5c&label=npm"></a>
+  <a href="https://pypi.org/project/mv-academic-calendar/"><img alt="PyPI" src="https://img.shields.io/pypi/v/mv-academic-calendar?color=0b6b5c&label=PyPI"></a>
 </p>
 
 <p align="center">
@@ -129,9 +131,41 @@ The newest published version of each year always wins. Older revisions never rep
 
 ## Packages for developers
 
-Prefer a library over fetching files? The same data ships as a small package for JavaScript and for Python. Both work offline, have no dependencies, and share one API:
-`isPublicHoliday`, `eventsOn`, `nextEvent`, `events` (filter by calendar, category, status, date range or text) and `calendars`.
-See [`packages/`](packages/js/README.md) for the usage.
+Prefer a library over fetching files? The same data ships as a small package for JavaScript and for Python. Both work offline, have no dependencies and share one API.
+
+<table>
+<tr><th>JavaScript / TypeScript</th><th>Python</th></tr>
+<tr><td>
+
+```sh
+npm install mv-academic-calendar
+```
+
+```js
+import { isPublicHoliday, nextEvent } from "mv-academic-calendar";
+
+isPublicHoliday("2026-01-01");   // true
+nextEvent("2026-02-01", { category: "public_holiday" });
+```
+
+</td><td>
+
+```sh
+pip install mv-academic-calendar
+```
+
+```python
+import mv_academic_calendar as mv
+
+mv.is_public_holiday("2026-01-01")   # True
+mv.next_event("2026-02-01", category="public_holiday")
+```
+
+</td></tr>
+</table>
+
+Functions: `isPublicHoliday`, `eventsOn`, `nextEvent`, `events` (filter by calendar, category, status, date range or text) and `calendars`, plus the iCalendar text per calendar.
+Details: [JavaScript](packages/js/README.md) · [Python](packages/python/README.md). The packages are snapshots; fetch the files above for the very latest data between releases.
 
 ## Put it in your app
 

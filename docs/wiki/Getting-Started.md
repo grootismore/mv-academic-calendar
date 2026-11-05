@@ -21,6 +21,15 @@ curl -s https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/
 > [!TIP]
 > `data/index.json` lists every calendar with its status, number of events and file paths. Start there if your code needs to discover the years.
 
+## As a package
+
+```sh
+npm install mv-academic-calendar
+pip install mv-academic-calendar
+```
+
+See [Using the data in your app](Using-the-Data-in-Your-App) for the functions.
+
 ## In your own code
 
 <details>

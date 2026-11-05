@@ -6,3 +6,4 @@ One calendar: data/<year>.json, or data/<year>-<year+1>.json for an August–Jun
 Raw base URL: https://raw.githubusercontent.com/grootismore/mv-academic-calendar/main/
 Dates are ISO 8601; `end` is inclusive. category: public_holiday | school_days | exam_days | term_holidays | other.
 status: final > current > tentative in reliability. Always verify against https://www.moe.gov.mv/en/academic-calendar
+Packages: npm install mv-academic-calendar (JavaScript/TypeScript), pip install mv-academic-calendar (Python). Offline, no dependencies.

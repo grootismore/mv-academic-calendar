@@ -1,5 +1,33 @@
 # Using the data in your app
 
+## The quickest way: a package
+
+If you work in JavaScript or Python, skip the files and install a package. Both work offline, have no dependencies and share one API.
+
+```sh
+npm install mv-academic-calendar     # JavaScript and TypeScript
+pip install mv-academic-calendar     # Python 3.11 or newer
+```
+
+```js
+import { isPublicHoliday, eventsOn, nextEvent, events, calendars } from "mv-academic-calendar";
+isPublicHoliday("2026-01-01");                               // true
+nextEvent("2026-02-01", { category: "public_holiday" });
+events({ year: 2026, category: "exam_days" });
+```
+
+```python
+import mv_academic_calendar as mv
+mv.is_public_holiday("2026-01-01")                           # True
+mv.next_event("2026-02-01", category="public_holiday")
+mv.events(year=2026, category="exam_days")
+```
+
+> [!NOTE]
+> A package is a snapshot of the data at its release. For the very latest, fetch `data/all.json` from the repository instead, or update the package.
+
+Prefer to load the data into your own database or API? Read on.
+
 > [!NOTE]
 > Load `data/all.json` and **upsert each event by its `id`**. That is all most apps need.
 
