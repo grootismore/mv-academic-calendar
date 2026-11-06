@@ -3,7 +3,7 @@ import ALL from "../data/all.json";
 import INDEX from "../data/index.json";
 
 export const attribution =
-  "Maldives Academic Calendar, https://github.com/grootismore/mv-academic-calendar. Compiled from calendars published by the Ministry of Education, Republic of Maldives. Unofficial.";
+  "Maldives Academic Calendar (grootismore/mv-academic-calendar on GitHub). Compiled from calendars published by the Ministry of Education, Republic of Maldives. Unofficial.";
 
 const EVENTS = ALL.events
   .map(e => Object.freeze({ ...e, end: e.end ?? e.start }))          // `end` is always set; it is the last day, inclusive

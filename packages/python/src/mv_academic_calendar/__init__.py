@@ -18,7 +18,7 @@ from typing import Iterable, List, Optional, Union
 __all__ = ["Event", "Calendar", "attribution", "updated", "calendars", "events", "events_on",
            "is_public_holiday", "next_event", "ics", "ics_files", "to_date"]
 
-attribution = ("Maldives Academic Calendar, https://github.com/grootismore/mv-academic-calendar. "
+attribution = ("Maldives Academic Calendar (grootismore/mv-academic-calendar on GitHub). "
                "Compiled from calendars published by the Ministry of Education, Republic of Maldives. Unofficial.")
 
 DateLike = Union[str, date, datetime]

@@ -7,7 +7,9 @@ DATA = os.path.join(HERE, "..", "data")
 JS = os.path.join(HERE, "js", "data")
 PY = os.path.join(HERE, "python", "src", "mv_academic_calendar", "_data")
 
-ics = {os.path.basename(f)[:-4]: open(f, encoding="utf-8", newline="").read() for f in sorted(glob.glob(f"{DATA}/[0-9]*.ics"))}
+# The packages ship no URL-like text: "check moe.gov.mv" becomes "see the Ministry" (16 characters either way, so line folding is unchanged).
+ics = {os.path.basename(f)[:-4]: open(f, encoding="utf-8", newline="").read().replace("check moe.gov.mv", "see the Ministry")
+       for f in sorted(glob.glob(f"{DATA}/[0-9]*.ics"))}
 for out in (JS, PY):
     shutil.rmtree(out, ignore_errors=True)
     os.makedirs(out)

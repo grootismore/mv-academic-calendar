@@ -89,6 +89,6 @@ Code: MIT. The compiled data: CC BY 4.0. Please credit it, and say it is unoffic
 
 > Maldives Academic Calendar, https://github.com/grootismore/mv-academic-calendar. Compiled from calendars published by the Ministry of Education, Republic of Maldives. Unofficial.
 
-`mv_academic_calendar.attribution` holds that text. The package stores no Ministry documents, only the dates and names extracted from them.
+`mv_academic_calendar.attribution` holds a short credit line. The package stores no Ministry documents, only the dates and names extracted from them.
 
 Questions, ideas or a wrong date? [Open a discussion or an issue](https://github.com/grootismore/mv-academic-calendar).
