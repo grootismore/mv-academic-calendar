@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mv-academic-calendar"
-version = "0.1.2"
+version = "0.1.3"
 description = "Maldives school academic calendar and public holidays, 2015 to 2027, for Python. Terms, exams and holidays as typed objects, plus iCalendar (ICS). Offline, no dependencies."
 readme = "README.md"
 license = "MIT AND CC-BY-4.0"
