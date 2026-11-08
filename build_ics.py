@@ -33,6 +33,9 @@ def clean_name(s):
     s = re.sub(r"(\s\d{1,2})\s\d{1,2}$", r"\1", s)                  # 'Period 1 9' -> 'Period 1'
     s = re.sub(r"\b(Rama[dz]an)\s+\d{1,2}$", r"\1", s)                # 'First of Ramadan 5' (stray grid number)
     s = re.sub(r"\s+(?:IAL|A'Level|AL)\b[^()]*\(?Edexcel\)?.*$", "", s)         # exam notes from a neighbouring column glued onto a holiday name
+    s = re.sub(r"\s+(?:GCE|GCSE|IGCSE|IAL|SSC|HSC)\b[^()]*?\bExaminations?\s*$", "", s)   # 'GCE O'Level, IGCSE & SSC Examinations': a colour-key note, not part of the event
+    s = re.sub(r"\b(Literacy Day|National Day|Victory Day|Republic Day|Labou?r Day|Birth Day|Independence Day|Children's Day|Teachers' Day|Hajj Day|Embraced Islam|Fitr|Fithr|Adha|Al'haa)\s+\d$", r"\1", s)   # a 'days' column leaked in
+    s = re.sub(r"\b(\d(?:st|nd|rd|th) PD Day)\s+\d$", r"\1", s)
     s = re.sub(r"\s+…\s.*$", "", s)                             # '… March, <next event>' run-ons
     s = re.sub(r"\s+", " ", re.sub(r"^[\s.,;:\-–]+|[\s;:\-–,]+$", "", s))            # leading '.,' / trailing ';'
     prev = None
@@ -42,6 +45,8 @@ def clean_name(s):
         s = re.sub(r"(?<=[A-Za-z\)])\s(?:1[3-9]|[2-9]\d)$", "", s)       # 'Ramazan 14': a stray day number, not a grade/term
         s = re.sub(r"(\s\d{1,2})\s\d{1,2}$", r"\1", s)
     return s if len(s) >= 3 and re.search(r"[A-Za-z]", s) and not JUNK.search(s) else None
+
+COMPANION = re.compile(r"^(.*\S)\s+(Opening of the (?:People|Citizen)[\u2019']s Majlis)$")    # two events printed on one date
 
 def normalize(doc, years=None):
     """Clean names, drop junk/duplicates, merge same-name entries that overlap or touch into one range."""
@@ -54,7 +59,9 @@ def normalize(doc, years=None):
         for y in ys: n = re.sub(r"\s*\b" + y + r"\b", "", n).strip()          # year in the name is redundant
         n = n or None
         if n and len(n) <= 100 and not re.match(r"^\d+(\.\d+)?(\s+\d+(\.\d+)?){2,}", n) and not re.match(r"^\(", n) and not re.search(r"\sand$", n):
-            evs.append({**e, "name": n})
+            m = COMPANION.match(n)
+            for part in (m.groups() if m else (n,)):          # 'Beginning of AL Batch Opening of the People's Majlis' -> two events on the same date
+                evs.append({**e, "name": part})
     evs.sort(key=lambda e: (e["name"].lower(), e["start"]))
     out = []
     for e in evs:

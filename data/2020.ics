@@ -68,11 +68,11 @@ DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:61ce8bbb3bc73dbae180@mv-academic-calendar
+UID:3614ef831ee979d7bd8f@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20200513
 DTEND;VALUE=DATE:20200514
-SUMMARY:Eid-ul Fithr GCE\, GCSE\, IGCSE & SSC Examinations
+SUMMARY:Eid-ul Fithr
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT

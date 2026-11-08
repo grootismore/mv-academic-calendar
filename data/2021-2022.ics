@@ -48,21 +48,21 @@ DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ab7724f07e672f674dfc@mv-academic-calendar
+UID:f60a3849eb4d685d74c7@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20210908
 DTEND;VALUE=DATE:20210909
-SUMMARY:International Literacy Day 5
+SUMMARY:International Literacy Day
 CATEGORIES:Other
 DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:28a054a10628d2d8b69b@mv-academic-calendar
+UID:1bf9911cc80a886444a3@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20210916
 DTEND;VALUE=DATE:20210917
-SUMMARY:1st PD Day 5
+SUMMARY:1st PD Day
 CATEGORIES:Other
 DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
@@ -88,11 +88,11 @@ DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:3fad7dcce395c6141b67@mv-academic-calendar
+UID:645fa5ddad5aad157de2@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20211007
 DTEND;VALUE=DATE:20211008
-SUMMARY:National Day 4
+SUMMARY:National Day
 CATEGORIES:Public holiday
 DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
@@ -108,41 +108,41 @@ DESCRIPTION:Term holidays · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:ac741350a9727f74ecc7@mv-academic-calendar
+UID:ef7435b8ae78787a75ea@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20211018
 DTEND;VALUE=DATE:20211019
-SUMMARY:Prophet Mohammad (SAW) Birth Day 0
+SUMMARY:Prophet Mohammad (SAW) Birth Day
 CATEGORIES:Public holiday
 DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:271446bf877b5b6b4071@mv-academic-calendar
+UID:e5064699031632a49e23@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20211103
 DTEND;VALUE=DATE:20211104
-SUMMARY:Victory Day 4
+SUMMARY:Victory Day
 CATEGORIES:Public holiday
 DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:56eefb5f5ae157a6f1fd@mv-academic-calendar
+UID:4e1834d94e8a6fd3ee25@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20211107
 DTEND;VALUE=DATE:20211108
-SUMMARY:The Day Maldives Embraced Islam 5
+SUMMARY:The Day Maldives Embraced Islam
 CATEGORIES:Public holiday
 DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:d2e18949f9b53f83a0b7@mv-academic-calendar
+UID:c3aed557b071211a98f3@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20211111
 DTEND;VALUE=DATE:20211112
-SUMMARY:Republic Day 5
+SUMMARY:Republic Day
 CATEGORIES:Public holiday
 DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
@@ -208,11 +208,11 @@ DESCRIPTION:School days · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c6187a2ea51943a94e46@mv-academic-calendar
+UID:ef0b73f3185279d43026@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20220203
 DTEND;VALUE=DATE:20220204
-SUMMARY:2nd PD Day 5
+SUMMARY:2nd PD Day
 CATEGORIES:Other
 DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
@@ -258,41 +258,41 @@ DESCRIPTION:Term holidays · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:9c7ca4318742b21bd5d6@mv-academic-calendar
+UID:c6ad7a7d44c47edac30a@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20220421
 DTEND;VALUE=DATE:20220422
-SUMMARY:3rd PD Day 5
+SUMMARY:3rd PD Day
 CATEGORIES:Other
 DESCRIPTION:Other · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:53ff721b60ef5c245a60@mv-academic-calendar
+UID:62bce0455d3e9766d171@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20220501
 DTEND;VALUE=DATE:20220502
-SUMMARY:Labour Day 0
+SUMMARY:Labour Day
 CATEGORIES:Public holiday
 DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c7dc080a576d515cfd80@mv-academic-calendar
+UID:fc8f936f31db024d604f@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20220502
 DTEND;VALUE=DATE:20220503
-SUMMARY:Eid - al - Fitr 5
+SUMMARY:Eid - al - Fitr
 CATEGORIES:Public holiday
 DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dcce44d232d33b4a90e3@mv-academic-calendar
+UID:ee3f111b860629a282be@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20220503
 DTEND;VALUE=DATE:20220506
-SUMMARY:On the occasion of Eid - al - Fitr 5
+SUMMARY:On the occasion of Eid - al - Fitr
 CATEGORIES:Public holiday
 DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT

@@ -248,12 +248,11 @@ DESCRIPTION:Public holiday · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:c1c5328fe942a70f2ab0@mv-academic-calendar
+UID:dfee0c74e215e0ffb8c1@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20150912
 DTEND;VALUE=DATE:20150915
-SUMMARY:on the Occasion of Eid-ul Al'haa GCE O'Level\, IGCSE & SSC Examinat
- ions
+SUMMARY:on the Occasion of Eid-ul Al'haa
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT

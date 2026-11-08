@@ -225,10 +225,10 @@
    "status": "current"
   },
   {
-   "id": "c1c5328fe942a70f2ab0",
+   "id": "dfee0c74e215e0ffb8c1",
    "start": "2015-09-12",
    "end": "2015-09-14",
-   "name": "on the Occasion of Eid-ul Al'haa GCE O'Level, IGCSE & SSC Examinations",
+   "name": "on the Occasion of Eid-ul Al'haa",
    "category": "exam_days",
    "calendar": 2015,
    "file": "2015",
@@ -1242,9 +1242,9 @@
    "status": "current"
   },
   {
-   "id": "9ad0bcec6dc1a238cfa3",
+   "id": "d008d5ccdb29495e4b0b",
    "start": "2019-10-05",
-   "name": "Teachers' Day GCE O'Level, IGCSE & SSC Examinations",
+   "name": "Teachers' Day",
    "category": "exam_days",
    "calendar": 2019,
    "file": "2019",
@@ -1388,9 +1388,9 @@
    "status": "current"
   },
   {
-   "id": "61ce8bbb3bc73dbae180",
+   "id": "3614ef831ee979d7bd8f",
    "start": "2020-05-13",
-   "name": "Eid-ul Fithr GCE, GCSE, IGCSE & SSC Examinations",
+   "name": "Eid-ul Fithr",
    "category": "exam_days",
    "calendar": 2020,
    "file": "2020",
@@ -1730,18 +1730,18 @@
    "status": "current"
   },
   {
-   "id": "ab7724f07e672f674dfc",
+   "id": "f60a3849eb4d685d74c7",
    "start": "2021-09-08",
-   "name": "International Literacy Day 5",
+   "name": "International Literacy Day",
    "category": "other",
    "calendar": 2021,
    "file": "2021-2022",
    "status": "current"
   },
   {
-   "id": "28a054a10628d2d8b69b",
+   "id": "1bf9911cc80a886444a3",
    "start": "2021-09-16",
-   "name": "1st PD Day 5",
+   "name": "1st PD Day",
    "category": "other",
    "calendar": 2021,
    "file": "2021-2022",
@@ -1766,9 +1766,9 @@
    "status": "current"
   },
   {
-   "id": "3fad7dcce395c6141b67",
+   "id": "645fa5ddad5aad157de2",
    "start": "2021-10-07",
-   "name": "National Day 4",
+   "name": "National Day",
    "category": "public_holiday",
    "calendar": 2021,
    "file": "2021-2022",
@@ -1785,36 +1785,36 @@
    "status": "current"
   },
   {
-   "id": "ac741350a9727f74ecc7",
+   "id": "ef7435b8ae78787a75ea",
    "start": "2021-10-18",
-   "name": "Prophet Mohammad (SAW) Birth Day 0",
+   "name": "Prophet Mohammad (SAW) Birth Day",
    "category": "public_holiday",
    "calendar": 2021,
    "file": "2021-2022",
    "status": "current"
   },
   {
-   "id": "271446bf877b5b6b4071",
+   "id": "e5064699031632a49e23",
    "start": "2021-11-03",
-   "name": "Victory Day 4",
+   "name": "Victory Day",
    "category": "public_holiday",
    "calendar": 2021,
    "file": "2021-2022",
    "status": "current"
   },
   {
-   "id": "56eefb5f5ae157a6f1fd",
+   "id": "4e1834d94e8a6fd3ee25",
    "start": "2021-11-07",
-   "name": "The Day Maldives Embraced Islam 5",
+   "name": "The Day Maldives Embraced Islam",
    "category": "public_holiday",
    "calendar": 2021,
    "file": "2021-2022",
    "status": "current"
   },
   {
-   "id": "d2e18949f9b53f83a0b7",
+   "id": "c3aed557b071211a98f3",
    "start": "2021-11-11",
-   "name": "Republic Day 5",
+   "name": "Republic Day",
    "category": "public_holiday",
    "calendar": 2021,
    "file": "2021-2022",
@@ -1877,9 +1877,9 @@
    "status": "current"
   },
   {
-   "id": "c6187a2ea51943a94e46",
+   "id": "ef0b73f3185279d43026",
    "start": "2022-02-03",
-   "name": "2nd PD Day 5",
+   "name": "2nd PD Day",
    "category": "other",
    "calendar": 2021,
    "file": "2021-2022",
@@ -1925,37 +1925,37 @@
    "status": "current"
   },
   {
-   "id": "9c7ca4318742b21bd5d6",
+   "id": "c6ad7a7d44c47edac30a",
    "start": "2022-04-21",
-   "name": "3rd PD Day 5",
+   "name": "3rd PD Day",
    "category": "other",
    "calendar": 2021,
    "file": "2021-2022",
    "status": "current"
   },
   {
-   "id": "53ff721b60ef5c245a60",
+   "id": "62bce0455d3e9766d171",
    "start": "2022-05-01",
-   "name": "Labour Day 0",
+   "name": "Labour Day",
    "category": "public_holiday",
    "calendar": 2021,
    "file": "2021-2022",
    "status": "current"
   },
   {
-   "id": "c7dc080a576d515cfd80",
+   "id": "fc8f936f31db024d604f",
    "start": "2022-05-02",
-   "name": "Eid - al - Fitr 5",
+   "name": "Eid - al - Fitr",
    "category": "public_holiday",
    "calendar": 2021,
    "file": "2021-2022",
    "status": "current"
   },
   {
-   "id": "dcce44d232d33b4a90e3",
+   "id": "ee3f111b860629a282be",
    "start": "2022-05-03",
    "end": "2022-05-05",
-   "name": "On the occasion of Eid - al - Fitr 5",
+   "name": "On the occasion of Eid - al - Fitr",
    "category": "public_holiday",
    "calendar": 2021,
    "file": "2021-2022",
@@ -4012,9 +4012,18 @@
    "status": "tentative"
   },
   {
-   "id": "3da6e8cb88d0dd181c2c",
+   "id": "2efec16c62dec870d427",
    "start": "2027-01-31",
-   "name": "Beginning of AL Batch (B-27) Opening of the People’s Majlis",
+   "name": "Beginning of AL Batch (B-27)",
+   "category": "other",
+   "calendar": 2027,
+   "file": "2027",
+   "status": "tentative"
+  },
+  {
+   "id": "eb0d9c2bbdd6ccc3d732",
+   "start": "2027-01-31",
+   "name": "Opening of the People’s Majlis",
    "category": "other",
    "calendar": 2027,
    "file": "2027",

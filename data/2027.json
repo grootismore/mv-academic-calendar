@@ -24,7 +24,12 @@
     },
     {
       "start": "2027-01-31",
-      "name": "Beginning of AL Batch (B-27) Opening of the People’s Majlis",
+      "name": "Beginning of AL Batch (B-27)",
+      "category": "other"
+    },
+    {
+      "start": "2027-01-31",
+      "name": "Opening of the People’s Majlis",
       "category": "other"
     },
     {

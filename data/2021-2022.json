@@ -30,12 +30,12 @@
     },
     {
       "start": "2021-09-08",
-      "name": "International Literacy Day 5",
+      "name": "International Literacy Day",
       "category": "other"
     },
     {
       "start": "2021-09-16",
-      "name": "1st PD Day 5",
+      "name": "1st PD Day",
       "category": "other"
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "start": "2021-10-07",
-      "name": "National Day 4",
+      "name": "National Day",
       "category": "public_holiday"
     },
     {
@@ -61,22 +61,22 @@
     },
     {
       "start": "2021-10-18",
-      "name": "Prophet Mohammad (SAW) Birth Day 0",
+      "name": "Prophet Mohammad (SAW) Birth Day",
       "category": "public_holiday"
     },
     {
       "start": "2021-11-03",
-      "name": "Victory Day 4",
+      "name": "Victory Day",
       "category": "public_holiday"
     },
     {
       "start": "2021-11-07",
-      "name": "The Day Maldives Embraced Islam 5",
+      "name": "The Day Maldives Embraced Islam",
       "category": "public_holiday"
     },
     {
       "start": "2021-11-11",
-      "name": "Republic Day 5",
+      "name": "Republic Day",
       "category": "public_holiday"
     },
     {
@@ -113,7 +113,7 @@
     },
     {
       "start": "2022-02-03",
-      "name": "2nd PD Day 5",
+      "name": "2nd PD Day",
       "category": "other"
     },
     {
@@ -141,23 +141,23 @@
     },
     {
       "start": "2022-04-21",
-      "name": "3rd PD Day 5",
+      "name": "3rd PD Day",
       "category": "other"
     },
     {
       "start": "2022-05-01",
-      "name": "Labour Day 0",
+      "name": "Labour Day",
       "category": "public_holiday"
     },
     {
       "start": "2022-05-02",
-      "name": "Eid - al - Fitr 5",
+      "name": "Eid - al - Fitr",
       "category": "public_holiday"
     },
     {
       "start": "2022-05-03",
       "end": "2022-05-05",
-      "name": "On the occasion of Eid - al - Fitr 5",
+      "name": "On the occasion of Eid - al - Fitr",
       "category": "public_holiday"
     },
     {

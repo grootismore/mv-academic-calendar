@@ -38,11 +38,21 @@ DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:3da6e8cb88d0dd181c2c@mv-academic-calendar
+UID:2efec16c62dec870d427@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
-SUMMARY:Beginning of AL Batch (B-27) Opening of the People’s Majlis
+SUMMARY:Beginning of AL Batch (B-27)
+CATEGORIES:Other
+DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eb0d9c2bbdd6ccc3d732@mv-academic-calendar
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Opening of the People’s Majlis
 CATEGORIES:Other
 DESCRIPTION:Other · tentative · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT

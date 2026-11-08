@@ -258,11 +258,11 @@ DESCRIPTION:Term holidays · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:9ad0bcec6dc1a238cfa3@mv-academic-calendar
+UID:d008d5ccdb29495e4b0b@mv-academic-calendar
 DTSTAMP:20261104T000000Z
 DTSTART;VALUE=DATE:20191005
 DTEND;VALUE=DATE:20191006
-SUMMARY:Teachers' Day GCE O'Level\, IGCSE & SSC Examinations
+SUMMARY:Teachers' Day
 CATEGORIES:Exam days
 DESCRIPTION:Exam days · current · unofficial\, check moe.gov.mv
 TRANSP:TRANSPARENT
